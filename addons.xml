@@ -630,7 +630,7 @@ Initial release.
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2018.01.30a"
+  version="2018.01.30b"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
