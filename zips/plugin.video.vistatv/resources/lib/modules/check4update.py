@@ -11,7 +11,7 @@ def check4update():
 	import re,time,xbmc,xbmcgui
 	from resources.lib.modules import client
 
-	addonxml = xbmc.translatePath('special://home/addons/script.module.streamhub/addon.xml')
+	addonxml = xbmc.translatePath('special://home/addons/plugin.video.vistatv/addon.xml')
 	file     = open(addonxml)
 	data     = file.read()
 	file.close()
@@ -23,11 +23,11 @@ def check4update():
 
 	html = client.request('https://raw.githubusercontent.com/sClarkeIsBack/StreamHub/master/Repo_Files/addons.xml')
 
-	o_version = re.compile('script.module.streamhub.+?version="(.+?)"').findall(html)[0]
+	o_version = re.compile('plugin.video.vistatv.+?version="(.+?)"').findall(html)[0]
 	o_version2= (o_version).replace('.','')
 	log(o_version2)
 	if c_version2 < o_version2:
-		update = 'https://github.com/sClarkeIsBack/StreamHub/raw/master/Repo_Files/Zips/script.module.streamhub/script.module.streamhub-%s.zip'%o_version
+		update = 'https://github.com/sClarkeIsBack/StreamHub/raw/master/Repo_Files/Zips/plugin.video.vistatv/plugin.video.vistatv-%s.zip'%o_version
 		install(o_version,update)
 		xbmc.executebuiltin("UpdateAddonRepos")
 		xbmc.executebuiltin("UpdateLocalAddons")
@@ -38,7 +38,7 @@ def check4update():
 def install(vers,url):
     import xbmc,xbmcgui,os,re,time
     from resources.lib.modules import downloader2
-    addon_folder = xbmc.translatePath('special://home/addons/script.module.streamhub/')
+    addon_folder = xbmc.translatePath('special://home/addons/plugin.video.vistatv/')
     path = xbmc.translatePath(os.path.join('special://home/addons','packages'))
     dp = xbmcgui.DialogProgress()
     dp.create("[COLOR red]StreamHub[/COLOR]","Installing Dependency Update v[COLOR red]%s[/COLOR]"%vers,'', 'Please Wait')

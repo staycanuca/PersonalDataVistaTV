@@ -1216,8 +1216,8 @@ def setxxxpass():
 				xbmcgui.Dialog().notification('[COLOR red]Password Cannot Be Blank[/COLOR]','StreamHub')
 				setxxxpass()
 			else:
-				xbmcaddon.Addon('script.module.streamhub').setSetting('xxxpass',pw)
-				xbmcaddon.Addon('script.module.streamhub').setSetting('enablexxxpass','true')
+				xbmcaddon.Addon('plugin.video.vistatv').setSetting('xxxpass',pw)
+				xbmcaddon.Addon('plugin.video.vistatv').setSetting('enablexxxpass','true')
 				xbmcgui.Dialog().ok('[COLOR red]StreamHub[/COLOR]','Password has been set')
 				
 				

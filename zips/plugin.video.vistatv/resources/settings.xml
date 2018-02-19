@@ -7,7 +7,7 @@
 		<setting id="startupd" type="enum" label="Startup Notification" lvalues="None|Dialog|Notification" default="2" />
 	</category>
 	<category label="General">
-		<setting id="xxxx" type="action" label="Setup XXX Password" action="RunPlugin(plugin://script.module.streamhub/?mode=61&url=none)" />
+		<setting id="xxxx" type="action" label="Setup XXX Password" action="RunPlugin(plugin://plugin.video.vistatv/?mode=61&url=none)" />
 	</category>
 	<category label="32330">
 		<setting id="hosts.mode" type="enum" label="32331" lvalues="32332|32333|32334" default="1" />
