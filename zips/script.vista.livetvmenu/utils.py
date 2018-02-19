@@ -45,7 +45,7 @@ def GETTEXT(id):
     return text
 
 
-ADDONID = 'script.megatvupdater'
+ADDONID = 'script.vista.livetvmenu'
 ADDON   =  xbmcaddon.Addon(ADDONID)
 HOME    =  ADDON.getAddonInfo('path')
 ROOT    =  ADDON.getSetting('FOLDER')

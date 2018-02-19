@@ -1464,7 +1464,7 @@ Initial release.
 
 <addon id="script.vista.livetvmenu"
   name="VistaTV Live TV Menu"
-  version="4.3"
+  version="4.5"
   provider-name="Vista TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
