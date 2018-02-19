@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts>
+    <shortcut>
+        <label>31146</label>
+        <label2>Common Shortcut</label2>
+        <icon>special://skin/extras/icons/addons.png</icon>
+        <action>ActivateWindow(addonbrowser,addons://user/,return)</action>
+    </shortcut>
+    <shortcut>
+        <label>31147</label>
+        <label2>Common Shortcut</label2>
+        <icon>special://skin/extras/icons/download_repo.png</icon>
+        <action>ActivateWindow(addonbrowser,addons://repos/,return)</action>
+    </shortcut>
+    <shortcut>
+        <label>24041</label>
+        <label2>Common Shortcut</label2>
+        <icon>special://skin/extras/icons/install_from_zip.png</icon>
+        <action>ActivateWindow(addonbrowser,addons://install/,return)</action>
+    </shortcut>
+    <shortcut>
+        <label>31145</label>
+        <label2>Common Shortcut</label2>
+        <icon>special://skin/extras/icons/search.png</icon>
+        <action>ActivateWindow(addonbrowser,addons://search/,return)</action>
+    </shortcut>
+    <shortcut>
+        <label>40074</label>
+        <label2>Common Shortcut</label2>
+        <icon>special://skin/extras/icons/settings.png</icon>
+        <action>ActivateWindow(systemsettings,addons)</action>
+    </shortcut>
+</shortcuts>
