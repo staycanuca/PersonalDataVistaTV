@@ -1,4 +1,4 @@
 import xbmcaddon
 
-MainBase = 'https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/iptv-links.xml' #'https://dl.dropboxusercontent.com/s/jkxcmi8pyoo97ke/home.txt?dl=0'
-addon = xbmcaddon.Addon('plugin.video.cerebroIPTVBase')
+MainBase = 'https://raw.githubusercontent.com/biglad/PersonalDataVistaTV/master/zips/to-be-cleaned-up-ed/super%20old%20stuff/9534958459845345/sdfdsfdsfdsfsdfsfdsf/1/2/lol/wtf/iptv-links.xml'
+addon = xbmcaddon.Addon('plugin.video.VistaTVsIPTV')
