@@ -830,7 +830,7 @@ Initial release.
 
 <addon id="plugin.video.vitsaIPTV"
        name="Vitsa IPTV For EPG"
-       version="1.0.0"
+       version="1.0.1"
        provider-name="VistaTV">
    <requires>
     <import addon="xbmc.python" version="2.1.0"/>
