@@ -1,6 +1,6 @@
 
 import os,xbmc
-logfile    = xbmc.translatePath(os.path.join('special://home/addons/plugin.video.streamhub', 'log.txt'))
+logfile    = xbmc.translatePath(os.path.join('special://home/addons/plugin.video.vistatv', 'log.txt'))
 
 
 def log(text):
@@ -21,18 +21,18 @@ def check4update():
 	
 	log(c_version2)
 
-	html = client.request('https://raw.githubusercontent.com/sClarkeIsBack/StreamHub/master/Repo_Files/addons.xml')
+	html = client.request('https://raw.githubusercontent.com/biglad/PersonalDataVistaTV/master/addons.xml')
 
 	o_version = re.compile('plugin.video.vistatv.+?version="(.+?)"').findall(html)[0]
 	o_version2= (o_version).replace('.','')
 	log(o_version2)
 	if c_version2 < o_version2:
-		update = 'https://github.com/sClarkeIsBack/StreamHub/raw/master/Repo_Files/Zips/plugin.video.vistatv/plugin.video.vistatv-%s.zip'%o_version
+		update = 'https://raw.githubusercontent.com/biglad/PersonalDataVistaTV/master/zips/plugin.video.vistatv/plugin.video.vistatv-%s.zip'%o_version
 		install(o_version,update)
 		xbmc.executebuiltin("UpdateAddonRepos")
 		xbmc.executebuiltin("UpdateLocalAddons")
 		time.sleep(5)
-		xbmcgui.Dialog().notification('[COLOR red]StreamHub[/COLOR]','Updated Successfully')
+		xbmcgui.Dialog().notification('[COLOR red]VistaTV[/COLOR]','Updated Successfully')
 	
 	
 def install(vers,url):
@@ -41,7 +41,7 @@ def install(vers,url):
     addon_folder = xbmc.translatePath('special://home/addons/plugin.video.vistatv/')
     path = xbmc.translatePath(os.path.join('special://home/addons','packages'))
     dp = xbmcgui.DialogProgress()
-    dp.create("[COLOR red]StreamHub[/COLOR]","Installing Dependency Update v[COLOR red]%s[/COLOR]"%vers,'', 'Please Wait')
+    dp.create("[COLOR red]VistaTV[/COLOR]","Installing Dependency Update v[COLOR red]%s[/COLOR]"%vers,'', 'Please Wait')
     lib=os.path.join(path, 'content.zip')
     try:
        os.remove(lib)
@@ -56,9 +56,9 @@ def install(vers,url):
         addonfolder = xbmc.translatePath(os.path.join('special://home','addons'))
         time.sleep(3)
     except:
-        xbmcgui.Dialog().ok('[COLOR red]StreamHub[/COLOR]','Oops..Something Went Wrong Downloading The Update...Try Again')
+        xbmcgui.Dialog().ok('[COLOR red]VistaTV[/COLOR]','Oops..Something Went Wrong Downloading The Update...Try Again')
     dp = xbmcgui.DialogProgress()
-    dp.create("[COLOR red]StreamHub[/COLOR]","Installing Dependency Update Version [COLOR red]%s[/COLOR]"%vers,'', 'Please Wait')
+    dp.create("[COLOR red]VistaTV[/COLOR]","Installing Dependency Update Version [COLOR red]%s[/COLOR]"%vers,'', 'Please Wait')
     dp.update(0,"", "Installing... Please Wait")
     print '======================================='
     print addonfolder
@@ -66,7 +66,7 @@ def install(vers,url):
     try:
         unzip(lib,addonfolder,dp)
     except:
-        xbmcgui.Dialog().ok('[COLOR red]StreamHub[/COLOR]','Oops..Something Went Wrong Installing The Update...Try Again')
+        xbmcgui.Dialog().ok('[COLOR red]VistaTV[/COLOR]','Oops..Something Went Wrong Installing The Update...Try Again')
 	
 	
 def unzip(_in, _out, dp):
@@ -83,7 +83,7 @@ def unzip(_in, _out, dp):
 			
 			if dp.iscanceled():
 				dialog = xbmcgui.Dialog()
-				dialog.ok('[COLOR red]StreamHub[/COLOR]', 'Process was cancelled.')
+				dialog.ok('[COLOR red]VistaTV[/COLOR]', 'Process was cancelled.')
 				
 				sys.exit()
 				dp.close()
