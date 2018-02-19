@@ -1,3 +1,2 @@
 del /s /q *.pyo
-echo done
-pause
+start addons_xml_generator.py
