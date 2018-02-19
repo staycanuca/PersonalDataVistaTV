@@ -1,20 +1,20 @@
 import xbmc,os,re,base64,requests,urllib,json
 
-addon_id   = 'script.module.streamhublive'
+addon_id   = 'script.module.vistatvlive'
 
 icon       = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id, 'icon.png'))
 fanart     = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id , 'fanart.jpg'))
 
 def cat():
 	#addDir('[COLOR white][B]Dhamka TV[/COLOR][/B]','dhamkatv',4,'https://lh3.googleusercontent.com/j-IM8JRk5bLHIA8h9F5QITT0aIetO6C-mgzCwt-gtzIjHRrHZ6-MnFb-Y4ckoieR=h900',fanart,'')
-	addDir('[COLOR white][B]eDoctor IPTV[/COLOR][/B]','edoctor',4,'https://lh3.googleusercontent.com/qydRpyUiySg1MuswXdbQE88PBfyPH8uJYhONBL3UO1Ij4yEHtftHFK3pKXHXppFUCmk=w300',fanart,'')
+	#addDir('[COLOR white][B]eDoctor IPTV[/COLOR][/B]','edoctor',4,'https://lh3.googleusercontent.com/qydRpyUiySg1MuswXdbQE88PBfyPH8uJYhONBL3UO1Ij4yEHtftHFK3pKXHXppFUCmk=w300',fanart,'')
 #	addDir('[COLOR white][B]Geo Streamz[/COLOR][/B]','geotv',4,'https://image.winudf.com/v2/image/Y29tLnNuci5lbnRfaWNvbl8wX2I0N2VlYjZi/icon.png?w=170&fakeurl=1&type=.png',fanart,'')
 	#addDir('[COLOR white][B]IPTV Restream[/COLOR][/B]','iptvrestream',4,'https://1.bp.blogspot.com/-SnEmyxvBHxA/WDW4v6asHAI/AAAAAAAAUac/QBXOMnYAH2Y8MNS1qDbJxgswJpnBfcgAACLcB/s1600/14494667_992633267526877_2246028541223869412_n.jpg',fanart,'')
 	#addDir('[COLOR white][B]Mega IPTV[/COLOR][/B]','megaiptv',4,'https://i.ytimg.com/vi/xiMZ231EBus/hqdefault.jpg',fanart,'')
 	addDir('[COLOR white][B]Mobdro[/COLOR][/B]','mobdro',4,'http://apk.co/images/mobdro-2014-freemium.png',fanart,'')
 	addDir('[COLOR white][B]Pak India Sports[/COLOR][/B]','pakindiasport',4,'http://www.madhyamam.com/en/sites/default/files/india-pak.jpg',fanart,'')
-	addDir('[COLOR white][B]Snappy Streamz[/COLOR][/B]','snappystreams',4,'https://www.apkdld.com/wp-content/uploads/2017/06/snappy-streamz-apk-300x293.jpg',fanart,'')
-	addDir('[COLOR white][B]Swift Streamz[/COLOR][/B]','swiftstreams',4,'http://www.swiftstreamz.com/images/mbl-app.png',fanart,'')
+	#addDir('[COLOR white][B]Snappy Streamz[/COLOR][/B]','snappystreams',4,'https://www.apkdld.com/wp-content/uploads/2017/06/snappy-streamz-apk-300x293.jpg',fanart,'')
+	#addDir('[COLOR white][B]Swift Streamz[/COLOR][/B]','swiftstreams',4,'http://www.swiftstreamz.com/images/mbl-app.png',fanart,'')
 #	addDir('[COLOR white][B]UKTV Now[/COLOR][/B]','uktvnow',4,'https://kodicommunity.com/wp-content/uploads/2016/06/uk-tv-now-addon-plugin-xbmc-kodi1-1.png',fanart,'')
 	#addDir('[COLOR white][B]TV Online Plus+[/COLOR][/B]','tvonlineplus',4,'https://1.bp.blogspot.com/-I_th1gsuna8/WRsJAg3SqMI/AAAAAAAAGdk/J-YznRwYMaMB_Y9ZINmhQzyvopkAbtA1wCLcB/s200/18424147_301931813588370_8617351845985017033_n.jpg',fanart,'')	#addDir('[COLOR white][B]Swift Streams[/COLOR][/B]','swiftstreams',4,'https://i.ytimg.com/vi/SZ5BkBmHbFk/hqdefault.jpg',fanart,'')
 
@@ -278,7 +278,7 @@ def livetv():
 		
 def mobdro():
         import re
-        file = xbmc.translatePath('special://home/addons/script.module.streamhublive/resources/')
+        file = xbmc.translatePath('special://home/addons/script.module.vistatvlive/resources/')
         if os.path.exists(file):
             file = open(os.path.join(file, 'mobdrochans.txt'))
             data = file.read()
@@ -387,7 +387,7 @@ def OPEN_URL(url):
 	link = link.encode('ascii', 'ignore')
 	return link
 	
-logfile    = xbmc.translatePath(os.path.join('special://home/addons/script.module.streamhublive', 'log.txt'))
+logfile    = xbmc.translatePath(os.path.join('special://home/addons/script.module.vistatvlive', 'log.txt'))
 
 def log(text):
 	file = open(logfile,"w+")

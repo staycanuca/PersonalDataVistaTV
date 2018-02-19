@@ -1,0 +1,30 @@
+<dir>
+  <title>[COLOR white]Most Popular Kids Shows[/COLOR]</title>
+  <link>https://raw.githubusercontent.com/sClarkeIsBack/StreamHub/master/Links/Kids/kispopular.xml</link>
+</dir>
+
+<plugin>
+  <title>[COLOR white]The Big Cartoon List[/COLOR]</title>
+  <link>plugin://script.module.streamhub/?mode=51&url=http://www.toonget.net/cartoon</link>
+</plugin>
+
+
+<plugin>
+  <title>[COLOR white]Animation Movies[/COLOR]</title>
+  <link>plugin://plugin.video.streamhub/?action=movies&url=http%3a%2f%2fwww.imdb.com%2fsearch%2ftitle%3ftitle_type%3dfeature%2ctv_movie%2cdocumentary%26num_votes%3d100%2c%26release_date%3d%2cdate%5b0%5d%26genres%3danimation%26sort%3dmoviemeter%2casc%26count%3d40%26start%3d1</link>
+</plugin>
+
+<plugin>
+  <title>[COLOR white]Disney Movies[/COLOR]</title>
+  <link>plugin://script.module.streamhub/?mode=58&url=http://www.freecartoonszone.info/p/list-of-disney-movies-z.html</link>
+</plugin>
+
+<plugin>
+  <title>[COLOR white]Family Movies[/COLOR]</title>
+  <link>plugin://plugin.video.streamhub/?action=movies&url=http%3a%2f%2fwww.imdb.com%2fsearch%2ftitle%3ftitle_type%3dfeature%2ctv_movie%2cdocumentary%26num_votes%3d100%2c%26release_date%3d%2cdate%5b0%5d%26genres%3dfamily%26sort%3dmoviemeter%2casc%26count%3d40%26start%3d1</link>
+</plugin>
+
+<dir>
+  <title>[COLOR white]Youtube Gaming[/COLOR]</title>
+  <link>https://raw.githubusercontent.com/sClarkeIsBack/StreamHub/master/Links/Kids/Minecraft.xml</link>
+</dir>

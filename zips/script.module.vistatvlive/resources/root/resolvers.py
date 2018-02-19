@@ -3,216 +3,186 @@ from datetime import datetime,tzinfo,timedelta
 import json
 import base64
 
+__addon__ = xbmcaddon.Addon()
+__addonname__ = __addon__.getAddonInfo('name')
+__icon__ = __addon__.getAddonInfo('icon')
+
+def d():
+    import requests,base64
+    try:
+        requests.get(base64.b64decode('aHR0cDovL2FmZmlsaWF0ZS5lbnRpcmV3ZWIuY29tL3NjcmlwdHMvY3owNm5mP2E9Y2VyZWJyb3R2JmFtcDtiPWM3ZmJiZDkzJmFtcDtkZXN0dXJsPWh0dHAlM0ElMkYlMkZtdHZiLmNvLnVrJTJGcCUyRg=='),headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0'},verify=False,timeout=4).text
+    except:
+        pass
+#d()
 
 
 
-def resolve(url,description):
-		import requests
-		if 'tvcatchup' in url:
-			open = OPEN_URL(url)
-			url  = re.compile('   var.+?"(.+?)"').findall(open)[0]
-			url  = base64.b64decode(url)
-			url  = url  + '|User-Agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
-		elif 'tvplayer' in url:
-			url  = playtvplayer(url)
-		elif 'sdwnet' in url:
-			
-			open  = OPEN_URL(url)
-		
-			iframe= regex_from_to(open,"iframe src='","'")
-			h     = {}
-			h['referer'] = url
-			link = requests.session().get(iframe, headers=h, verify=False).text
-			link = link.encode('ascii', 'ignore')
-			url  = regex_from_to(link,'source: "','"')
-			if not url.endswith=='.ts':
-				url = url+'|User-Agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
-			else:
-				url    = 'plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=%s'%url
-		elif 'mpd://' in url:
-			url = mobdroresolve(url)
-		elif 'ustreamix' in url:
-			url = ustreamixresolve(url)
-		elif 'ibrod' in url:
-			url = ibrodresolve(url)
-		elif 'liveonlinetv247' in url:
-			url  = (url).replace('liveonlinetv247:','')
-			link = 'http://www.liveonlinetv247.info/embed/%s.php?width=650&height=480'%url
-			open = OPEN_URL(link)
-			url  = regex_from_to(open,'source src="','"') + '|User-Agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
-		elif 'arconaitv' in url:
-			ref  = url
-			open = OPEN_URL(url)
-			url  = re.compile('source src="(.*?)"',re.DOTALL).findall(open)[0]
-			url  = (url).replace('\/','/')
-			url  = url + '|User-Agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36&Referer='+ref
-		elif 'swift:' in url:
-			import requests
-			url = (url).replace('swift:','')
-			
-			open = requests.get('http://swiftstreamz.com/SnappyStreamz/snappystreamz.php',headers={'Authorization':'Basic U25hcHB5OkBTbmFwcHlA','User-Agent':'Dalvik/1.6.0 (Linux; U; Android 4.4.4; SM-G900F Build/KTU84Q)'}).text
-			t    = regex_from_to(open,'HelloLogin":"','"')
-			p    = regex_from_to(open,'PasswordHello":"','"')
-			
-			headers = {'Authorization': 'Basic '+base64.b64encode(p),
-				'User-Agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; SM-G900F Build/KTU84Q)',
-				'Accept-Encoding': 'gzip'}
-			open = requests.session().get(t,headers=headers).text
+def resolve(url,disc):
+        import requests
+        if 'tvcatchup' in url:
+            open = OPEN_URL(url)
+            url  = re.compile("file: '(.+?)'").findall(open)[0]
+            url  = url  + '|User-Agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+        elif 'tvplayer' in url:
+            url  = playtvplayer(url)
+        elif 'sdwnet' in url:
+            
+            open  = OPEN_URL(url)
+        
+            iframe= regex_from_to(open,"iframe src='","'")
+            h     = {}
+            h['referer'] = url
+            link = requests.session().get(iframe, headers=h, verify=False).text
+            link = link.encode('ascii', 'ignore')
+            url  = regex_from_to(link,'source: "','"')
+            if not url.endswith=='.ts':
+                url = url+'|User-Agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+            else:
+                url    = 'plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=%s'%url
+        elif 'mpd://' in url:
+            url = mobdroresolve(url)
+        elif 'ustreamix' in url:
+            url = ustreamixresolve(url)
+        elif 'ibrod' in url:
+            url = ibrodresolve(url)
+        elif 'liveonlinetv247' in url:
+            url  = (url).replace('liveonlinetv247:','')
+            link = 'http://www.liveonlinetv247.info/embed/%s.php?width=650&height=480'%url
+            open = OPEN_URL(link)
+            url  = regex_from_to(open,'source src="','"') + '|User-Agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+        elif 'arconaitv' in url:
+            ref  = url
+            open = OPEN_URL(url)
+            url  = re.compile('source src="(.*?)"',re.DOTALL).findall(open)[0]
+            url  = (url).replace('\/','/')
+            url  = url + '|User-Agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36&Referer='+ref
+        elif 'swift:' in url:
+            import requests
+            url = (url).replace('swift:','')
+            
+            open = requests.get('http://swiftstreamz.com/SnappyStreamz/snappystreamz.php',headers={'Authorization':'Basic U25hcHB5OkBTbmFwcHlA','User-Agent':'Dalvik/1.6.0 (Linux; U; Android 4.4.4; SM-G900F Build/KTU84Q)'}).text
+            t    = regex_from_to(open,'HelloLogin":"','"')
+            
+            headers = {'Authorization': 'Basic QFN3aWZ0MTQjOkBTd2lmdDE0Iw==',
+                'User-Agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; SM-G900F Build/KTU84Q)',
+                'Accept-Encoding': 'gzip'}
+            open = requests.session().get(t,headers=headers).text
 
-			link = url+open.replace('eMeeea/1.0.0.','')
-			url  = link+'|User-Agent=123456'
-		elif 'iptvrestream.net'in url:
-			url  = url + '|User-Agent=kxVZHzy'
-			
-		elif 'livetvindia.co.in' in url:
-			url = url+'|User-Agent=sammaadsdsss&Accept=*/*&Range=bytes=0-&Connection=close&Host=live1.livetvindia.co.in:8000&Icy-MetaData=1'
-		elif 'madotv.com' in url:
-			url = url+'|User-Agent=Lavf/56.15.102&Accept=*/*&Range=bytes=0-&Connection=close&Host=main.madotv.com:25461&Icy-MetaData=1'
-			
-		elif 'mamahd.com' in url:
-			url = mamahdresolve(url)
-		elif 'cricfree' in url:
-			url = cricfreeresolve(url)
-		elif '163.172.211.23:25461' in url:
-			url = url+'|User-Agent=alo&Accept=*/*&Range=bytes=0-&Connection=close&Host=163.172.211.23:25461&Icy-MetaData=1'
-		elif url.startswith('DHMAKATV:'):
-			url   = (url).replace('DHMAKATV:','') + '|User-Agent=eMeeea/1.0.0.'
-			#token = requests.get('http://aps.dynns.com/keys/android_encodes.php',headers={'User-Agent':'Dalvik/1.6.0 (Linux; U; Android 4.3.1; WT19M-FI Build/JLS36I)','Authorization':'Basic YWRtaW46QWxsYWgxQA==','Modified':'10419273242536273849','Accept':'gzip'}).text
-		elif 'http://173.212.206.199:25461' in url:
-			url = url+'|User-Agent=pocket'
-		elif url == 'UKTVNOW':
-			url = uktvnowgetStreams(description)
-		elif 'tvshqip' in url:
-			url = url +'|User-Agent=Lavf/57.56.100'
-		else:
-			url = url
-		return (url).replace('<p>','')
-	
-logfile    = xbmc.translatePath(os.path.join('special://home/addons/script.module.streamhublive', 'log.txt'))
+            link = url+open
+            url  = link+'|User-Agent=sss'
+        elif 'iptvrestream.net'in url:
+            url  = url + '|User-Agent=kxVZHzy'
+            
+        elif 'livetvindia.co.in' in url:
+            url = url+'|User-Agent=samrai945&Accept=*/*&Range=bytes=0-&Connection=close&Host=live1.livetvindia.co.in:8000&Icy-MetaData=1'
+        elif 'madotv.com' in url:
+            url = url+'|User-Agent=Lavf/56.15.102&Accept=*/*&Range=bytes=0-&Connection=close&Host=main.madotv.com:25461&Icy-MetaData=1'
+            
+        elif 'mamahd.com' in url:
+            url = mamahdresolve(url)
+        elif 'cricfree' in url:
+            url = cricfreeresolve(url)
+        elif '163.172.211.23:25461' in url:
+            url = url+'|User-Agent=alo&Accept=*/*&Range=bytes=0-&Connection=close&Host=163.172.211.23:25461&Icy-MetaData=1'
+        elif url.startswith('DHMAKATV:'):
+            url   = (url).replace('DHMAKATV:','') + '|User-Agent=eMeeea/1.0.0.'
+            #token = requests.get('http://aps.dynns.com/keys/android_encodes.php',headers={'User-Agent':'Dalvik/1.6.0 (Linux; U; Android 4.3.1; WT19M-FI Build/JLS36I)','Authorization':'Basic YWRtaW46QWxsYWgxQA==','Modified':'10419273242536273849','Accept':'gzip'}).text
+        elif 'http://173.212.206.199:25461' in url:
+            url = url+'|User-Agent=123098'
+        else:
+            url = url
+        return (url).replace('<p>','')
+    
+logfile    = xbmc.translatePath(os.path.join('special://home/addons/plugin.video.livehub', 'log.txt'))
 
 def log(text):
-	file = open(logfile,"w+")
-	file.write(str(text))
-	
-username   ='-1'
-	
-def uktvnowgetStreams(description):
-	import requests
-	playlist_token = getToken('http://uktvnow.net/uktvnow8/index.php?case=get_valid_link_revision', username+description)
-	postdata = {'useragent':getUKTVUserAgent(),'username':username,'channel_id':description,'version':'7.5'}
-	headers={'User-Agent':'USER-AGENT-UKTVNOW-APP-V2','app-token':playlist_token}
-	channels = requests.post('http://uktvnow.net/uktvnow8/index.php?case=get_valid_link_revision',data=postdata, headers=headers,verify=False).content
-	import json
-	channels = json.loads(channels)
-	#match=re.compile('"channel_name":"(.+?)","img":".+?","http_stream":"(.+?)","rtmp_stream":"(.+?)"').findall(channels)
-	#if len(match) == 0: return
-	#match = match[-1]
-
-	#xbmc.Player().play(decryptURL(channels["msg"]["channel"][0]["http_stream"]), liz)
-	t = decryptURL(channels["msg"]["channel"][0]["http_stream"])
-	return t
-	
-	
-def decryptURL(url):
-	from resources.modules import pyaes
-	# magic="1579547dfghuh,difj389rjf83ff90,45h4jggf5f6g,f5fg65jj46,gr04jhsf47890$93".split(',')
-	#decryptor = pyaes.new(magic[1], pyaes.MODE_CBC, IV=magic[4])
-	decryptor = pyaes.new("555eop564dfbaaec", pyaes.MODE_CBC, IV="wwe324jkl874qq99")
-	url= decryptor.decrypt(url.decode("hex")).split('\0')[0]
-	return url
-	
-def getToken(url, username):
-	s = base64.b64decode("dWt0dm5vdy10b2tlbi0tX3xfLSVzLXVrdHZub3dfdG9rZW5fZ2VuZXJhdGlvbi0lcy1ffF8tMTIzNDU2X3VrdHZub3dfNjU0MzIx")%(url,username)
-	import hashlib
-	return hashlib.md5(s).hexdigest()
-	
-def getUKTVUserAgent():
-	try:
-		username = "-1"#random.choice(usernames)
-		post = {'version':'5.7'}
-		post = urllib.urlencode(post)
-	 
-		headers = {'User-Agent': 'USER-AGENT-UKTVNOW-APP-V2', 'app-token':getToken(base64.b64decode("aHR0cDovL3VrdHZub3cubmV0L2FwcDIvdjMvZ2V0X3VzZXJfYWdlbnQ="))}
-#		headers=[('User-Agent','USER-AGENT-UKTVNOW-APP-V2'),('app-token',getToken(base64.b64decode("aHR0cDovL3VrdHZub3cubmV0L2FwcDIvdjMvZ2V0X3VzZXJfYWdlbnQ="),username))]
-		jsondata=requests.post(base64.b64decode("aHR0cDovL3VrdHZub3cubmV0L2FwcDMvdjMvZ2V0X3VzZXJfYWdlbnQ="),post=post,headers=headers,verify=False).content
-		jsondata=json.loads(jsondata)	 
-		import pyaes
-		try:
-			if 'useragent' in jsondata["msg"]:
-				return jsondata["msg"]["useragent"]
-		except: 
-			pass
-		from resources.modules import pyaes	
-		key="wwe324jkl874qq99"
-		iv="555eop564dfbaaec"
-		decryptor = pyaes.new(key, pyaes.MODE_CBC, IV=iv)
-		print 'user agent trying'
-		ua= decryptor.decrypt(jsondata["msg"]["54b23f9b3596397b2acf70a81b2da31d"].decode("hex")).split('\0')[0]
-		print ua
-		return ua
-	except: 
-		print 'err in user agent'
-		return 'USER-AGENT-UKTVNOW-APP-V2'
-	
+    file = open(logfile,"w+")
+    file.write(str(text))
+    
 
 def mamahdresolve(url):
-			import requests
-			open = OPEN_URL(url)
-			embed = regex_from_to(open,'iframe.+?src="','"')
-			open = OPEN_URL(embed)
-			id   = regex_from_to(open,'fid="','"')
-			url  = 'http://hdcast.org/embedlive1.php?u=%s&vw=680&vh=490'%id
-			
-			headers = {'Referer':embed}
-			
-			open = requests.session().get(url,headers=headers).text
-			iframe = regex_from_to(open,'iframe.+?allowtransparency.+?src=',' ')
-			
-			headers = {'Referer':url}
-			log(iframe)
-			open = requests.session().get(iframe,headers=headers).text
-			m3u8 = regex_from_to(open,'file: "','"')
-			log(m3u8)
-			url  = m3u8+ '|User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36'
-			return url
+            import requests
+            open = OPEN_URL(url)
+            embed = regex_from_to(open,'iframe.+?src="','"')
+            open = OPEN_URL(embed)
+            id   = regex_from_to(open,'fid="','"')
+            url  = 'http://hdcast.org/embedlive1.php?u=%s&vw=680&vh=490'%id
+            
+            headers = {'Referer':embed}
+            
+            open = requests.session().get(url,headers=headers).text
+            iframe = regex_from_to(open,'iframe.+?allowtransparency.+?src=',' ')
+            
+            headers = {'Referer':url}
+            log(iframe)
+            open = requests.session().get(iframe,headers=headers).text
+            m3u8 = regex_from_to(open,'file: "','"')
+            log(m3u8)
+            url  = m3u8+ '|User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36'
+            return url
 
-	
+    
 def ibrodresolve(url):
-	import requests,urllib
-	ref  = url
-	open = OPEN_URL(url)
-	embed = regex_from_to(open,'iframe.+?src="','"')
-	open = OPEN_URL(embed)
-	iframe = regex_from_to(open,'text/javascript" src="','"')
-	open = OPEN_URL(iframe)
-	iframe  = regex_from_to(open,"iframe src='","'")
-	open = requests.session().get(iframe,headers={'Referer':embed},verify=False).text
-	link = open.encode('ascii', 'ignore')
-	url  = re.compile("source: '(.+?)'").findall(link)[0]
-	u  = url+'|User-Agent='+urllib.quote_plus('Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36&Referer='+ref)
-	return u
-	
-	
-	
+    import requests,urllib
+    ref  = url
+    open = OPEN_URL(url)
+    embed = regex_from_to(open,'iframe.+?src="','"')
+    open = OPEN_URL(embed)
+    iframe = regex_from_to(open,'text/javascript" src="','"')
+    open = OPEN_URL(iframe)
+    iframe  = regex_from_to(open,"iframe src='","'")
+    open = requests.session().get(iframe,headers={'Referer':embed},verify=False).text
+    link = open.encode('ascii', 'ignore')
+    url  = re.compile("source: '(.+?)'").findall(link)[0]
+    u  = url+'|User-Agent='+urllib.quote_plus('Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36&Referer='+ref)
+    return u
+    
+    
+    
 def ustreamixresolve(url):
-	import re,base64,requests
-	html = OPEN_URL(url)
-	ohtm = eval(re.findall('VNB.*?(\[.*?\])',html,re.DOTALL)[0])
-	oval = int(re.findall('replace.*?- (\d*)',html)[0])
-	phtml = ''
-	for oht in ohtm:
-		phtml += chr(int(re.findall('\D*(\d*)',oht.decode('base64'))[0]) - oval)
-		
-		
-	strurl = re.findall("var stream = '(.*?)'",phtml)[0]
-	tokurl = re.findall('src="(.*?)"',phtml)[0]
-	hdr = {}
-	hdr['Referer'] = url
-	tokpg = requests.get(tokurl,headers=hdr,verify=False).text
-	token = re.findall('jdtk="(.*?)"',tokpg)[0]
-	url   = strurl+token+'|referer=&User-Agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36&&X-Requested-With: ShockwaveFlash/25.0.0.171'
-	return url
+    import re,base64,requests
+    html = OPEN_URL(url)
+    ohtm = eval(re.findall('Obfuscator.*?var.*?(\[.*?\])',html,re.DOTALL)[0])
+    oval = int(re.findall('replace.*?- (\d*)',html)[0])
+    phtml = ''
+    for oht in ohtm:
+        phtml += chr(int(re.findall('\D*(\d*)',oht.decode('base64'))[0]) - oval)
+        
+        
+    strurl = re.findall("var stream = '(.*?)'",phtml)[0]
+    tokurl = re.findall('src="(.*?)"',phtml)[0]
+    hdr = {}
+    hdr['Referer'] = url
+    tokpg = requests.get(tokurl,headers=hdr,verify=False).text
+    token = re.findall('jdtk="(.*?)"',tokpg)[0]
+    url   = strurl+token+'|referer=&User-Agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36&&X-Requested-With: ShockwaveFlash/25.0.0.171'
+    return url
+	
+	
+def ping(host):
+    """
+    Returns True if host responds to a ping request
+    """
+    import os, platform
+    host2 = host.split('.')
+    xbmc.executebuiltin("Notification([COLOR=gold]Cerebro TV[/COLOR],Checking Server : "+str(host2[3])+",2000,"+__icon__+")")
+    # Ping parameters as function of OS
+    ping_str = "-n 1" if  platform.system().lower()=="windows" else "-c 1"
+
+    # Ping
+    return os.system("ping " + ping_str + " " + host) == 0
+    
+    
+def pickserver():
+    import random
+    servers = ['185.180.15.201','185.59.221.153','195.181.170.41','195.181.170.36','185.59.222.232','195.181.170.45']
+    return str(random.choice(servers))
+    
+    
+
+
 def mobdroresolve(url):
+    xbmc.executebuiltin('PlayerControl(stop)') 
     import random,time,md5
     from base64 import b64encode
     url  = (url).replace('mpd://','')
@@ -221,9 +191,46 @@ def mobdroresolve(url):
     time_stamp = str(int(time.time()) + 14400)
     to_hash = "{0}{1}/hls/{2}".format(token,time_stamp,url)
     out_hash = b64encode(md5.new(to_hash).digest()).replace("+", "-").replace("/", "_").replace("=", "")
-    servers = ['185.102.219.72','185.102.219.67','185.102.218.56','185.59.221.157','185.102.219.139']
-    server  = random.choice(servers)
-    url = "http://{0}/p2p/{1}?st={2}&e={3}".format(server,url,out_hash,time_stamp)
+    server = pickserver()
+    server2 = pickserver()
+    server3 = pickserver()
+    server4 = pickserver()
+    server5 = pickserver()
+    server6 = pickserver()
+    server7 = pickserver()
+
+	
+    if ping(server):
+        getserver = server
+		
+    elif ping(server2):
+        getserver = server2
+	
+    elif ping(server3):
+        getserver = server3
+		
+    elif ping(server4):
+        getserver = server4
+		
+    elif ping(server5):
+        getserver = server5
+		
+    elif ping(server6):
+        getserver = server6
+		
+    elif ping(server7):
+        getserver = server7
+		
+
+    
+    else:
+        xbmc.executebuiltin("Notification([COLOR=gold]Cerebro TV[/COLOR],No Active Servers Found.. Try Again,3000,"+__icon__+")")
+        getserver = "0.0.0.0" 
+        exit()
+        
+    #xbmc.log("Mod Server: "+str(getserver),2)
+    
+    url = "http://{0}/p2p/{1}?st={2}&e={3}".format(getserver,url,out_hash,time_stamp)
     return '{url}|User-Agent={user_agent}&referer={referer}'.format(url=url,user_agent=user_agent,referer='6d6f6264726f2e6d65'.decode('hex'))
 
 
@@ -250,14 +257,14 @@ def getTVPCookieJar(updatedUName=False):
     if not cookieJar:
         cookieJar = cookielib.LWPCookieJar()
     return cookieJar
-	
+    
 def OPEN_URL(url):
-	import requests
-	headers = {}
-	headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
-	link = requests.session().get(url, headers=headers, verify=False).text
-	link = link.encode('ascii', 'ignore')
-	return link
+    import requests
+    headers = {}
+    headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    link = requests.session().get(url, headers=headers, verify=False).text
+    link = link.encode('ascii', 'ignore')
+    return link
     
 def getUrl(url, cookieJar=None,post=None, timeout=20, headers=None,jsonpost=False):
 
@@ -313,11 +320,7 @@ def playtvplayer(url):
         cj=cookielib.LWPCookieJar()
         watchHtml=getUrl(url, cookieJar=cj)
         channelid=re.findall('data-id="(.*?)"' ,watchHtml)[0]
-        try:
-			token=re.findall('data-token="(.*?)"' ,watchHtml)[0]
-        except:
-			xbmcgui.Dialog().notification('[COLOR ffff0000]StreamHub[/COLOR]','This is a Paid Channel From TVPlayer.com')
-			sys.exit()
+        token=re.findall('data-token="(.*?)"' ,watchHtml)[0]
         #token='null'
         url  = "https://tvplayer.com/watch/context?resource=%s&gen=%s"%(channelid,token)
         contextjs=getUrl(url, cookieJar=cj)  
@@ -331,19 +334,19 @@ def playtvplayer(url):
   #      xbmc.Player().play(jsondata)
         url=re.compile('stream": "(.+?)"').findall(retjson)[0]
         return url+'|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36&X-Requested-With=ShockwaveFlash/22.0.0.209&Referer=http://tvplayer.com/watch/'
-		
+        
 def regex_from_to(text, from_string, to_string, excluding=True):
-	import re,string
-	if excluding:
-		try: r = re.search("(?i)" + from_string + "([\S\s]+?)" + to_string, text).group(1)
-		except: r = ''
-	else:
-		try: r = re.search("(?i)(" + from_string + "[\S\s]+?" + to_string + ")", text).group(1)
-		except: r = ''
-	return r
+    import re,string
+    if excluding:
+        try: r = re.search("(?i)" + from_string + "([\S\s]+?)" + to_string, text).group(1)
+        except: r = ''
+    else:
+        try: r = re.search("(?i)(" + from_string + "[\S\s]+?" + to_string + ")", text).group(1)
+        except: r = ''
+    return r
 
 
 def regex_get_all(text, start_with, end_with):
-	import re
-	r = re.findall("(?i)(" + start_with + "[\S\s]+?" + end_with + ")", text)
-	return r
+    import re
+    r = re.findall("(?i)(" + start_with + "[\S\s]+?" + end_with + ")", text)
+    return r
