@@ -20,6 +20,31 @@
     </extension>
 </addon>
 
+<addon id="repository.vista" name="VistaTVs Addon Repo" version="1.0" provider-name="Biglad">
+	<extension point="xbmc.addon.repository" name="VistaTVs Addon Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/biglad/PersonalDataVistaTV/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/biglad/PersonalDataVistaTV/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/biglad/PersonalDataVistaTV/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+			<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+	    </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description>Cerebro TV Repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="script.module.autocompletion" name="AutoCompletion library" version="1.1.2" provider-name="Philipp Temminghoff (phil65)">
     <requires>
         <import addon="xbmc.python" version="2.24.0" />
