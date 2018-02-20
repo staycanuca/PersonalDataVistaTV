@@ -828,6 +828,25 @@ Initial release.
 	</extension>
 </addon>
 
+<addon id="plugin.video.vistatv-ini-maker"
+version="1.0.0"
+name="VistaTV INI Creator"
+provider-name="VistaTV">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">INI Creator for VistaTV</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
 <addon id="plugin.video.VistaTVsIPTV"
        name="Vitsa TV EPG Links"
        version="2.1"
