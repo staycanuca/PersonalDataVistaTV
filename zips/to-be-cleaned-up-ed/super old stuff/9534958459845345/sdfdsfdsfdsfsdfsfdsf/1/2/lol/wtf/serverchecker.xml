@@ -1,11 +1,5 @@
 
 <plugin>
-<title>[COLOR ffff0000][B]Vista TV[/B][/COLOR]</title>
-<link>hh</link>
-<thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
-</plugin>
-
-<plugin>
 <title>VitsaTV Movies</title>
 <link>plugin://plugin.video.vistatv/?action=movieNavigator</link>
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
