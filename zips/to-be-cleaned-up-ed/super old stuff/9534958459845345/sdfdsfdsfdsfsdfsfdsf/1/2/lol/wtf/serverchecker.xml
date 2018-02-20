@@ -40,4 +40,10 @@
 <link>plugin://script.module.vistatvlive/?description&iconimage=http%3a%2f%2fapk.co%2fimages%2fmobdro-2014-freemium.png&mode=4&name=%5bCOLOR%20white%5d%5bB%5dSports%5b%2fCOLOR%5d%5b%2fB%5d&url=mobdrosport</link>
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 </plugin>
+
+<plugin>
+<name>VitsaTV Tools</name>
+<link>plugin://plugin.video.vistatv/?action=openSettings&query=5.0</link>
+<thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
+</plugin>
  
