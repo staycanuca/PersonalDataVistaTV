@@ -1,0 +1,272 @@
+<item>
+<title>[COLOR gold]UK IPTV[/COLOR]</title>
+<sportsdevil>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/SDUK.xml</sportsdevil>
+<referer></referer>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon2.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+
+<item>
+<title>BBC One</title>
+<sportsdevil>https://www.liveonlinetv247.info/bbcone.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116114707bbc1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>BBC1</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=bbc1</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116114707bbc1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>BBC Two</title>
+<sportsdevil>https://www.liveonlinetv247.info/bbctwo.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116114814bbc2.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>BBC2</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=bbc-two</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116114707bbc1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>ITV </title>
+<sportsdevil>https://www.liveonlinetv247.info/itv1.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>ITV 2 </title>
+<sportsdevil>https://www.liveonlinetv247.info/itv2.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky One</title>
+<sportsdevil>http://www.sdw-net.me/channels/Sky-1.html</sportsdevil>
+<referer>referer=http://www.sdw-net.me/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Two</title>
+<sportsdevil>http://www.sdw-net.me/channels/Sky-2.html</sportsdevil>
+<referer>referer=http://www.sdw-net.me/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Atlantic</title>
+<sportsdevil>http://www.sdw-net.me/channels/Sky-Atlantic.html</sportsdevil>
+<referer>referer=http://www.sdw-net.me/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Atlantic</title>
+<sportsdevil>https://www.liveonlinetv247.info/skyatlantic.php</sportsdevil>
+<referer>referer=http://m.liveonlinetv247.info</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>CBS Reality</title>
+<sportsdevil>http://www.sdw-net.me/channels/CBS-Reality.html</sportsdevil>
+<referer>referer=http://www.sdw-net.me/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Tru TV</title>
+<sportsdevil>http://www.sdw-net.me/channels/TruTV-UK.html</sportsdevil>
+<referer>referer=http://www.sdw-net.me/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>SYFY</title>
+<sportsdevil>https://www.liveonlinetv247.info/syfy.php</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>History</title>
+<sportsdevil>https://www.liveonlinetv247.info/history.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116045928his.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Discovery </title>
+<sportsdevil>https://www.liveonlinetv247.info/discovery.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116011400disc.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Animal Planet</title>
+<sportsdevil>https://www.liveonlinetv247.info/animalplanet.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116113807animal.PNG|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Nat Geo</title>
+<sportsdevil>https://www.liveonlinetv247.info/natgeo.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>Catroon Network</title>
+<sportsdevil>https://www.liveonlinetv247.info/cartoonnetwork.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Disney JR</title>
+<sportsdevil>https://www.liveonlinetv247.info/disneyjunior.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+
+<item>
+<title>Nickelodeon</title>
+<sportsdevil>https://www.liveonlinetv247.info/nick.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+<item>
+<title>Disney XD</title>
+<sportsdevil>https://www.liveonlinetv247.info/disneyxd.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+
+<item>
+<title>Sky Cinema Select</title>
+<sportsdevil>https://www.liveonlinetv247.info/skymoviesselect.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/070216062955select_1426076182.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Cinema Premiere</title>
+<sportsdevil>https://www.liveonlinetv247.info/skymoviespremiere.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040916premi.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Cinema Family</title>
+<sportsdevil>https://www.liveonlinetv247.info/skymoviesfamily.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040807famil.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Cinema Comedy</title>
+<sportsdevil>https://www.liveonlinetv247.info/skymoviescomedy.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040536comedy.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Cinema Action</title>
+<sportsdevil>https://www.liveonlinetv247.info/skymoviesaction.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040508action.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Cinema Crime</title>
+<sportsdevil>https://www.liveonlinetv247.info/skymoviescrime.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040646crime.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Cinema Disney</title>
+<sportsdevil>https://www.liveonlinetv247.info/skymoviesdisney.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040235disn.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Cinema Showcase</title>
+<sportsdevil>https://www.liveonlinetv247.info/skymoviesshowcase.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>BBC World News </title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/BBC-World-News-3</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+
+
+

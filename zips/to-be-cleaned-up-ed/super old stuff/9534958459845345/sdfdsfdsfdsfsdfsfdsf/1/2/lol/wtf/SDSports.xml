@@ -1,0 +1,400 @@
+<item>
+<title>[COLOR green]UK & USA Sports - Cerebro IPTV[/COLOR]</title>
+<sportsdevil>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/SDSports.xml</sportsdevil>
+<referer>http://mtvb.co.uk/</referer>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon2.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Barclays Premier League</title>
+<sportsdevil>https://www.liveonlinetv247.info/barclayspremierleague.php</sportsdevil>
+<referer>referer=http://freeitvonline.com/</referer>
+<thumbnail></thumbnail>
+<fanart>http://theboyz.comli.com/goodfellas/fanart/goodfellas.jpg</fanart>
+</item>
+
+<item>
+<title>UEFA Champions League</title>
+<sportsdevil>https://www.liveonlinetv247.info/uefachampionsleague.php</sportsdevil>
+<referer>referer=http://freeitvonline.com/</referer>
+<thumbnail></thumbnail>
+<fanart>http://theboyz.comli.com/goodfellas/fanart/goodfellas.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sports Main Event</title>
+<sportsdevil>https://www.liveonlinetv247.info/skysportsmainevent.php</sportsdevil>
+<referer>referer=http://freeitvonline.com/</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717080757main1.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://theboyz.comli.com/goodfellas/fanart/goodfellas.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sports Main</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=sky-sports-main-event</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sports Premier League</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=sky-sports-premier-league</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sports Premier League SD</title>
+<sportsdevil>https://www.liveonlinetv247.info/skysportspremierleague.php</sportsdevil>
+<referer>referer=http://freeitvonline.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sports Premier League SD</title>
+<sportsdevil>http://mamahd.com/p/mama.php?id=17805&match=Sky%20Sports%20Premier%20League%20vs%20</sportsdevil>
+<referer>referer=http://freeitvonline.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sports Action</title>
+<sportsdevil>https://www.liveonlinetv247.info/skysportsaction.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717080926act3.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sports Cricket</title>
+<sportsdevil>https://www.liveonlinetv247.info/skysportscricket.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
+<thumbnail>https://www.liveonlinetv247.info/skysportscricket.php</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sports Golf</title>
+<sportsdevil>https://www.liveonlinetv247.info/skysportsgolf.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
+<thumbnail>https://www.liveonlinetv247.info/skysportscricket.php</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sports Golf</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=sky-sports-golf</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sports Football</title>
+<sportsdevil>https://www.liveonlinetv247.info/skysportsfootball.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/270717102848foot1.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sports Football</title>
+<sportsdevil>http://mamahd.com/p/mama.php?id=17806&match=Sky%20Sports%20Football%20vs%20</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/270717102848foot1.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sports F1</title>
+<sportsdevil>https://www.liveonlinetv247.info/skysportsf1.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717081443f12.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sports F1</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=sky-sports-f1</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sports Mix</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=sky-sports-mix</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sports Box Office (Only Work When Event Is On)</title>
+<sportsdevil>https://www.liveonlinetv247.info/skysportsboxoffice.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sports News</title>
+<sportsdevil>http://thesportek.com/p/mama.php?id=17809&match=SKY%20SPORTS%20News%20vs%20</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717081653news1.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sports News</title>
+<sportsdevil>https://www.liveonlinetv247.info/skysportsnews.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717081653news1.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>BT Sports 1</title>
+<sportsdevil>https://www.liveonlinetv247.info/btsport1.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116115523bt1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>BT Sports 1</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=bt-sport-1</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>BT Sports 2</title>
+<sportsdevil>http://mamahd.com/p/mama.php?id=17812&match=BT%20Sport%202%20vs%20</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116115549bt2.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>BT Sports 2</title>
+<sportsdevil>https://www.liveonlinetv247.info/btsport2.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116115549bt2.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>BT Sports 2</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=bt-sport-2</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>BT Sports 3</title>
+<sportsdevil>http://mamahd.com/p/mama.php?id=17813&match=BT%20Sport%203%20vs%20</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/270916013607bt3.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>BT Sports 3</title>
+<sportsdevil>https://www.liveonlinetv247.info/btsport3.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/270916013607bt3.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>BT Sports 3</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=bt-sport-3-b</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>BT Sports ESPN</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=espn-gb-uk</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Box Nation</title>
+<sportsdevil>https://www.liveonlinetv247.info/boxnation.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116115340box.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>NBC Sports Network</title>
+<sportsdevil>https://www.liveonlinetv247.info/nbcsn.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/041017012728cbss.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Fox Sports 1</title>
+<sportsdevil>https://www.liveonlinetv247.info/foxsports1.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116045235foxsp1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Fox Sports 2</title>
+<sportsdevil>https://www.liveonlinetv247.info/foxsports2.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116045256fox2.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Premier Sports </title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Premier-Sports-89</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116035209racing.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>BEIN 11</title>
+<sportsdevil>https://www.liveonlinetv247.info/beinsports11.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Euro Sports 1</title>
+<sportsdevil>https://www.liveonlinetv247.info/eurosport.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Euro Sports 2</title>
+<sportsdevil>https://www.liveonlinetv247.info/eurosport2.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>NBA TV</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/NBA-TV-53</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>NBC SN</title>
+<sportsdevil>http://www.ibrod.tv/nbc-sports-network-live-stream.html</sportsdevil>
+<referer>referer=http://www.ibrod.tv/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>NFL Network</title>
+<sportsdevil>http://www.ibrod.tv/nfl-network-live-stream.html</sportsdevil>
+<referer>referer=http://www.ibrod.tv/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>NBA Network</title>
+<sportsdevil>http://www.ibrod.tv/nba-tv-live-stream.html</sportsdevil>
+<referer>referer=http://www.ibrod.tv/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Fox Sports 1</title>
+<sportsdevil>http://www.ibrod.tv/fox-sports-1-live-stream.html</sportsdevil>
+<referer>referer=http://www.ibrod.tv/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Fox Sports 2</title>
+<sportsdevil>http://www.ibrod.tv/fox-sports-2-live-stream.html</sportsdevil>
+<referer>referer=http://www.ibrod.tv/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>ESPN</title>
+<sportsdevil>http://www.ibrod.tv/espn-live-stream.html</sportsdevil>
+<referer>referer=http://www.ibrod.tv/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>ESPN2</title>
+<sportsdevil>http://www.ibrod.tv/espn2-live-stream.html</sportsdevil>
+<referer>referer=http://www.ibrod.tv/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>At The Races</title>
+<sportsdevil>http://www.sdw-net.me/channels/At-The-Races.html</sportsdevil>
+<referer>referer=http://www.sdw-net.me/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Racing UK</title>
+<sportsdevil>http://www.sdw-net.me/channels/Racing-UK.html</sportsdevil>
+<referer>referer=http://www.sdw-net.me/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>NBCSN</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=nbc-sn</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>SportsNet World</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=sports-net-world</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sports Red Button</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=sky-sports-red-button</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
