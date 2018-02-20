@@ -8347,10 +8347,6 @@
 					<include>Visible_Right_Delayed</include>
 					<control type="grouplist" id="4001">
 						<orientation>vertical</orientation>
-						<include content="ImageWidgetHeader2">
-							<param name="widget_header" value="$LOCALIZE[31001]" />
-							<param name="visible" value="true"/>
-						</include>
 						<include content="ImageWidget5">
 							<param name="image_path" value="$VAR[SearchFanartVar]"/>
 							<param name="text_label" value="$LOCALIZE[40081]" />

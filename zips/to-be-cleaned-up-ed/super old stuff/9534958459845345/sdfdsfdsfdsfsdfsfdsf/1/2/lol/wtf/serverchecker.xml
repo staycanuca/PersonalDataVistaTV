@@ -10,7 +10,6 @@
 <link>plugin://plugin.video.vistatv/?action=movieNavigator</link>
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 </plugin>
- 
   
 <plugin>
 <title>VitsaTV TV Shows</title>
@@ -18,7 +17,6 @@
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 </plugin>
  
-
 <plugin>
 <name>VitsaTV Live TV</name>
 <link>plugin://script.module.vistatvlive</link>
@@ -26,8 +24,14 @@
 </plugin>
 
 <dir>
+<name>VitsaTV 24/7</name>
+<link>https://raw.githubusercontent.com/biglad/PersonalDataVistaTV/master/zips/to-be-cleaned-up-ed/super%20old%20stuff/9534958459845345/sdfdsfdsfdsfsdfsfdsf/1/2/lol/wtf/247.xml</link>
+<thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
+</dir>
+
+<dir>
 <name>VitsaTV Kids</name>
-<link>http://megatvbox.eu/kids.xml</link>
+<link>https://raw.githubusercontent.com/biglad/PersonalDataVistaTV/master/zips/to-be-cleaned-up-ed/super%20old%20stuff/9534958459845345/sdfdsfdsfdsfsdfsfdsf/1/2/lol/wtf/kids.xml</link>
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 </dir>
 
