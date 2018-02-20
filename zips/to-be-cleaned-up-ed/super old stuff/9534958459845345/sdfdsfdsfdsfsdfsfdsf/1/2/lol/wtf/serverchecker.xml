@@ -23,11 +23,11 @@
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 </plugin>
 
-<dir>
+<plugin>
 <name>VitsaTV 24/7</name>
-<link>https://raw.githubusercontent.com/biglad/PersonalDataVistaTV/master/zips/to-be-cleaned-up-ed/super%20old%20stuff/9534958459845345/sdfdsfdsfdsfsdfsfdsf/1/2/lol/wtf/247.xml</link>
+<link>plugin://script.module.vistatvlive/?description&iconimage=http%3a%2f%2fapk.co%2fimages%2fmobdro-2014-freemium.png&mode=4&name=%5bCOLOR%20white%5d%5bB%5d24%2f7%5b%2fCOLOR%5d%5b%2fB%5d&url=mobdro247</link>
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
-</dir>
+</plugin>
 
 <dir>
 <name>VitsaTV Kids</name>
