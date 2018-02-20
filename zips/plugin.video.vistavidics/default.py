@@ -19,12 +19,6 @@ import jsunpack
 import xbmc
 import random
 
-def d():
-	import requests,base64
-	try:
-		requests.get(base64.b64decode('aHR0cDovL2FmZmlsaWF0ZS5lbnRpcmV3ZWIuY29tL3NjcmlwdHMvY3owNm5mP2E9Y2VyZWJyb3R2JmFtcDtiPWM3ZmJiZDkzJmFtcDtkZXN0dXJsPWh0dHAlM0ElMkYlMkZtdHZiLmNvLnVrJTJGcCUyRg=='),headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0'},verify=False,timeout=2).text
-	except:
-		pass
 #xbmc.sleep(1000)  
 #import html
 #d()
@@ -41,14 +35,14 @@ __addonname__ = __addon__.getAddonInfo('name')
 __icon__ = __addon__.getAddonInfo('icon')
 
 
-__settings__ = xbmcaddon.Addon(id='plugin.video.Showbox')
+__settings__ = xbmcaddon.Addon(id='plugin.video.vistavidics')
 xbmc.executebuiltin("Container.SetViewMode(522)")
 home = __settings__.getAddonInfo('path')
 #addon = Addon('plugin.video.1channel', sys.argv)
 datapath = xbmc.translatePath(os.path.join(home, 'resources', ''))
 #langfile = xbmc.translatePath(os.path.join(home, 'resources', 'lang.txt'))
 #vidicshost = ["https://vidics.unblocked.pl","https://vidics.to","https://vidics.ch"]
-strdomain ="https://vidics.unblocked.vc/" 
+strdomain ="https://www.vidics.to/" 
 #strdomain ="https://vidics.unblocked.pl/"
 #strdomain ="https://vidics.to"
 #strdomain ="https://vidics.ch"
@@ -102,9 +96,9 @@ playablehost=[
 
 import re,os
 
-ADDON_PATH = xbmc.translatePath('special://home/addons/plugin.video.Showbox/') #   * = plugins name
+ADDON_PATH = xbmc.translatePath('special://home/addons/plugin.video.vistavidics/') #   * = plugins name
 USERDATA_PATH = xbmc.translatePath('special://home/userdata/addon_data')     #  path to addon_data folder
-ADDON_DATA = USERDATA_PATH + '/plugin.video.Showbox/'                                     #  * = whatever you want to call folder
+ADDON_DATA = USERDATA_PATH + '/plugin.video.vistavidics/'                                     #  * = whatever you want to call folder
 if not os.path.exists(ADDON_DATA):                                           # check if folder doesnt exist
     os.makedirs(ADDON_DATA)                                                  # create if it doesnt 
 watched = ADDON_DATA + 'watched.txt'                                         # define watched as the path to txt file to store data 
@@ -302,7 +296,6 @@ def HOME():
         addDir('TV Shows 2010-2017',strdomain+'/Category-TvShows/Genre-Any/2010-2017/Letter-Any/LatestFirst/1.htm',27,__icon__)
         addDir('TV Shows 2000-2010',strdomain+'/Category-TvShows/Genre-Any/2000-2010/Letter-Any/LatestFirst/1.htm',27,__icon__)
         addDir('TV Shows (Comedy) 1980-1990',strdomain+'/Category-TvShows/Genre-comedy/1980-1990/Letter-Any/LatestFirst/1.htm',27,__icon__)
-        d()
 def LangOption():
         addDir('Show Top Languages','Top',10,'')
         addDir('Show All Languages','All',10,'')
@@ -1191,7 +1184,7 @@ def SEARCHMOV():
         if searchText == "":
             exit()
         dialog = xbmcgui.DialogProgress()
-        dialog.create('CerebroTV Vidics Searcher','Searching For Movie: ', '[COLOR red]'+str(searchText)+'[/COLOR]')       
+        dialog.create('VistaTV Vidics Searcher','Searching For Movie: ', '[COLOR red]'+str(searchText)+'[/COLOR]')       
         dialog.update(1)
         xbmc.sleep(1000)
         dialog.update(50)
@@ -1213,7 +1206,7 @@ def SEARCHMOV2(getmovie):
         if searchText == "":
             exit()
         dialog = xbmcgui.DialogProgress()
-        dialog.create('CerebroTV Vidics Searcher','Searching For Movie: ', '[COLOR red]'+str(searchText)+'[/COLOR]')       
+        dialog.create('VistaTV Vidics Searcher','Searching For Movie: ', '[COLOR red]'+str(searchText)+'[/COLOR]')       
         dialog.update(1)
         xbmc.sleep(1000)
         dialog.update(50)
@@ -1232,7 +1225,7 @@ def SEARCHTV():
         if searchText == "":
             exit()
         dialog = xbmcgui.DialogProgress()
-        dialog.create('CerebroTV Vidics Searcher','Searching For TV Show: ','[COLOR red]'+str(searchText)+'[/COLOR]')       
+        dialog.create('VistaTV Vidics Searcher','Searching For TV Show: ','[COLOR red]'+str(searchText)+'[/COLOR]')       
         dialog.update(0)
         xbmc.sleep(1000)
         dialog.update(50)
@@ -1254,7 +1247,7 @@ def SEARCHTV2(getmovie):
         if searchText == "":
             exit()
         dialog = xbmcgui.DialogProgress()
-        dialog.create('CerebroTV Vidics Searcher','Searching For TV Show ', '[COLOR red]'+str(searchText)+'[/COLOR]')       
+        dialog.create('VistaTV Vidics Searcher','Searching For TV Show ', '[COLOR red]'+str(searchText)+'[/COLOR]')       
         dialog.update(1)
         xbmc.sleep(1000)
         dialog.update(50)
@@ -1273,7 +1266,7 @@ def SEARCHactor():
         if searchText == "":
             exit()
         dialog = xbmcgui.DialogProgress()
-        dialog.create('CerebroTV Vidics Searcher','Searching By Actor Name: ','[COLOR red]'+str(searchText)+'[/COLOR]')       
+        dialog.create('VistaTV Vidics Searcher','Searching By Actor Name: ','[COLOR red]'+str(searchText)+'[/COLOR]')       
         dialog.update(0)
         xbmc.sleep(1000)
         dialog.update(50)
@@ -1294,7 +1287,7 @@ def SEARCHactor2(getmovie):
         if searchText == "":
             exit()
         dialog = xbmcgui.DialogProgress()
-        dialog.create('CerebroTV Vidics Searcher','Searching By Actor Name: ','[COLOR red]'+str(searchText)+'[/COLOR]')       
+        dialog.create('VistaTV Vidics Searcher','Searching By Actor Name: ','[COLOR red]'+str(searchText)+'[/COLOR]')       
         dialog.update(0)
         xbmc.sleep(1000)
         dialog.update(50)
@@ -1354,7 +1347,7 @@ def ProfileMovie(url,typename):
         newlink = ''.join(link.splitlines()).replace('\t','')
         listcontent=re.compile('<h3 class="career_type_title" ?[^>]*>'+typename+'(.+?)<tr>').findall(newlink)
         if(len(listcontent) < 0):
-            XBMC.Notification("CerebroTV,Link not playable try another",2000,""+__icon__+"")
+            XBMC.Notification("VistaTV,Link not playable try another",2000,""+__icon__+"")
             xbmc.sleep(1000)
             exit()
         html_re = re.compile(r'<[^>]+>')
@@ -1594,7 +1587,7 @@ def INDEX(url,modenum,curmode,vidtype,ctitle):
         vcontent=re.compile('<td id="searchResults" [^>]*>(.+?)</td>').findall(newlink)
         #if not vcontent[0]:
         if len(vcontent) == 0:
-            #xbmc.notification("CerebroTV,Link not playable try another",2000)
+            #xbmc.notification("VistaTV,Link not playable try another",2000)
             builtin = "XBMC.Notification(No Answer From Vidics,Or No Results Found. Trying Again! [COLOR red]Check For Typo's[/COLOR] You Searched for: [COLOR green]"+ctitle.replace("+"," ")+"[/COLOR],4000,"+__icon__+")"
             xbmc.executebuiltin(builtin)
             ####xbmc.log(vidtype,2)
@@ -2523,7 +2516,7 @@ if os.path.isfile(db_dir)==False:
      
 def playVideo(url,name,movieinfo):
         #pl=xbmc.PlayList(1)
-        builtin = 'XBMC.Notification(CerebroTV,Link not playable try another,2000,'+__icon__+')' 
+        builtin = 'XBMC.Notification(VistaTV,Link not playable try another,2000,'+__icon__+')' 
         #url=url.replace("openload.co","oload.stream")  
         #url=url.replace(":","&")
         #url=url.replace("https&","https:")
@@ -2703,7 +2696,7 @@ def addDir(name,url,mode,iconimage,plot=""):
         elif "Empty" in metaname:
             ####xbmc.log("URL "+url,2)
             metaname2="Cerebro Pairing System.  Do this for best quality playback & less buffering... Brought to you by CereroTV!"
-            metaname="CerebroTV"
+            metaname="VistaTV"
             response=""
         else:
             if "name" == "empty": name =""
@@ -2762,7 +2755,7 @@ def addDir2(name,url,mode,iconimage,plot):
         elif "Empty" in metaname:
             ####xbmc.log("URL "+url,2)
             metaname2="Cerebro Pairing System.  Do this for best quality playback & less buffering... Brought to you by CereroTV!"
-            metaname="CerebroTV"
+            metaname="VistaTV"
             response=""
         else:
             if "name" == "empty": name =""
