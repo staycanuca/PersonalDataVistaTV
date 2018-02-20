@@ -216,7 +216,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/501::LISTNAME:4 Seven (Takes
 <title>SYFY</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjU0w::LISTNAME:SYFY UK/US (USE LINK ONE FOR UK)::#
-sublink:LISTSOURCE:plugin://plugin.video.vista-iptv-scraper/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fsyfy.php%2526title%3DSYFY%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:SYFY::#
 </link>
 <thumbnail>http://212.129.54.17:4040/data/img/files/syfy.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -491,7 +490,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/news/3b7dd11b6654dd5f357
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=157&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DCapital+TV%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DBig+Top+40%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F157.png&amp;description=&amp;genre=Music::LISTNAME:Capital TV::#
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=157&amp;mode=2&amp;name=Capital+TV::LISTNAME:Capital TV::#
-sublink:LISTSOURCE:plugin://plugin.video.vista-iptv-scraper/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FCapital-TV-10%2526title%3DCapital+TV+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Capital TV::#
 </link>
 <thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/157.png</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1403,7 +1401,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/208::LISTNAME:Sky Sports Pre
 <item>
 <title>Sky Sports Cricket</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.vista-iptv-scraper/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskysportscricket.php%2526title%3DSky+Sports+Cricket%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:Sky Sports Cricket::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTQ=w::LISTNAME:Sky Sports Cricket::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysp2%2Fplaylist.m3u8::LISTNAME:Sky Sports Cricket::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/205::LISTNAME:Sky Sports Cricket (Takes A Few Seconds to Exit)::#
