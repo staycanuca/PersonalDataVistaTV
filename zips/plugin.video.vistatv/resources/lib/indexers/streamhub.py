@@ -18,7 +18,7 @@ from resources.lib.modules import youtube
 from resources.lib.modules import views
 
 
-addon_id = 'plugin.video.streamhub'
+addon_id = 'plugin.video.vistatv'
 
 
 class indexer:

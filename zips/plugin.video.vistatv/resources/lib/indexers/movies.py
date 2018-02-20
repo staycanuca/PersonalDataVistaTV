@@ -20,7 +20,7 @@ action = params.get('action')
 
 control.moderator()
 import xbmc
-logfile    = xbmc.translatePath(os.path.join('special://home/addons/plugin.video.streamhub', 'log.txt'))
+logfile    = xbmc.translatePath(os.path.join('special://home/addons/plugin.video.vistatv', 'log.txt'))
 def log(text):
 	file = open(logfile,"w+")
 	file.write(str(text))
@@ -986,5 +986,5 @@ class movies:
             except:
                 pass
 
-        control.content(syshandle, 'addons')
+        control.content(syshandle, 'files')
         control.directory(syshandle, cacheToDisc=True)

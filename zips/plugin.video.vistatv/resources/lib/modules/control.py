@@ -1,12 +1,33 @@
 # -*- coding: utf-8 -*-
 
+"""
+    Covenant Add-on
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+"""
 
 
+import os
+import sys
+import urllib
+import urlparse
 
-import urlparse,os,sys
-
-import xbmc,xbmcaddon,xbmcplugin,xbmcgui,xbmcvfs
-
+import xbmc
+import xbmcaddon
+import xbmcgui
+import xbmcplugin
+import xbmcvfs
 
 integer = 1000
 
@@ -52,9 +73,16 @@ button = xbmcgui.ControlButton
 
 image = xbmcgui.ControlImage
 
+getCurrentDialogId = xbmcgui.getCurrentWindowDialogId()
+
 keyboard = xbmc.Keyboard
 
-sleep = xbmc.sleep
+# Modified `sleep` command that honors a user exit request
+def sleep (time):
+    while time > 0 and not xbmc.abortRequested:
+        xbmc.sleep(min(100, time))
+        time = time - 100
+
 
 execute = xbmc.executebuiltin
 
@@ -94,42 +122,94 @@ providercacheFile = os.path.join(dataPath, 'providers.13.db')
 
 metacacheFile = os.path.join(dataPath, 'meta.5.db')
 
+searchFile = os.path.join(dataPath, 'search.1.db')
+
+libcacheFile = os.path.join(dataPath, 'library.db')
+
 cacheFile = os.path.join(dataPath, 'cache.db')
 
+key = "RgUkXp2s5v8x/A?D(G+KbPeShVmYq3t6"
+
+iv = "p2s5v8y/B?E(H+Mb"
+
+if not os.path.exists(searchFile):
+    if not os.path.exists(dataPath):
+        os.mkdir(dataPath)
+    #xbmc.log(searchFile,2)
+    open(searchFile,'a')
 
 def addonIcon():
-    art = artPath()
-    return os.path.join(art, 'icon.png')
+    theme = appearance() ; art = artPath()
+    if not (art == None and theme in ['-', '']): return os.path.join(art, 'icon.png')
+    return addonInfo('icon')
 
 
 def addonThumb():
-    art = artPath()
-    return os.path.join(art, 'poster.png')
+    theme = appearance() ; art = artPath()
+    if not (art == None and theme in ['-', '']): return os.path.join(art, 'poster.png')
+    elif theme == '-': return 'DefaultFolder.png'
+    return addonInfo('icon')
 
 
 def addonPoster():
-    art = artPath()
-    return os.path.join(art, 'poster.png')
+    theme = appearance() ; art = artPath()
+    if not (art == None and theme in ['-', '']): return os.path.join(art, 'poster.png')
+    return 'DefaultVideo.png'
 
 
 def addonBanner():
-    art = artPath()
-    return os.path.join(art, 'banner.png')
+    theme = appearance() ; art = artPath()
+    if not (art == None and theme in ['-', '']): return os.path.join(art, 'banner.png')
+    return 'DefaultVideo.png'
 
 
 def addonFanart():
-    art = artPath()
-    return os.path.join(art, 'fanart.jpg')
+    theme = appearance() ; art = artPath()
+    if not (art == None and theme in ['-', '']): return os.path.join(art, 'fanart.jpg')
+    return addonInfo('fanart')
 
 
 def addonNext():
-    art = artPath()
-    return os.path.join(art, 'next.png')
+    theme = appearance() ; art = artPath()
+    if not (art == None and theme in ['-', '']): return os.path.join(art, 'next.png')
+    return 'DefaultVideo.png'
+
+
+def addonId():
+    return addonInfo('id')
+
+
+def addonName():
+    return addonInfo('name')
+
+
+def get_plugin_url(queries):
+    try:
+        query = urllib.urlencode(queries)
+    except UnicodeEncodeError:
+        for k in queries:
+            if isinstance(queries[k], unicode):
+                queries[k] = queries[k].encode('utf-8')
+        query = urllib.urlencode(queries)
+    addon_id = sys.argv[0]
+    if not addon_id: addon_id = addonId()
+    return addon_id + '?' + query
 
 
 def artPath():
-    path = xbmc.translatePath('special://home/addons/plugin.video.streamhub/')
-    return path
+    theme = appearance()
+    if theme in ['-', '']: return
+    elif condVisibility('System.HasAddon(script.covenant.artwork)'):
+        return os.path.join(xbmcaddon.Addon('script.covenant.artwork').getAddonInfo('path'), 'resources', 'media', theme)
+
+
+def appearance():
+    appearance = setting('appearance.1').lower() if condVisibility('System.HasAddon(script.covenant.artwork)') else setting('appearance.alt').lower()
+    return appearance
+
+
+def artwork():
+    execute('RunPlugin(plugin://script.covenant.artwork)')
 
 
 def infoDialog(message, heading=addonInfo('name'), icon='', time=3000, sound=False):
@@ -149,13 +229,15 @@ def selectDialog(list, heading=addonInfo('name')):
 
 
 def moderator():
-	import xbmc
-	xbmc.log('I dont take sides')
+    netloc = [urlparse.urlparse(sys.argv[0]).netloc, '', 'plugin.video.live.streamspro', 'plugin.video.phstreams', 'plugin.video.cpstreams', 'plugin.video.tinklepad', 'script.tvguide.fullscreen', 'script.tvguide.assassins']
+
+    if not infoLabel('Container.PluginName') in netloc: sys.exit()
 
 
 def metaFile():
-    path = xbmc.translatePath('special://home/userdata/addon_data/plugin.video.streamhub/meta')
-    return path
+    if condVisibility('System.HasAddon(script.covenant.metadata)'):
+        return os.path.join(xbmcaddon.Addon('script.covenant.metadata').getAddonInfo('path'), 'resources', 'data', 'meta.db')
+
 
 def apiLanguage(ret_name=None):
     langDict = {'Bulgarian': 'bg', 'Chinese': 'zh', 'Croatian': 'hr', 'Czech': 'cs', 'Danish': 'da', 'Dutch': 'nl', 'English': 'en', 'Finnish': 'fi', 'French': 'fr', 'German': 'de', 'Greek': 'el', 'Hebrew': 'he', 'Hungarian': 'hu', 'Italian': 'it', 'Japanese': 'ja', 'Korean': 'ko', 'Norwegian': 'no', 'Polish': 'pl', 'Portuguese': 'pt', 'Romanian': 'ro', 'Russian': 'ru', 'Serbian': 'sr', 'Slovak': 'sk', 'Slovenian': 'sl', 'Spanish': 'es', 'Swedish': 'sv', 'Thai': 'th', 'Turkish': 'tr', 'Ukrainian': 'uk'}
@@ -164,7 +246,15 @@ def apiLanguage(ret_name=None):
     tvdb = ['en','sv','no','da','fi','nl','de','it','es','fr','pl','hu','el','tr','ru','he','ja','pt','zh','cs','sl','hr','ko']
     youtube = ['gv', 'gu', 'gd', 'ga', 'gn', 'gl', 'ty', 'tw', 'tt', 'tr', 'ts', 'tn', 'to', 'tl', 'tk', 'th', 'ti', 'tg', 'te', 'ta', 'de', 'da', 'dz', 'dv', 'qu', 'zh', 'za', 'zu', 'wa', 'wo', 'jv', 'ja', 'ch', 'co', 'ca', 'ce', 'cy', 'cs', 'cr', 'cv', 'cu', 'ps', 'pt', 'pa', 'pi', 'pl', 'mg', 'ml', 'mn', 'mi', 'mh', 'mk', 'mt', 'ms', 'mr', 'my', 've', 'vi', 'is', 'iu', 'it', 'vo', 'ii', 'ik', 'io', 'ia', 'ie', 'id', 'ig', 'fr', 'fy', 'fa', 'ff', 'fi', 'fj', 'fo', 'ss', 'sr', 'sq', 'sw', 'sv', 'su', 'st', 'sk', 'si', 'so', 'sn', 'sm', 'sl', 'sc', 'sa', 'sg', 'se', 'sd', 'lg', 'lb', 'la', 'ln', 'lo', 'li', 'lv', 'lt', 'lu', 'yi', 'yo', 'el', 'eo', 'en', 'ee', 'eu', 'et', 'es', 'ru', 'rw', 'rm', 'rn', 'ro', 'be', 'bg', 'ba', 'bm', 'bn', 'bo', 'bh', 'bi', 'br', 'bs', 'om', 'oj', 'oc', 'os', 'or', 'xh', 'hz', 'hy', 'hr', 'ht', 'hu', 'hi', 'ho', 'ha', 'he', 'uz', 'ur', 'uk', 'ug', 'aa', 'ab', 'ae', 'af', 'ak', 'am', 'an', 'as', 'ar', 'av', 'ay', 'az', 'nl', 'nn', 'no', 'na', 'nb', 'nd', 'ne', 'ng', 'ny', 'nr', 'nv', 'ka', 'kg', 'kk', 'kj', 'ki', 'ko', 'kn', 'km', 'kl', 'ks', 'kr', 'kw', 'kv', 'ku', 'ky']
 
-    name = 'en'
+    name = None
+    name = setting('api.language')
+    if not name: name = 'AUTO'
+    
+    if name[-1].isupper():
+        try: name = xbmc.getLanguage(xbmc.ENGLISH_NAME).split(' ')[0]
+        except: pass
+    try: name = langDict[name]
+    except: name = 'en'
     lang = {'trakt': name} if name in trakt else {'trakt': 'en'}
     lang['tvdb'] = name if name in tvdb else 'en'
     lang['youtube'] = name if name in youtube else 'en'
@@ -226,6 +316,8 @@ def getCurrentViewId():
 def refresh():
     return execute('Container.Refresh')
 
+def busy():
+    return execute('ActivateWindow(busydialog)')
 
 def idle():
     return execute('Dialog.Close(busydialog)')

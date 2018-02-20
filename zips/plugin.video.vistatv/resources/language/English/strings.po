@@ -1,5 +1,5 @@
 # Addon Name: StreamHub
-# Addon id: plugin.video.streamhub
+# Addon id: plugin.video.vistatv
 # Addon Provider: sClarke
 
 msgid ""
@@ -682,7 +682,7 @@ msgstr "URLResolver Settings"
 ########################################################################################################################################
 
 # Addon Name: StreamHub
-# Addon id: plugin.video.StreamHub
+# Addon id: plugin.video.vistatv
 # Addon Provider: KISAKUL
 msgid ""
 msgstr ""

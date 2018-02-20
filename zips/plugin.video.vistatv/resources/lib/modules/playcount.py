@@ -1,6 +1,21 @@
 # -*- coding: utf-8 -*-
 
+'''
+    Covenant Add-on
 
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+'''
 
 
 import json
@@ -139,6 +154,7 @@ def markEpisodeDuringPlayback(imdb, tvdb, season, episode, watched):
 
 
 def movies(imdb, watched):
+    control.busy()
     try:
         if trakt.getTraktIndicatorsInfo() == False: raise Exception()
         if int(watched) == 7: trakt.markMovieAsWatched(imdb)
@@ -159,6 +175,7 @@ def movies(imdb, watched):
 
 
 def episodes(imdb, tvdb, season, episode, watched):
+    control.busy()
     try:
         if trakt.getTraktIndicatorsInfo() == False: raise Exception()
         if int(watched) == 7: trakt.markEpisodeAsWatched(tvdb, season, episode)
@@ -180,6 +197,7 @@ def episodes(imdb, tvdb, season, episode, watched):
 
 
 def tvshows(tvshowtitle, imdb, tvdb, season, watched):
+    control.busy()
     try:
         import sys,xbmc
 
@@ -221,8 +239,18 @@ def tvshows(tvshowtitle, imdb, tvdb, season, watched):
 
     try:
         if trakt.getTraktIndicatorsInfo() == False: raise Exception()
-        if int(watched) == 7: trakt.markTVShowAsWatched(tvdb)
-        else: trakt.markTVShowAsNotWatched(tvdb)
+
+        if season:
+            from resources.lib.indexers import episodes
+            items = episodes.episodes().get(tvshowtitle, '0', imdb, tvdb, season, idx=False)
+            items = [(int(i['season']), int(i['episode'])) for i in items]
+            items = [i[1] for i in items if int('%01d' % int(season)) == int('%01d' % i[0])]
+            for i in items:
+                if int(watched) == 7: trakt.markEpisodeAsWatched(tvdb, season, i)
+                else: trakt.markEpisodeAsNotWatched(tvdb, season, i)
+        else:
+            if int(watched) == 7: trakt.markTVShowAsWatched(tvdb)
+            else: trakt.markTVShowAsNotWatched(tvdb)
         trakt.cachesyncTVShows()
     except:
         pass

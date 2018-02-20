@@ -365,8 +365,9 @@ elif action == 'authTrakt':
     trakt.authTrakt()
 
 elif action == 'smuSettings':
-    try: import urlresolver
-    except: pass
+    #try: import urlresolver
+    #except: pass
+    import urlresolver
     urlresolver.display_settings()
 
 elif action == 'download':
@@ -441,3 +442,30 @@ elif action == 'random':
 elif action=='sysinfo':
 	from resources.lib.indexers import streamhub
 	streamhub.sysinfo()
+	
+elif action == 'pair':
+    xbmc.executebuiltin('RunAddon(script.cerebro.pairwith.laucnher)')
+	
+elif action == 'movieSearchnew':
+    from resources.lib.indexers import movies
+    movies.movies().search_new()
+	
+elif action == 'movieSearchterm':
+    from resources.lib.indexers import movies
+    movies.movies().search_term(name)
+	
+elif action == 'tvSearchnew':
+    from resources.lib.indexers import tvshows
+    tvshows.tvshows().search_new()
+
+elif action == 'tvSearchterm':
+    from resources.lib.indexers import tvshows
+    tvshows.tvshows().search_term(name)
+	
+elif action == 'clearCacheSearch':
+    from resources.lib.indexers import navigator
+    navigator.navigator().clearCacheSearch()
+	
+elif action == 'clearCacheSearch2':
+    from resources.lib.indexers import navigator
+    navigator.navigator().clearCacheSearch2()

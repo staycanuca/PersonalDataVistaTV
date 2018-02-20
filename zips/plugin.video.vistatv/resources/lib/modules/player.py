@@ -1,10 +1,26 @@
 # -*- coding: utf-8 -*-
 
+'''
+    Covenant Add-on
 
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+'''
 
 
 import re,sys,json,time,xbmc
-import hashlib,urllib,os,zlib,base64,codecs,xmlrpclib
+import hashlib,urllib,os,base64,codecs,xmlrpclib
+import gzip, StringIO
 
 try: from sqlite3 import dbapi2 as database
 except: from pysqlite2 import dbapi2 as database
@@ -246,11 +262,19 @@ class player(xbmc.Player):
 
     def onPlayBackStopped(self):
         bookmarks().reset(self.currentTime, self.totalTime, self.name, self.year)
+        if control.setting('crefresh') == 'true':
+            xbmc.executebuiltin('Container.Refresh')
 
+        try:
+            if (self.currentTime / self.totalTime) >= .90:
+                self.libForPlayback()
+        except: pass
 
     def onPlayBackEnded(self):
         self.libForPlayback()
         self.onPlayBackStopped()
+        if control.setting('crefresh') == 'true':
+            xbmc.executebuiltin('Container.Refresh')
 
 
 class subtitles:
@@ -310,7 +334,7 @@ class subtitles:
             content = [filter[0]['IDSubtitleFile'],]
             content = server.DownloadSubtitles(token, content)
             content = base64.b64decode(content['data'][0]['data'])
-            content = str(zlib.decompressobj(16+zlib.MAX_WBITS).decompress(content))
+            content = gzip.GzipFile(fileobj=StringIO.StringIO(content)).read()
 
             subtitle = xbmc.translatePath('special://temp/')
             subtitle = os.path.join(subtitle, 'TemporarySubs.%s.srt' % lang)

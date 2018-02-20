@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
-	<category label="Premium">
-		<setting id="Username" type="text" label="Username:" default=""/>
-		<setting id="Password" type="text" label="Password:" default=""/>
-		<setting type="lsep" label="" />
-		<setting id="startupd" type="enum" label="Startup Notification" lvalues="None|Dialog|Notification" default="2" />
-	</category>
-	<category label="General">
-		<setting id="xxxx" type="action" label="Setup XXX Password" action="RunPlugin(plugin://plugin.video.vistatv/?mode=61&url=none)" />
-	</category>
 	<category label="32330">
 		<setting id="hosts.mode" type="enum" label="32331" lvalues="32332|32333|32334" default="1" />
 		<setting id="progress.dialog" type="enum" label="32335" lvalues="32336|32337" default="0" />
@@ -21,7 +12,7 @@
 		<setting id="bookmarks" type="bool" label="32344" default="true" />
 	</category>
 	<category label="32345">
-		<setting id="scrapers.timeout.1" type="slider" label="32312" default="10" range="04,60" option="int" />
+		<setting id="scrapers.timeout.1" type="slider" label="32312" default="25" range="04,60" option="int" />
 		<setting id="trakt.user" type="text" default="" visible="false" />
 		<setting id="indicators.alt" type="enum" label="32313" lvalues="32314|32315" default="1" visible="!eq(-1,)" />
 		<setting id="indicators" type="enum" label="32313" lvalues="32314" default="0" visible="eq(-2,)" />
@@ -148,7 +139,7 @@
 	</category>
 	<category label="32346">
 		<setting type="lsep" label="Trakt" />
-		<setting id="trakt.user" type="action" label="32306" option="close" action="RunPlugin(plugin://plugin.video.streamhub/?action=authTrakt)" />
+		<setting id="trakt.user" type="action" label="32306" option="close" action="RunPlugin(plugin://plugin.video.vistatv/?action=authTrakt)" />
 		<setting id="trakt.token" type="text" option="hidden" visible="false" label="" default="" />
 		<setting id="trakt.refresh" type="text" option="hidden" visible="false" label="" default="" />
 		<setting type="lsep" label="Alluc" />
@@ -157,7 +148,7 @@
         <setting id="alluc.download" visible="false" type="bool" label="32009" default="false" />       
 		<setting type="sep" />
 		<setting type="lsep" label="More Accounts Can Be Configured in URL Resolver" />
-		<setting id="open_smu_settings" type="action" label="32540" enable="true" option="close" action="RunPlugin(plugin://plugin.video.streamhub/?action=smuSettings)" />
+		<setting id="open_smu_settings" type="action" label="32540" enable="true" option="close" action="RunPlugin(plugin://plugin.video.vistatv/?action=smuSettings)" />
 	</category>
 	<category label="32347">
 		<setting id="downloads" type="bool" label="32348" default="false" />

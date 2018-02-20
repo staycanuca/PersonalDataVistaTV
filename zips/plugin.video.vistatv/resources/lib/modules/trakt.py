@@ -1,20 +1,39 @@
 # -*- coding: utf-8 -*-
 
+"""
+    Covenant Add-on
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+"""
 
 
-
-import re,json,urlparse,time
+import json
+import re
+import time
+import urllib
+import urlparse
 
 from resources.lib.modules import cache
-from resources.lib.modules import control
 from resources.lib.modules import cleandate
 from resources.lib.modules import client
-from resources.lib.modules import utils
+from resources.lib.modules import control
 from resources.lib.modules import log_utils
+from resources.lib.modules import utils
 
 BASE_URL = 'http://api.trakt.tv'
-V2_API_KEY = '6df58f8e51beea5f79b129e8c498c52429732365eadfe1bf50dec7557f87abab'
-CLIENT_SECRET = 'ac7129104289756dd7ffadefdcc3004f20adf63ec6acc65ce1b7e06643624873'
+V2_API_KEY = 'acc97918ace2b0a211957d574e7cd7c7bc7a59b9c949df625077f1d5fb107082'
+CLIENT_SECRET = '0f3e0b9096477ee0d373d1d354700449bf0fa648bef33c191db5845b346f16ef'
 REDIRECT_URI = 'urn:ietf:wg:oauth:2.0:oob'
 
 def __getTrakt(url, post=None):
@@ -37,6 +56,9 @@ def __getTrakt(url, post=None):
             return
         elif resp_code in ['404']:
             log_utils.log('Object Not Found : %s' % resp_code, log_utils.LOGWARNING)
+            return
+        elif resp_code in ['429']:
+            log_utils.log('Trakt Rate Limit Reached: %s' % resp_code, log_utils.LOGWARNING)
             return
 
         if resp_code not in ['401', '405']:
@@ -65,8 +87,8 @@ def getTraktAsJson(url, post=None):
     try:
         r, res_headers = __getTrakt(url, post)
         r = utils.json_loads_as_str(r)
-        if 'x-sort-by' in res_headers and 'x-sort-how' in res_headers:
-            r = sort_list(res_headers['x-sort-by'], res_headers['x-sort-how'], r)
+        if 'X-Sort-By' in res_headers and 'X-Sort-How' in res_headers:
+            r = sort_list(res_headers['X-Sort-By'], res_headers['X-Sort-How'], r)
         return r
     except:
         pass
@@ -421,7 +443,7 @@ def SearchAll(title, year, full=True):
 
 def SearchMovie(title, year, full=True):
     try:
-        url = '/search/movie?query=%s' % title
+        url = '/search/movie?query=%s' % urllib.quote_plus(title)
 
         if year: url += '&year=%s' % year
         if full: url += '&extended=full'
@@ -431,7 +453,7 @@ def SearchMovie(title, year, full=True):
 
 def SearchTVShow(title, year, full=True):
     try:
-        url = '/search/show?query=%s' % title
+        url = '/search/show?query=%s' % urllib.quote_plus(title)
 
         if year: url += '&year=%s' % year
         if full: url += '&extended=full'
@@ -439,6 +461,12 @@ def SearchTVShow(title, year, full=True):
     except:
         return
 
+def IdLookup(content, type, type_id):
+    try:
+        r = getTraktAsJson('/search/%s/%s?type=%s' % (type, type_id, content))
+        return r[0].get(content, {}).get('ids', [])
+    except:
+        return {}
 
 def getGenre(content, type, type_id):
     try:

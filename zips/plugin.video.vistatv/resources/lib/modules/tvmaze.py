@@ -1,6 +1,21 @@
 # -*- coding: utf-8 -*-
 
+'''
+    Covenant Add-on
 
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+'''
 
 
 import urllib,json
@@ -116,10 +131,7 @@ class tvMaze:
     def episodeAbsoluteNumber(self, thetvdb, season, episode):
         try:
             url = 'http://thetvdb.com/api/%s/series/%s/default/%01d/%01d' % ('MUQ2MkYyRjkwMDMwQzQ0NA=='.decode('base64'), thetvdb, int(season), int(episode))
-            r = client.request(url)
-            episode = client.parseDOM(r, 'absolute_number')[0]
-
-            return int( episode )
+            return int(client.parseDOM(client.request(url), 'absolute_number')[0])
         except:
             pass
 
