@@ -13,9 +13,9 @@ def menuoptions():
         function2
         )
         
-    call = dialog.select('[B][COLOR=yellow]Live TV Menu[/COLOR][/B]', [ 
-    '[B]      >> [COLOR=gold]Open[/COLOR] [COLOR=gold]TV Guide[/COLOR] << [/B]' ,	
-    '[B]      >> [COLOR=yellow]Open IPTV Lists[/COLOR] << Live TV (Many Options)[/B]',
+    call = dialog.select('[B][COLOR=yellow]On Demand Menu[/COLOR][/B]', [ 
+    '[B]      Movies[/B]' ,	
+    '[B]      TV Shows[/B]',
     ])
     # dialog.selectreturns
     #   0 -> escape pressed
@@ -36,9 +36,9 @@ def menuoptions():
 
     
 def function1():
-    xbmc.executebuiltin('RunAddon(script.tvguide.vistatv)')
+    xbmc.executebuiltin('ActivateWindow(10025,"plugin://plugin.video.vistatv/?action=movieNavigator",return)')
 	
 def function2():
-    xbmc.executebuiltin('ActivateWindow(10025,"plugin://script.module.vistatvlive/",return)')
+    xbmc.executebuiltin('ActivateWindow(10025,"plugin://plugin.video.vistatv/?action=tvNavigator",return)')
 		  
 menuoptions()

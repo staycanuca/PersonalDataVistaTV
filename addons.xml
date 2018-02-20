@@ -1642,7 +1642,7 @@ provider-name="VistaTV">
 
 <addon id="script.vista.livetvmenu"
   name="VistaTV Live TV Menu"
-  version="4.5"
+  version="4.6"
   provider-name="Vista TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1660,7 +1660,7 @@ provider-name="VistaTV">
 
 <addon id="script.vista.ondemanmenu"
   name="VistaTV On Demand Menu"
-  version="4.5"
+  version="4.6"
   provider-name="Vista TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
