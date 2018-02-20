@@ -165,7 +165,7 @@ def ping(host):
     """
     import os, platform
     host2 = host.split('.')
-    xbmc.executebuiltin("Notification([COLOR=gold]Cerebro TV[/COLOR],Checking Server : "+str(host2[3])+",2000,"+__icon__+")")
+    xbmc.executebuiltin("Notification([COLOR=gold]VistaTV[/COLOR],Checking Server : "+str(host2[3])+",2000,"+__icon__+")")
     # Ping parameters as function of OS
     ping_str = "-n 1" if  platform.system().lower()=="windows" else "-c 1"
 
