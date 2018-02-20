@@ -12,7 +12,7 @@ def cat():
 	#addDir('[COLOR white][B]IPTV Restream[/COLOR][/B]','iptvrestream',4,'https://1.bp.blogspot.com/-SnEmyxvBHxA/WDW4v6asHAI/AAAAAAAAUac/QBXOMnYAH2Y8MNS1qDbJxgswJpnBfcgAACLcB/s1600/14494667_992633267526877_2246028541223869412_n.jpg',fanart,'')
 	#addDir('[COLOR white][B]Mega IPTV[/COLOR][/B]','megaiptv',4,'https://i.ytimg.com/vi/xiMZ231EBus/hqdefault.jpg',fanart,'')
 	addDir('[COLOR white][B]Mobdro[/COLOR][/B]','mobdro',4,'http://apk.co/images/mobdro-2014-freemium.png',fanart,'')
-	addDir('[COLOR white][B]24/7[/COLOR][/B]','mobdro247',4,'http://apk.co/images/mobdro-2014-freemium.png',fanart,'')
+	#addDir('[COLOR white][B]24/7[/COLOR][/B]','mobdro247',4,'http://apk.co/images/mobdro-2014-freemium.png',fanart,'')
 	addDir('[COLOR white][B]Pak India Sports[/COLOR][/B]','pakindiasport',4,'http://www.madhyamam.com/en/sites/default/files/india-pak.jpg',fanart,'')
 	#addDir('[COLOR white][B]Snappy Streamz[/COLOR][/B]','solidstreams',4,'https://www.apkdld.com/wp-content/uploads/2017/06/snappy-streamz-apk-300x293.jpg',fanart,'')
 	#addDir('[COLOR white][B]Swift Streamz[/COLOR][/B]','swiftstreams2',4,'http://www.swiftstreamz.com/images/mbl-app.png',fanart,'')
