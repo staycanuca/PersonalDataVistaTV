@@ -25,9 +25,29 @@ import socket
 import xbmc
 import xbmcplugin
 import xbmcaddon
+import xbmcgui
 from resources.lib import utils
 from resources.lib import favorites
 from resources.lib.sites import *
+
+
+passxxx = "imblind"
+
+def Search(name):
+        search_entered = ''
+        keyboard = xbmc.Keyboard(search_entered, '[B][COLOR=white]Please Enter [/COLOR][/B]'+str(name))
+        
+        keyboard.setHiddenInput(True)
+        keyboard.doModal()
+        if keyboard.isConfirmed():
+            search_entered = keyboard.getText().replace(' ','%20')
+            if search_entered == 0:
+                return False          
+        return search_entered
+        if search_entered == None:
+            return False 
+
+
 
 socket.setdefaulttimeout(60)
 
@@ -39,6 +59,7 @@ dialog = utils.dialog
 
 imgDir = utils.imgDir
 rootDir = utils.rootDir
+
 
 @utils.url_dispatcher.register('0')
 def INDEX():
@@ -156,6 +177,12 @@ def change():
         utils.textBox(heading,utils.uwcchange)
         os.remove(utils.uwcchange)
 
+if not addon.getSetting('uwcage') == 'true':            
+    xxxpass=Search('[B][COLOR=gold]Adult Section Password[/COLOR][/B]')
+
+    if passxxx == xxxpass or predone:
+        predone=True
+    else: exit()
 
 if not addon.getSetting('uwcage') == 'true':
     age = dialog.yesno('WARNING: This addon contains adult material.','You may enter only if you are at least 18 years of age.', nolabel='Exit', yeslabel='Enter')
@@ -163,6 +190,8 @@ if not addon.getSetting('uwcage') == 'true':
         addon.setSetting('uwcage','true')
 else:
     age = True
+	
+
 
 
 def main(argv=None):

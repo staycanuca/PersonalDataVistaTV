@@ -854,7 +854,7 @@ Initial release.
 
 <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
-       version="1.1.55"
+       version="1.1.56"
        provider-name="Whitecream">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -1581,6 +1581,24 @@ provider-name="VistaTV">
   </extension>
 </addon>
 
+<addon id="script.speedtestnet"
+       name="ARNU Box Speed Tester"
+       version="1.0.0"
+       provider-name="ARNU Box / Josh.5">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">ARNU Box Speed Tester</summary>
+    <description lang="en">ARNU Box Speed Tester powered by speedtest.net will give you accurate Internet speed/ping test results. \n Brought to you by http://www.arnubox.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="script.tvguide.vistatv" name="VistaTV's EPG" version="1.0.1" provider-name="VistaTV">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
@@ -1729,7 +1747,7 @@ provider-name="VistaTV">
 
 <addon id="script.vistatvtools"
   name="VistaTV Tools"
-  version="2.5"
+  version="2.6"
   provider-name="VistaTV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
