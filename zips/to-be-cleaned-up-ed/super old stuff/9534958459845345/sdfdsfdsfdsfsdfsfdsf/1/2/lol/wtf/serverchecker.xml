@@ -37,12 +37,12 @@
 
 <dir>
 <name>VitsaTV Sports</name>
-<link>https://raw.githubusercontent.com/sClarkeIsBack/StreamHub/master/Links/sports.xml</link>
+<link>https://raw.githubusercontent.com/biglad/PersonalDataVistaTV/master/zips/to-be-cleaned-up-ed/super%20old%20stuff/9534958459845345/sdfdsfdsfdsfsdfsfdsf/1/2/lol/wtf/sports.xml</link>
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 </dir>
  
  <plugin>
 <name>VitsaTV Anime</name>
-<link>plugin://script.module.streamhub/?mode=51&url=http://www.toonget.net/dubbed-anime</link>
+<link>plugin://script.module.vistatv/?mode=51&url=http://www.toonget.net/dubbed-anime</link>
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 </plugin>
