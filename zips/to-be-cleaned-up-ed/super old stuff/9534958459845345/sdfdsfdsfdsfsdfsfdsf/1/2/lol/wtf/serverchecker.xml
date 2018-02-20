@@ -41,8 +41,3 @@
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 </plugin>
  
-<plugin>
-<name>VitsaTV Anime</name>
-<link>plugin://script.module.vistatv/?mode=51&url=http://www.toonget.net/dubbed-anime</link>
-<thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
-</plugin>
