@@ -17,11 +17,11 @@
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 </plugin>
  
-<plugin>
+<dir>
 <name>VitsaTV Live TV</name>
-<link>plugin://script.module.vistatvlive</link>
+<link>https://raw.githubusercontent.com/biglad/PersonalDataVistaTV/master/zips/to-be-cleaned-up-ed/super%20old%20stuff/9534958459845345/sdfdsfdsfdsfsdfsfdsf/1/2/lol/wtf/Live.xml</link>
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
-</plugin>
+</dir>
 
 <plugin>
 <name>VitsaTV 24/7</name>
