@@ -58,7 +58,7 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk
 <item>
 <title>ITV</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://itv1liveios-i.akamaihd.net/hls/live/203437/itvlive/ITV1MN/master_Main1800.m3u8&amp;mode=9999&amp;name=ITV+1&amp;iconimage=http%3A%2F%2Fblog.careco.co.uk%2Fwp-content%2Fuploads%2F2015%2F08%2Fx__i0KC0.png&amp;description=::LISTNAME:ITV 1::#
+sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=204&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DITV%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DITV+News+London%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F204.png&amp;description=No+information+available.&amp;genre=Entertainment::LISTNAME:ITV 1::#
 sublink:LISTSOURCE:plugin://plugin.video.ZemTV-shani/?url=ZGlyZWN0MjpodHRwOi8vOTUuMTU0LjIzNy44ODo4MDgwL01hdEgzM1JhYWFleWVUZVYtMS9TdHJtL2luZGV4Lm0zdTh8VXNlci1BZ2VudD1BcHBsZUNvcmVNZWRpYS8xLjAuMC4xM0E0NTIgKGlQaG9uZTsgVTsgQ1BVIE9TIDlfMF8yIGxpa2UgTWFjIE9TIFg7IGVuX2diKQ%3D%3D&amp;mode=11&amp;name=Itv+sports+1::LISTNAME:ITV 1 (NO GEO LOCK)::#
 </link>
 <thumbnail>http://blog.careco.co.uk/wp-content/uploads/2015/08/x__i0KC0.png</thumbnail>
