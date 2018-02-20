@@ -1,130 +1,22 @@
-<dir>
-<title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]Live TV[/COLOR]</title>
-</dir>
+
 
 <plugin>
-<title>[COLOR gold]CerebroTV: [/COLOR][COLOR green]Open Pre Linked [COLOR red]UK[/COLOR] TV Guide[/COLOR]</title>
-<link>plugin://script.cerebro.tvguide.open</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+<title>BBCi Player (Geo Locked to UK)</title>
+<link>plugin://script.module.vistatvlive/?description&amp;iconimage=https%3a%2f%2fgithub.com%2fbiglad%2fPersonalDataVistaTV%2fraw%2fmaster%2fimages%2ficon.png&amp;mode=1000&amp;name=%5bCOLOR%20white%5d%5bB%5dBBCi%20Player%5b%2fCOLOR%5d%5b%2fB%5d&amp;url=url</link>
+<thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
+<fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
-<title>[COLOR gold]CerebroTV: [/COLOR][COLOR green]IPTV Master[/COLOR]</title>
-<link>plugin://plugin.video.cerebroIPTVBase/</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+<title>Mobdro IPTV (Blocked DUring EPL Games)</title>
+<link>plugin://script.module.vistatvlive/?description&amp;iconimage=http%3a%2f%2fapk.co%2fimages%2fmobdro-2014-freemium.png&amp;mode=4&amp;name=%5bCOLOR%20white%5d%5bB%5dMobdro%5b%2fCOLOR%5d%5b%2fB%5d&amp;url=mobdro</link>
+<thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
+<fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
-<title>[COLOR gold]CerebroTV: [/COLOR][COLOR green]Prime IPTV[/COLOR]</title>
-<link>plugin://plugin.video.goodfellas2/?fanart=https%3a%2f%2fraw.githubusercontent.com%2fbiglad%2fBUILDONLY%2fmaster%2fbuild_data%2ffanart.jpg&amp;mode=1&amp;name=%5bCOLOR%20green%5dUK%20%26%20USA%20Sports%5b%2fCOLOR%5d&amp;url=https%3a%2f%2fraw.githubusercontent.com%2fbiglad%2fBUILDONLY%2fmaster%2fconfigs%2fSDSports.xml</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+<title>Pak India Sports</title>
+<link>plugin://script.module.vistatvlive/?description&amp;iconimage=http%3a%2f%2fwww.madhyamam.com%2fen%2fsites%2fdefault%2ffiles%2findia-pak.jpg&amp;mode=4&amp;name=%5bCOLOR%20white%5d%5bB%5dPak%20India%20Sports%5b%2fCOLOR%5d%5b%2fB%5d&amp;url=pakindiasport</link>
+<thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
+<fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
 </plugin>
-
-<plugin>
-<title>[COLOR gold]CerebroTV: [/COLOR][COLOR green]NetStreams IPTV[/COLOR]</title>
-<link>plugin://script.module.netstreams.iptv/</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR gold]CerebroTV: [/COLOR][COLOR green]Make Your Own InI File For FREE TV Guide[/COLOR]</title>
-<link>plugin://plugin.video.echoini</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR gold]CerebroTV: [/COLOR][COLOR pink]SwitfStreams[/COLOR]</title>
-<link>plugin://plugin.video.tvone11/</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR gold]CerebroTV: [/COLOR][COLOR pink]SolidStremz[/COLOR]</title>
-<link>plugin://plugin.video.tvone111/</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR gold]CerebroTV: [/COLOR][COLOR pink]Mobdro[/COLOR]</title>
-<link>plugin://plugin.video.tvone1/</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR gold]CerebroTV: [/COLOR][COLOR pink]UKTVNOW Streams[/COLOR]</title>
-<link>plugin://plugin.video.tvone/</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR gold]CerebroTV: [/COLOR][COLOR pink]IPTV[/COLOR]</title>
-<link>plugin://plugin.video.livehub2/</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR gold]CerebroTV: [/COLOR][COLOR pink]IPTV 2[/COLOR]</title>
-<link>plugin://plugin.video.tvone1111/</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR pink]Cerebro Pak India Streams[/COLOR] (UK TV + UK/USA/Indian Sports)</title>
-<link>plugin://plugin.video.livehub2/?description&iconimage=http%3a%2f%2fwww.madhyamam.com%2fen%2fsites%2fdefault%2ffiles%2findia-pak.jpg&mode=4&name=%5bCOLOR%20white%5d%5bB%5dPak%20India%20Sports%5b%2fCOLOR%5d%5b%2fB%5d&url=pakindiasport</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR pink]UK TV Freeview Basic[/COLOR]</title>
-<link>plugin://plugin.video.tvplayer</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR pink]UK TV Freeview Basic[/COLOR] BackUp</title>
-<link>plugin://plugin.video.freeview/?mode=5&name=Live%20TV&url=url</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR pink]BBCi Player[/COLOR]</title>
-<link>plugin://plugin.video.livehub2/?description&iconimage=https%3a%2f%2fpbs.twimg.com%2fprofile_images%2f851480480700669952%2f5ttz9hg1.jpg&mode=1&name=%5bCOLOR%20white%5d%5bB%5dBBC%20iPlayer%5b%2fCOLOR%5d%5b%2fB%5d&url=iplayer</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR pink]BBCi Player Regional[/COLOR] (Premium Only)</title>
-<link>plugin://plugin.program.super.favourites/?label=[COLOR black]bbc[/COLOR]&mode=400&path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper%20Favourites%5Cbbc&sf_options=fanart%3Dspecial%3A%2F%2Fhome%2Faddons%5Cplugin.program.super.favourites%5Cfanart.jpg%26_options_sf</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR pink]ITV Player Live[/COLOR]</title>
-<link>plugin://plugin.video.livehub2/?description&iconimage=http%3a%2f%2fblog.careco.co.uk%2fwp-content%2fuploads%2f2015%2f08%2fx__i0KC0.png&mode=1&name=%5bCOLOR%20white%5d%5bB%5dITV%20Player%5b%2fCOLOR%5d%5b%2fB%5d&url=itv</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR pink]ITV Player Full[/COLOR] (AKA ITV HUB)</title>
-<link>plugin://plugin.video.itv/</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</plugin>
-
