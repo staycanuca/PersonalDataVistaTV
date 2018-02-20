@@ -1,10 +1,10 @@
 <dir>
-<title>[COLOR gold]VistaTV: [/COLOR][COLOR red]24/7 TV[/COLOR]</title>
+<title>VistaTV: 24/7 TV</title>
 </dir>
 
 <plugin>
 <title>[COLOR pink]24-7 TV Shows[/COLOR] (Live)</title>
-<link>plugin://plugin.video.tvone1/list_channels/shows</link>
+<link>plugin://script.module.vistatvlive/?description&amp;iconimage=http%3a%2f%2fapk.co%2fimages%2fmobdro-2014-freemium.png&amp;mode=4&amp;name=%5bCOLOR%20white%5d%5bB%5d24%2f7%5b%2fCOLOR%5d%5b%2fB%5d&amp;url=mobdro247</link>
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 <fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
 </plugin>
