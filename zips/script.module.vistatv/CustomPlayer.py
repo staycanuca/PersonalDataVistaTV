@@ -1,14 +1,20 @@
 # -*- coding: utf-8 -*-
 import xbmc
+import xbmcaddon
 
+__addon__ = xbmcaddon.Addon()
+__addonname__ = __addon__.getAddonInfo('name')
+__icon__ = __addon__.getAddonInfo('icon')
 
 class MyXBMCPlayer(xbmc.Player):
+    #xbmc.executebuiltin('PlayerControl(stop)') 
+    #xbmc.executebuiltin("Notification([COLOR=gold]Cerebro TV[/COLOR],This Channel May Take A Few Clicks Checking 5 Servers,7000,"+__icon__+")")
     def __init__( self, *args, **kwargs ):
         self.is_active = True
         self.urlplayed = False
         self.pdialogue=None
         print "#XBMCPlayer#"
-    
+ 
     #def play(self, url, listitem):
     #   print 'Now im playing... %s' % url
     #    self.is_active = False
@@ -19,20 +25,14 @@ class MyXBMCPlayer(xbmc.Player):
 	#	self.pdialogue=pdialogue
 		
     def onPlayBackStarted( self ):
-        print "#Playback Started#"
-        try:
-            print "#Im playing :: " 
-        except:
-            print "#I failed get what Im playing#"
         if (self.pdialogue):
             self.pdialogue.close()
         self.urlplayed = True
             
     def onPlayBackEnded( self ):
-        print "#Playback Ended#"
         self.is_active = False
+        self.urlplayed = False
         
     def onPlayBackStopped( self ):
-        print "## Playback Stopped ##"
         self.is_active = False
-
+        self.urlplayed = False

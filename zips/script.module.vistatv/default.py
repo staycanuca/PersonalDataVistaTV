@@ -2,7 +2,7 @@ import base64,hashlib,os,random,re,requests,shutil,string,sys,urllib,urllib2,jso
 import xbmc,xbmcaddon,xbmcgui,xbmcplugin,xbmcvfs
 
 
-addon_id   = 'script.module.streamhub'
+addon_id   = 'script.module.vistatv'
 
 icon       = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id, 'icon.png'))
 fanart     = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id , 'fanart.jpg'))

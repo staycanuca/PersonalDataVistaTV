@@ -12,10 +12,11 @@ def cat():
 	#addDir('[COLOR white][B]IPTV Restream[/COLOR][/B]','iptvrestream',4,'https://1.bp.blogspot.com/-SnEmyxvBHxA/WDW4v6asHAI/AAAAAAAAUac/QBXOMnYAH2Y8MNS1qDbJxgswJpnBfcgAACLcB/s1600/14494667_992633267526877_2246028541223869412_n.jpg',fanart,'')
 	#addDir('[COLOR white][B]Mega IPTV[/COLOR][/B]','megaiptv',4,'https://i.ytimg.com/vi/xiMZ231EBus/hqdefault.jpg',fanart,'')
 	addDir('[COLOR white][B]Mobdro[/COLOR][/B]','mobdro',4,'http://apk.co/images/mobdro-2014-freemium.png',fanart,'')
+	addDir('[COLOR white][B]24/7[/COLOR][/B]','mobdro247',4,'http://apk.co/images/mobdro-2014-freemium.png',fanart,'')
 	addDir('[COLOR white][B]Pak India Sports[/COLOR][/B]','pakindiasport',4,'http://www.madhyamam.com/en/sites/default/files/india-pak.jpg',fanart,'')
-	#addDir('[COLOR white][B]Snappy Streamz[/COLOR][/B]','snappystreams',4,'https://www.apkdld.com/wp-content/uploads/2017/06/snappy-streamz-apk-300x293.jpg',fanart,'')
-	#addDir('[COLOR white][B]Swift Streamz[/COLOR][/B]','swiftstreams',4,'http://www.swiftstreamz.com/images/mbl-app.png',fanart,'')
-#	addDir('[COLOR white][B]UKTV Now[/COLOR][/B]','uktvnow',4,'https://kodicommunity.com/wp-content/uploads/2016/06/uk-tv-now-addon-plugin-xbmc-kodi1-1.png',fanart,'')
+	#addDir('[COLOR white][B]Snappy Streamz[/COLOR][/B]','solidstreams',4,'https://www.apkdld.com/wp-content/uploads/2017/06/snappy-streamz-apk-300x293.jpg',fanart,'')
+	#addDir('[COLOR white][B]Swift Streamz[/COLOR][/B]','swiftstreams2',4,'http://www.swiftstreamz.com/images/mbl-app.png',fanart,'')
+	#addDir('[COLOR white][B]UKTV Now[/COLOR][/B]','uktvnow',4,'https://kodicommunity.com/wp-content/uploads/2016/06/uk-tv-now-addon-plugin-xbmc-kodi1-1.png',fanart,'')
 	#addDir('[COLOR white][B]TV Online Plus+[/COLOR][/B]','tvonlineplus',4,'https://1.bp.blogspot.com/-I_th1gsuna8/WRsJAg3SqMI/AAAAAAAAGdk/J-YznRwYMaMB_Y9ZINmhQzyvopkAbtA1wCLcB/s200/18424147_301931813588370_8617351845985017033_n.jpg',fanart,'')	#addDir('[COLOR white][B]Swift Streams[/COLOR][/B]','swiftstreams',4,'https://i.ytimg.com/vi/SZ5BkBmHbFk/hqdefault.jpg',fanart,'')
 
 	
@@ -23,7 +24,7 @@ def get(url):
 	if url == 'sourceetv':
 		sourcetv()
 	elif url == 'swiftstreams':
-		swiftstreams()
+		swiftstreams2()
 	elif 'swiftstreamz.com' in url:
 		swiftstreamschans(url)
 	elif url == 'snappystreams':
@@ -32,10 +33,14 @@ def get(url):
 		snappystreamschans(url)
 	elif url == 'mobdro':
 		mobdro()
+	elif url == 'mobdro247':
+		mobdro247()
 	elif url == 'livetv':
 		livetv()
 	elif url == 'geotv':
 		geotv()
+	elif url == 'solidstreams':
+		solidstreams()
 	elif '173.212.206.199' in url:
 		geotvchans(url)
 	elif 'pakindiasport' in url:
@@ -66,6 +71,15 @@ def get(url):
 username   ='-1'
 
 
+def solidstreams():
+	xbmc.executebuiltin('RunAddon(plugin.video.tvone111)')
+	
+def mobdro2():
+	xbmc.executebuiltin('RunAddon(plugin.video.tvone1)')
+	
+def swiftstreams2():
+	xbmc.executebuiltin('RunAddon(plugin.video.tvone11)')
+
 def megaiptv():
 	r = requests.get('http://pejaguide.com/IPTVv3/World/kategoria.php?kategoria=kategorit&udb=1234&pdb=12345',headers={'User-Agent':'Dalvik/2.1.0 (Linux; U; Android 7.0; SM-G928F Build/NRD90M)'}).text
 	all = regex_get_all(r,'<kategoria>','</kategoria>')
@@ -75,15 +89,7 @@ def megaiptv():
 		icon = regex_from_to(a,'<fotografia>','</fotografia>')
 		if not 'VOD' in name:addDir(name,urllib.quote_plus(url.replace('&amp;','&')),3,icon,fanart,'')
 def uktvnow():
-	addDir('All Channels','UKTVNOW:0',4,icon,fanart,'')
-	addDir('Entertainment','UKTVNOW:1',4,icon,fanart,'')
-	addDir('Movies','UKTVNOW:2',4,icon,fanart,'')
-	addDir('Sports','UKTVNOW:5',4,icon,fanart,'')
-	addDir('Music','UKTVNOW:3',4,icon,fanart,'')
-	addDir('News','UKTVNOW:4',4,icon,fanart,'')
-	addDir('Documentary','UKTVNOW:6',4,icon,fanart,'')
-	addDir('Kids Corner','UKTVNOW:7',4,icon,fanart,'')
-	addDir('Food','UKTVNOW:8',4,icon,fanart,'')
+	xbmc.executebuiltin('RunAddon(plugin.video.tvone)')
 	
 def uktvnowgetChannels():
 	
@@ -286,10 +292,20 @@ def mobdro():
 			
             all   = re.compile('\n([^:]+):(mpd://[^\n]+)').findall(data)
             for name,url in all:
-				addDir('[B][COLOR white]%s[/COLOR][/B]'%name,url,10,'http://geekpeaksoftware.com/wp-content/uploads/2016/10/mobdro.png',fanart,'')
+				addDir('[COLOR white]%s[/COLOR]'%name,url,10,icon,fanart,'')
 				
-
-		
+def mobdro247():
+        import re
+        file = xbmc.translatePath('special://home/addons/script.module.vistatvlive/resources/')
+        if os.path.exists(file):
+            file = open(os.path.join(file, '247.txt'))
+            data = file.read()
+            file.close()
+			
+            all   = re.compile('\n([^:]+):(mpd://[^\n]+)').findall(data)
+            for name,url in all:
+				addDir('[COLOR white]%s[/COLOR]'%name,url,10,icon,fanart,'')
+	
 def swiftstreams():
 	import json,requests
 	url = 'http://swiftstreamz.com/SwiftStreamz/api.php'

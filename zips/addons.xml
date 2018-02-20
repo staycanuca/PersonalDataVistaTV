@@ -1410,7 +1410,7 @@ Initial release.
 	</extension>
 </addon>
 
-<addon id="script.module.vistatv" name="Vista TV Worker" version="1.0" Eprovider-name="Biglad">
+<addon id="script.module.vistatv" name="Vista TV Worker" version="1.1" Eprovider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -1429,7 +1429,7 @@ Initial release.
   </extension>
 </addon>
 
-<addon id="script.module.vistatvlive" name="Vitsa Live TV" version="1.0.1" provider-name="VistaTV">
+<addon id="script.module.vistatvlive" name="Vitsa Live TV" version="1.0.3" provider-name="VistaTV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />

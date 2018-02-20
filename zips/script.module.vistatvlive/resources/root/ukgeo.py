@@ -1,15 +1,16 @@
 import xbmc,os
 
-addon_id   = 'script.module.streamhublive'
+addon_id   = 'script.module.vistatvlive'
 
 icon       = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id, 'icon.png'))
 fanart     = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id , 'fanart.jpg'))
 
 def cat():
-	addDir('[COLOR white][B]BBC iPlayer[/COLOR][/B]','iplayer',1,'https://pbs.twimg.com/profile_images/851480480700669952/5ttz9hg1.jpg',fanart,'')
-	addDir('[COLOR white][B]ITV Player[/COLOR][/B]','itv',1,'http://blog.careco.co.uk/wp-content/uploads/2015/08/x__i0KC0.png',fanart,'')
-	addDir('[COLOR white][B]Tv Catchup[/COLOR][/B]','tvcatchup',1,'http://www.tvcatchup.com/tvcatchup-sm.jpg',fanart,'')
-	addDir('[COLOR white][B]Tv Player[/COLOR][/B]','tvplayer',1,'http://www.broadbandtvnews.com/wp-content/uploads/2017/04/TVPlayer.png',fanart,'')
+	iplayer()
+	#addDir('[COLOR white][B]BBC iPlayer[/COLOR][/B]','iplayer',1,'https://pbs.twimg.com/profile_images/851480480700669952/5ttz9hg1.jpg',fanart,'')
+	#addDir('[COLOR white][B]ITV Player[/COLOR][/B]','itv',1,'http://blog.careco.co.uk/wp-content/uploads/2015/08/x__i0KC0.png',fanart,'')
+	#addDir('[COLOR white][B]Tv Catchup[/COLOR][/B]','tvcatchup',1,'http://www.tvcatchup.com/tvcatchup-sm.jpg',fanart,'')
+	#addDir('[COLOR white][B]Tv Player[/COLOR][/B]','tvplayer',1,'http://www.broadbandtvnews.com/wp-content/uploads/2017/04/TVPlayer.png',fanart,'')
 
 def get(url):
 	if url == 'tvplayer':
@@ -38,12 +39,7 @@ def tvcatchup():
 		
 		
 def tvplayer():
-	open = OPEN_URL('http://tvplayer.com/channels')
-	all  = regex_get_all(open,'class="button relative"','</a>')
-	for a in all:
-		name = regex_from_to(a,'title="','"')
-		url  = regex_from_to(a,'href="','"')
-		addDir('[COLOR white][B]%s[/COLOR][/B]'%name,'http://tvplayer.com' + url,9999,icon,fanart,'')
+	xbmc.executebuiltin('RunAddon(plugin.video.tvplayer)')
 		
 		
 		

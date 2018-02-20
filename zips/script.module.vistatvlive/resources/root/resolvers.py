@@ -182,7 +182,7 @@ def pickserver():
 
 
 def mobdroresolve(url):
-    xbmc.executebuiltin('PlayerControl(stop)') 
+    #xbmc.executebuiltin('PlayerControl(stop)') 
     import random,time,md5
     from base64 import b64encode
     url  = (url).replace('mpd://','')

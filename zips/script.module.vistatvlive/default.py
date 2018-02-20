@@ -7,8 +7,8 @@ fanart     = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id
 logfile    = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id, 'log.txt'))
 
 def home():
-	addDir('[COLOR white][B]UK Geo Locked[/COLOR][/B]','url',1000,'https://s22.postimg.org/nboqvr74h/ukgeolocked.png',fanart,'')
-	addDir('[COLOR white][B]Android API[/COLOR][/B]','url',4000,'https://s22.postimg.org/in8r0khxt/androidapi.png',fanart,'')
+	addDir('[COLOR white][B]BBCi Player[/COLOR][/B]','url',1000,'https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png',fanart,'')
+	addDir('[COLOR white][B]NO Geo Locked IPTV[/COLOR][/B]','url',4000,'https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png',fanart,'')
 	
 def log(text):
 	file = open(logfile,"w+")
@@ -44,7 +44,8 @@ def play(url,name,icon,description,pdialogue=None):
 				control.sleep(1000)
 			while xbmc.Player().isPlayingVideo():
 					control.sleep(2000)
-			control.sleep(5000)
+			#control.sleep(5000)
+			#return
 			
 			
 def playf4m(url,name):
@@ -126,19 +127,19 @@ def regex_get_all(text, start_with, end_with):
 
 
 def addDir(name,url,mode,iconimage,fanart,description):
-	import xbmcgui,xbmcplugin,urllib,sys
-	u=sys.argv[0]+"?url="+url+"&mode="+str(mode)+"&name="+urllib.quote_plus(name)+"&iconimage="+urllib.quote_plus(iconimage)+"&description="+urllib.quote_plus(description)
-	ok=True
-	liz=xbmcgui.ListItem(name, iconImage="DefaultFolder.png", thumbnailImage=iconimage)
-	liz.setInfo( type="Video", infoLabels={"Title": name,"Plot":description})
-	liz.setProperty('fanart_image', fanart)
-	if mode==87:
-		liz.setProperty("IsPlayable","true")
-		ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz,isFolder=False)
-	else:
-		ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz,isFolder=True)
-	return ok
-	xbmcplugin.endOfDirectory
+    import xbmcgui,xbmcplugin,urllib,sys
+    u=sys.argv[0]+"?url="+url+"&mode="+str(mode)+"&name="+urllib.quote_plus(name)+"&iconimage="+urllib.quote_plus(iconimage)+"&description="+urllib.quote_plus(description)
+    ok=True
+    liz=xbmcgui.ListItem(name, iconImage="DefaultFolder.png", thumbnailImage=iconimage)
+    liz.setInfo( type="Video", infoLabels={"Title": name,"Plot":description})
+    liz.setProperty('fanart_image', fanart)
+    if mode==87:
+        liz.setProperty("IsPlayable","true")
+        ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz,isFolder=False)
+    else:
+        ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz,isFolder=True)
+    return ok
+    xbmcplugin.endOfDirectory
 
 
 def OPEN_URL(url):
