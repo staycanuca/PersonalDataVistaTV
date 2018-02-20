@@ -2,21 +2,21 @@
 
 <plugin>
 <title>BBCi Player (Geo Locked to UK)</title>
-<link>plugin://script.module.vistatvlive/?description&amp;iconimage=https%3a%2f%2fgithub.com%2fbiglad%2fPersonalDataVistaTV%2fraw%2fmaster%2fimages%2ficon.png&amp;mode=1000&amp;name=%5bCOLOR%20white%5d%5bB%5dBBCi%20Player%5b%2fCOLOR%5d%5b%2fB%5d&amp;url=url</link>
+<link>plugin://script.module.vistatvlive/?description&iconimage=https%3a%2f%2fgithub.com%2fbiglad%2fPersonalDataVistaTV%2fraw%2fmaster%2fimages%2ficon.png&mode=1000&name=%5bCOLOR%20white%5d%5bB%5dBBCi%20Player%5b%2fCOLOR%5d%5b%2fB%5d&url=url</link>
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 <fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
 <title>Mobdro IPTV (Blocked DUring EPL Games)</title>
-<link>plugin://script.module.vistatvlive/?description&amp;iconimage=http%3a%2f%2fapk.co%2fimages%2fmobdro-2014-freemium.png&amp;mode=4&amp;name=%5bCOLOR%20white%5d%5bB%5dMobdro%5b%2fCOLOR%5d%5b%2fB%5d&amp;url=mobdro</link>
+<link>plugin://script.module.vistatvlive/?description&iconimage=http%3a%2f%2fapk.co%2fimages%2fmobdro-2014-freemium.png&mode=4&name=%5bCOLOR%20white%5d%5bB%5dMobdro%5b%2fCOLOR%5d%5b%2fB%5d&url=mobdro</link>
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 <fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
 <title>Pak India Sports</title>
-<link>plugin://script.module.vistatvlive/?description&amp;iconimage=http%3a%2f%2fwww.madhyamam.com%2fen%2fsites%2fdefault%2ffiles%2findia-pak.jpg&amp;mode=4&amp;name=%5bCOLOR%20white%5d%5bB%5dPak%20India%20Sports%5b%2fCOLOR%5d%5b%2fB%5d&amp;url=pakindiasport</link>
+<link>plugin://script.module.vistatvlive/?description&iconimage=http%3a%2f%2fwww.madhyamam.com%2fen%2fsites%2fdefault%2ffiles%2findia-pak.jpg&mode=4&name=%5bCOLOR%20white%5d%5bB%5dPak%20India%20Sports%5b%2fCOLOR%5d%5b%2fB%5d&url=pakindiasport</link>
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 <fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
 </plugin>
