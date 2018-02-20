@@ -47,8 +47,14 @@
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 </plugin>
 
+<dir>
+<name>VitsaTV Sports 2</name>
+<link>https://raw.githubusercontent.com/biglad/PersonalDataVistaTV/master/zips/to-be-cleaned-up-ed/super%20old%20stuff/9534958459845345/sdfdsfdsfdsfsdfsfdsf/1/2/lol/wtf/sports.xml</link>
+<thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
+</dir>
+
 <plugin>
-<name>VitsaTV Tools</name>
+<name>VitsaTV Addon Settings</name>
 <link>plugin://plugin.video.vistatv/?action=openSettings&query=5.0</link>
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 </plugin>
