@@ -1658,6 +1658,24 @@ provider-name="VistaTV">
   </extension>
 </addon>
 
+<addon id="script.vista.ondemanmenu"
+  name="VistaTV On Demand Menu"
+  version="4.5"
+  provider-name="Vista TV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">VistaTV Menu System</summary>
+    <description lang="en">VistaTV Menu System</description>
+	<disclaimer>VistaTV Menu System</disclaimer>
+  </extension>
+</addon>
+
 <addon id="skin.estuary.mod" version="1.7.15" name="VistaTV Skin" provider-name="Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
