@@ -17,11 +17,11 @@ def menuoptions():
         )
         
     call = dialog.select('[B][COLOR=yellow]On Demand Menu[/COLOR][/B]', [ 
-    '[B]      Movies[/B]' ,	
-    '[B]      TV Shows[/B]',
-	'[B]      Latest TV Episodes[/B]',
-	'[B]      Vidics[/B]',
-	'[B]      Sky Cinema on Demand[/B]',
+    '[B][COLOR=gold]Movies[/COLOR][/B]' ,	
+    '[B][COLOR=gold]TV Shows[/COLOR][/B]',
+	'[B][COLOR=gold]Latest TV Episodes[/COLOR][/B]',
+	'[B][COLOR=gold]Vidics[/COLOR][/B]',
+	'[B][COLOR=gold]Sky Cinema on Demand[/COLOR][/B]',
     ])
     # dialog.selectreturns
     #   0 -> escape pressed

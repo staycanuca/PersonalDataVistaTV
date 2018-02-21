@@ -23,13 +23,13 @@ def menuoptions():
 		function9
         )
         
-    call = dialog.select('[B][COLOR=yellow]VistaTV[/COLOR][COLOR=red] Tools Menu[/COLOR][/B]', [
-    '[B][COLOR=cyan]Show Me My Wifi Signal[/COLOR][/B] - ([I]Andriod [/I])',
+    call = dialog.select('[B][COLOR=yellow]VistaTV[/COLOR][COLOR=yellow] Tools Menu[/COLOR][/B]', [
+    '[B][COLOR=gold]Show Me My Wifi Signal[/COLOR][/B] - ([I]Andriod [/I])',
     '[B][COLOR=gold]Show My Info[/COLOR][/B]',
-    '[B][I][COLOR=yellow]VistaTV House Keeper[/COLOR][/B][/I] (clean up system and reboot)', 
-    '[B][COLOR=green]Test My Connection Speed[/COLOR][/B]', 
-    '[B][COLOR=lightblue]Re-Download the last update[/COLOR][/B]', 
-    '[B][COLOR=lightblue]Open Main Box Settings[/COLOR][/B]', 
+    '[B][COLOR=gold]VistaTV House Keeper[/COLOR][/B] (clean up system and reboot)', 
+    '[B][COLOR=gold]Test My Connection Speed[/COLOR][/B]', 
+    '[B][COLOR=gold]Re-Download the last update[/COLOR][/B]', 
+    '[B][COLOR=gold]Open Main Box Settings[/COLOR][/B]', 
     '[B][COLOR=gold]Update Addons & Repos[/COLOR][/B] (make sure your upto date)',
 	'[B][COLOR=gold]Change GUI Sounds[/COLOR][/B]',
 	'[B][COLOR=gold]Accounts & URL Resolver Settings[/COLOR][/B]'])
