@@ -6,7 +6,7 @@ import os, xbmc, xbmcaddon
 HOME           = xbmc.translatePath('special://home/')
 GUSERDATA      = os.path.join(HOME, 'userdata/addon_data/plugin.video.GenieTV')
 ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
-ADDONTITLE     = 'GENIE WIZ'
+ADDONTITLE     = 'VistaTV Wizard'
 EXCLUDES       = [ADDON_ID, GUSERDATA, 'repository.GenieTv', 'plugin.video.GenieTv', 'script.module.simplejson', 'script.module.requests', 'script.module.liveresolver', 'script.module.beautifulsoup4', 'script.module.beautifulsoup', 'script.module.addon.common', 'script.common.plugin.cache', 'script.module.urlresolver']
 # Text File with build info in it.
 BUILDFILE      = 'http://genietvcunts.co.uk/newwiz/builds.txt'

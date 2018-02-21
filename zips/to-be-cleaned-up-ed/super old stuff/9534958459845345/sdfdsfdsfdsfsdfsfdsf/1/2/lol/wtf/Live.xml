@@ -20,3 +20,38 @@
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 <fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
 </plugin>
+
+<plugin>
+<title>Solid Streams</title>
+<link>plugin://plugin.video.tvone111</link>
+<thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
+<fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>Swift Streams</title>
+<link>plugin://plugin.video.tvone11</link>
+<thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
+<fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>UKTVNOW Streams</title>
+<link>plugin://plugin.video.tvone</link>
+<thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
+<fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>USTVNOW Streams</title>
+<link>plugin://plugin.video.tvone1111</link>
+<thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
+<fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>EPG Links</title>
+<link>plugin://plugin.video.VistaTVsIPTV</link>
+<thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
+<fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
+</plugin>

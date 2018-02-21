@@ -25,8 +25,12 @@ import uservar
 from datetime import date, datetime, timedelta
 from resources.libs import extract, downloader, notify, loginit, debridit, traktit, skinSwitch, uploadLog, wizard as wiz
 
+xbmc.executebuiltin('UpdateAddonRepos()')
+xbmc.executebuiltin('UpdateLocalAddons()')
+xbmcgui.Dialog().notification("VitsaTV", "Updating Add-on's")
+
 ADDON_ID       = uservar.ADDON_ID
-ADDONTITLE     = uservar.ADDONTITLE
+ADDONTITLE     = "VistaTV Wizard"
 ADDON          = wiz.addonId(ADDON_ID)
 VERSION        = wiz.addonInfo(ADDON_ID,'version')
 ADDONPATH      = wiz.addonInfo(ADDON_ID,'path')
