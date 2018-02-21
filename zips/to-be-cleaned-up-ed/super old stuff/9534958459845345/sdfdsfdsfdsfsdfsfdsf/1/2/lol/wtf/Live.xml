@@ -8,7 +8,7 @@
 </plugin>
 
 <plugin>
-<title>Mobdro IPTV (Blocked DUring EPL Games)</title>
+<title>Mobdro IPTV (Blocked During EPL Games)</title>
 <link>plugin://script.module.vistatvlive/?description&iconimage=http%3a%2f%2fapk.co%2fimages%2fmobdro-2014-freemium.png&mode=4&name=%5bCOLOR%20white%5d%5bB%5dMobdro%5b%2fCOLOR%5d%5b%2fB%5d&url=mobdro</link>
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 <fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
