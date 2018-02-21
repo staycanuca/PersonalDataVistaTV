@@ -1,12 +1,12 @@
 <plugin>
-<title>[COLOR gold]CerebroTV: [/COLOR][COLOR orange]IPTV Sports[/COLOR]</title>
+<title>USTVNOW Sports</title>
 <link>plugin://plugin.video.tvone1111/list_channels/1</link>
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 <fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
-<title>[COLOR gold]CerebroTV: [/COLOR][COLOR orange]Pak India Sports[/COLOR]</title>
+<title>Pak India Sports</title>
 <link>plugin://plugin.video.livehub2/?description=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&iconimage=http%3a%2f%2fwww.madhyamam.com%2fen%2fsites%2fdefault%2ffiles%2findia-pak.jpg&mode=4&name=%5bCOLOR%20white%5d%5bB%5dPak%20India%20Sports%5b%2fCOLOR%5d%5b%2fB%5d&url=pakindiasport</link>
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 <fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
