@@ -1031,15 +1031,14 @@ provider-name="VistaTV">
 
 <addon
   id="plugin.video.vistavidics"
-  version="1.1"
+  version="1.2"
   name="VistaTV Vidics Scraper"
   provider-name="VistaTV">
   <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
 		<import addon="script.module.simplejson" />
-		<import addon="script.module.beautifulsoup" version="3.0.8"/>
-        <import addon="script.module.urlresolver" version="1.0.0"/>
-		<import addon="script.module.t0mm0.common" version="1.1.0"/>
+        <import addon="script.module.urlresolver" />
+		<import addon="script.module.t0mm0.common />
         <import addon="script.cerebro.pairwith" />
         <import addon="script.cerebro.pairwith.laucnher" />
         <import addon="script.module.requests" />
