@@ -1,7 +1,3 @@
-<dir>
-<title>VistaTV: 24/7 TV</title>
-</dir>
-
 <plugin>
 <title>24-7 TV Shows</title>
 <link>plugin://script.module.vistatvlive/?description&iconimage=http%3a%2f%2fapk.co%2fimages%2fmobdro-2014-freemium.png&mode=4&name=%5bCOLOR%20white%5d%5bB%5d24%2f7%5b%2fCOLOR%5d%5b%2fB%5d&url=mobdro247</link>
