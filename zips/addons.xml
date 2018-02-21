@@ -1644,7 +1644,7 @@ provider-name="VistaTV">
 
 <addon id="script.program.vistatvhousekeeper"
   name="VistaTV House Keeper"
-  version="1.5"
+  version="1.6"
   provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
