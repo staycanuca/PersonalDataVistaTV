@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.cachesystem"
   name="Cache System"
-  version="2.1" 
+  version="2.2" 
   provider-name="VistaTV">
   <requires>
     <import addon="xbmc.python" version="2.19.0"/>
@@ -10,7 +10,7 @@
   <extension point="xbmc.python.script" library="addon.py">
     <provides>executable</provides>
   </extension>
-  <extension point="xbmc.service" library="addon.py" start="startup"/>
+  <extension point="xbmc.service" library="startup.py" start="startup"/>
   <extension point="xbmc.addon.metadata">
   <language></language>
     <platform>all</platform>
