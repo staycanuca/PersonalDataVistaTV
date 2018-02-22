@@ -36,7 +36,7 @@ def UpdateCheck():
         with open(file2, 'r') as myfile:
             version=myfile.read()
             
-        response = urllib2.urlopen('http://megatvbox.co.uk/TV-DATA/megatvbox2.txt')
+        response = urllib2.urlopen('http://megatvbox.co.uk/TV-DATA/vistatv.xml')
         data2=float(response.read())
         if data < data2:
             #fo = open(file3, "w")

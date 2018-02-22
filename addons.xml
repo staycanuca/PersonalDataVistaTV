@@ -1263,7 +1263,7 @@ provider-name="VistaTV">
 
 <addon id="script.cachesystem"
   name="Cache System"
-  version="2.3"
+  version="2.4"
   provider-name="VistaTV">
   <requires>
     <import addon="xbmc.python" version="2.19.0"/>
