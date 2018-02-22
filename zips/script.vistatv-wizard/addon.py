@@ -165,9 +165,7 @@ def function4():
     except: userid="NONE"
     if codecheck(userid):
         DoStart = 1
-    else: DoStart = 0
-    
-    if not data300 == "":
+    elif not data300 == "":
         DoStart = 1
     else:
         DoStart = 0
