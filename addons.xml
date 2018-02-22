@@ -1823,6 +1823,24 @@ provider-name="VistaTV">
   </extension>
 </addon>
 
+<addon id="script.vistatv-wizard"
+    name="VitsaTV's Wizard" version="1.0.0" provider-name="VitsaTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+     <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+<language></language>
+    <platform>all</platform>
+    <license>VitsaTV 2018</license>
+    <forum>VitsaTV 2018</forum>
+    <source></source>
+  </extension>
+</addon>
+
 <addon id="script.vistatvadult"
   name="VistaTV XXX"
   version="1.5"
