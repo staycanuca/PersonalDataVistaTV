@@ -1342,7 +1342,7 @@ provider-name="VistaTV">
 </addon>
 
 <addon id="script.megatvupdater"
-    name="..## CerebroTV Updater ##.." version="1.0.1" provider-name="VistaTV">
+    name="..## CerebroTV Updater ##.." version="1.0.2" provider-name="VistaTV">
   <requires>
     <import addon="xbmc.python" version="2.19.0"/>
     <import addon="script.module.httplib2" version="0.8.0" />
