@@ -28,7 +28,7 @@ def menuoptions():
     '[B][COLOR=gold]Show My Info[/COLOR][/B]',
     '[B][COLOR=gold]VistaTV House Keeper[/COLOR][/B] (clean up system and reboot)', 
     '[B][COLOR=gold]Test My Connection Speed[/COLOR][/B]', 
-    '[B][COLOR=gold]Re-Download the last update[/COLOR][/B]', 
+    '[B][COLOR=gold]VistaTV Wizard[/COLOR][/B]', 
     '[B][COLOR=gold]Open Main Box Settings[/COLOR][/B]', 
     '[B][COLOR=gold]Update Addons & Repos[/COLOR][/B] (make sure your upto date)',
 	'[B][COLOR=gold]Change GUI Sounds[/COLOR][/B]',
@@ -75,7 +75,7 @@ def function4():
     xbmc.executebuiltin('ActivateWindow(10025,"plugin://script.speedtestnet?sf_options=fanart%3Dspecial%3A%2F%2Fhome%2Faddons%5Cscript.speedtestnet%5Cfanart.jpg%26desc%3DARNU+Box+Speed+Tester+powered+by+speedtest.net+will+give+you+accurate+Internet+speed%2Fping+test+results.+%5Cn+Brought+to+you+by+http%3A%2F%2Fwww.arnubox.com%26_options_sf",return)')
 
 def function5():
-    xbmc.executebuiltin('ActivateWindow(10025,"plugin://script.megatvupdater",return)')
+    xbmc.executebuiltin('ActivateWindow(10025,"plugin://script.vistatv-wizard",return)')
 
 
 def function6():
