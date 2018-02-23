@@ -21,7 +21,7 @@ msgid "No description"
 msgstr ""
 
 msgctxt "#30001"
-msgid "[B]Downloading data from Cerebro TV[/B]"
+msgid "[B]Downloading data from VistaTV[/B]"
 msgstr ""
 
 msgctxt "#30002"
