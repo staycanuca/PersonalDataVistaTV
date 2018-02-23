@@ -733,7 +733,7 @@ Initial release.
   </extension>
 </addon>
 
-<addon id="plugin.video.tvheaven" name="VistvTV Heaven" version="1.0.25" provider-name="VistaTV">
+<addon id="plugin.video.tvheaven" name="VistvTV Heaven" version="1.0.26" provider-name="VistaTV">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.urlresolver"  version="2.1.2"/>
@@ -1031,7 +1031,7 @@ provider-name="VistaTV">
 
 <addon
   id="plugin.video.vistavidics"
-  version="1.3"
+  version="1.4"
   name="VistaTV Vidics Scraper"
   provider-name="VistaTV">
   <requires>

@@ -22,7 +22,7 @@ def pickserver():
     import random
     #servers = ['http://watchepisodeseries.unblocked.vc/','http://watchepisodeseries.unblockall.org/']
     #host = str(random.choice(servers))
-    host = 'http://watchepisodeseries.unblocked.vc/'
+    host = 'https://watchepisodeseries.unblocked.sh/'
     #xbmc.executebuiltin("Notification([COLOR=gold]Cerebro TV Heaven[/COLOR],Using Server @ "+host+","+icon+")")
     
     return str(host)
@@ -31,7 +31,7 @@ def pickserver():
 #        CurrentServer = pickserver()
 #except: CurrentServer = pickserver()
 CurrentServer = pickserver()
-Altserver = 'http://watchepisodeseries.unblockall.org/'
+Altserver = 'https://watchepisodeseries.unblocked.sh/'
 Altserver = str(Altserver)
 
 def CATEGORIES():
