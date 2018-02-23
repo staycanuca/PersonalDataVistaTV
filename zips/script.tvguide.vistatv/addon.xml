@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.tvguide.vistatv" name="VistaTV's EPG" version="1.0.1" provider-name="VistaTV">
+<addon id="script.tvguide.vistatv" name="VistaTV's EPG" version="1.0.2" provider-name="VistaTV">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>

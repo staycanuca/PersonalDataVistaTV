@@ -37,7 +37,7 @@ from shutil import copyfile
 import webbrowser
 import xbmcaddon
 dp = xbmcgui.DialogProgress()
-dp.create("[COLOR tomato]Cerebero TV[/COLOR]","Please Wait","......") 
+dp.create("[COLOR gold]VistaTV[/COLOR]","Please Wait","......") 
 
 __addon__ = xbmcaddon.Addon()
 __addonname__ = __addon__.getAddonInfo('name')
@@ -50,11 +50,11 @@ addonicon = xbmc.translatePath('special://addons/plugin.video.wargames/icon.png'
 iddata   = os.path.join(HOME, 'networksettings.xml')
 #with open(iddata, 'r') as myfile:
 #    data300=str(myfile.read())
-#response = urllib2.urlopen('http://cerebrotv.co.uk/TV-DATA/auth2.php?id='+str(data300)+'&ok=OK&ip='+ipaddy).read()
+#response = urllib2.urlopen('http://VistaTV.co.uk/TV-DATA/auth2.php?id='+str(data300)+'&ok=OK&ip='+ipaddy).read()
 #if not response == "OK":
-#    xbmc.executebuiltin("Notification([COLOR=gold]CerebroTV[/COLOR],NO CODE FOUND, ..,4000,"+__icon__+")")
+#    xbmc.executebuiltin("Notification([COLOR=gold]VistaTV[/COLOR],NO CODE FOUND, ..,4000,"+__icon__+")")
 #    exit()
-#xbmc.executebuiltin("Notification([COLOR=gold]CerebroTV[/COLOR],Opening TV Guide,2000,"+__icon__+")")
+#xbmc.executebuiltin("Notification([COLOR=gold]VistaTV[/COLOR],Opening TV Guide,2000,"+__icon__+")")
 
 
 
@@ -67,7 +67,7 @@ iddata   = os.path.join(HOME, 'networksettings.xml')
  
 
 
-LOCATION     = "https://github.com/biglad/BUILDONLY/blob/master/build_data/uk-new.zip?raw=true"
+LOCATION     = "https://github.com/biglad/PersonalDataVistaTV/blob/master/zips/newdata2.zip?raw=true"
 HOME     = xbmc.translatePath('special://home')
 ROOT     = xbmc.translatePath('special://home')
 file2     = os.path.join(ROOT, 'uk.zip')
@@ -77,14 +77,14 @@ file    = "master.xml"
 def download(url, dest, dp = None):
     if not dp:
         dp = xbmcgui.DialogProgress()
-        dp.create("[COLOR tomato]TV Guide Auto Update[/COLOR]","Downloading New TV Guide Data","This will take a few seconds.")
+        dp.create("[COLOR gold]TV Guide Auto Update[/COLOR]","Downloading New TV Guide Data","This will take a few seconds.")
         dp.update(0)
     start_time=time.time()
     try:
         urllib.URLopener.version = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36'
         urllib.urlretrieve(url, dest, lambda nb, bs, fs: _pbhook(nb, bs, fs, dp, start_time))
         dp.close()
-        dp.create("[COLOR tomato]TV Guide Auto Update[/COLOR]","Installing New TV Guide Data","Please Wait. [COLOR red]www.cerebrotv.co.uk[/COLOR]")
+        dp.create("[COLOR gold]TV Guide Auto Update[/COLOR]","Installing New TV Guide Data","Please Wait. [COLOR red]www.vistatv.co.uk[/COLOR]")
         if os.path.exists(file2):
             zfile = zipfile.ZipFile(file2, 'r')	
             nItem = float(len(zfile.infolist()))
@@ -103,7 +103,7 @@ def download(url, dest, dp = None):
                         
         dp.close()
         try:
-            xbmc.executebuiltin("Notification(CerebroTV,Some Channels May Take a Few Tries,3000,"+__icon__+")")
+            xbmc.executebuiltin("Notification(VistaTV,Some Channels May Take a Few Tries,3000,"+__icon__+")")
             w = gui.TVGuide()
             w.doModal()
             del w
@@ -140,7 +140,7 @@ def _pbhook(numblocks, blocksize, filesize, dp, start_time):
 
 def dlProgress(count, blockSize, totalSize):
       percent = int(count*blockSize*100/totalSize)
-      dp = utils.Progress("[COLOR tomato]CerebroTV Checking For Updates[/COLOR]", line1 = "[COLOR yellow]Please Wait Download in Progress[/COLOR].", line2 = "[COLOR gold]CerebroTV Update Service[/COLOR]", line3 = "test")
+      dp = utils.Progress("[COLOR tomato]VistaTV Checking For Updates[/COLOR]", line1 = "[COLOR yellow]Please Wait Download in Progress[/COLOR].", line2 = "[COLOR gold]VistaTV Update Service[/COLOR]", line3 = "test")
       dp.update(percent)
 
 
@@ -152,7 +152,7 @@ def DownloaderClass(url,dest, dp = None):
         urllib.URLopener.version = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36'
         urllib.urlretrieve(url, dest, lambda nb, bs, fs: _pbhook(nb, bs, fs, dp, start_time))
         dp.close()
-        dp.create("[COLOR tomato]TV Guide Auto Update[/COLOR]","Installing New TV Guide Data","Please Wait. [COLOR red]www.cerebrotv.co.uk[/COLOR]")
+        dp.create("[COLOR tomato]TV Guide Auto Update[/COLOR]","Installing New TV Guide Data","Please Wait. [COLOR red]www.VistaTV.co.uk[/COLOR]")
         if os.path.exists(file2):
             zfile = zipfile.ZipFile(file2, 'r')	
             nItem = float(len(zfile.infolist()))
@@ -174,7 +174,7 @@ def DownloaderClass(url,dest, dp = None):
 
         xbmc.sleep(2000)
         try:
-            #xbmc.executebuiltin("Notification(CerebroTV,Some Channels May Take a Few Tries, ..,3000,)")
+            #xbmc.executebuiltin("Notification(VistaTV,Some Channels May Take a Few Tries, ..,3000,)")
             w = gui.TVGuide()
             w.doModal()
             del w
@@ -237,7 +237,7 @@ def platform():
 # After a restart the proc file should be wiped!
 reset_playing()
 dp.close()
-update = xbmcgui.Dialog().yesno("[COLOR tomato]TV Guide Helper[/COLOR]","[COLOR yellow][/COLOR]","" ,"","Open Guide","Update Guide")
+update = xbmcgui.Dialog().yesno("[COLOR gold]TV Guide Helper[/COLOR]","[COLOR yellow][/COLOR]","" ,"","Open Guide","Update Guide")
 #download(LOCATION,file2) 
 if update:
     try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.vistatv/source.db"))
