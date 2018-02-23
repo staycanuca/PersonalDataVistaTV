@@ -243,9 +243,9 @@ if update:
     try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.vistatv/source.db"))
     except: pass
     utils.DeleteFile(xbmc.translatePath("special://userdata/addon_data/script.tvguide.vistatv/source.db"))
-    try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.vistatv/cerebrouk.xml"))
+    try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.vistatv/vistatv.xml"))
     except: pass
-    utils.DeleteFile(xbmc.translatePath("special://userdata/addon_data/script.tvguide.vistatv/cerebrouk.xml"))
+    utils.DeleteFile(xbmc.translatePath("special://userdata/addon_data/script.tvguide.vistatv/vistatv.xml"))
     #xbmc.executebuiltin('PlayMedia("plugin://plugin.video.streamhub")')
     #xbmc.sleep(1000)
     download(LOCATION,file2) 
