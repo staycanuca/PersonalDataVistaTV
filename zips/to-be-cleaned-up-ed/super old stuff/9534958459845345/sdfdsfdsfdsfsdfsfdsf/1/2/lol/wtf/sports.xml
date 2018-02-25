@@ -40,6 +40,13 @@
 <fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
 </plugin>
 
+<plugin>
+<title>Sports Devil</title>
+<link>plugin://plugin.video.SportsDevil</link>
+<thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
+<fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
+</plugin>
+
 
 
 
