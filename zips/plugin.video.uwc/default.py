@@ -180,9 +180,9 @@ def change():
 if not addon.getSetting('uwcage') == 'true':            
     xxxpass=Search('[B][COLOR=gold]Adult Section Password[/COLOR][/B]')
 
-    if passxxx == xxxpass or predone:
-        predone=True
-    else: exit()
+    #if passxxx == xxxpass or predone:
+    #    predone=True
+    #else: exit()
 
 if not addon.getSetting('uwcage') == 'true':
     age = dialog.yesno('WARNING: This addon contains adult material.','You may enter only if you are at least 18 years of age.', nolabel='Exit', yeslabel='Enter')
