@@ -32,7 +32,7 @@ class source:
         self.priority = 1
         self.language = ['en']
         self.domains = ['vidics.to','vidics.unblocked.pl']
-        self.base_link = 'https://vidics.unblocked.vc/'
+        self.base_link = 'https://vidics.unblocked.sh/'
         self.search_link = urlparse.urljoin(self.base_link, 'searchSuggest/FilmsAndTV/%s')
                        
     def movie(self, imdb, title, localtitle, aliases, year):

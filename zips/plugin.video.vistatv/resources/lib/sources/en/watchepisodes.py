@@ -31,7 +31,7 @@ class source:
         self.priority = 1
         self.language = ['en']
         self.domains = ['watchepisodes.com','watchepisodes.unblocked.pl']
-        self.base_link = 'https://watchepisodes.unblocked.pl'
+        self.base_link = 'https://watchepisodes.unblocked.sh/'
         self.search_link = 'search/ajax_search?q=%s'
 
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):

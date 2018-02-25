@@ -31,7 +31,7 @@ class source:
         self.priority = 1
         self.language = ['en']
         self.domains = ['itswatchseries.to','watchtvseries.unblckd.bet','dwatchseries.to']
-        self.base_link = 'http://dwatchseries.to/'
+        self.base_link = 'https://watchseries.unblocked.sh/'
         self.search_link = '/show/search-shows-json'
         self.search_link_2 = '/search/%s'
 

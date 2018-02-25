@@ -30,8 +30,8 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['123netflix.com']
-        self.base_link = 'http://123netflix.com'
+        self.domains = ['123netflix.com','123netflix.pro']
+        self.base_link = 'https://123netflix.pro/'
         self.search_link = '/search-movies/%s.html'
 
 

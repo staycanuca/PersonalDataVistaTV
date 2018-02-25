@@ -32,7 +32,7 @@ class source:
         self.priority = 1
         self.language = ['en']
         self.domains = ['movieshd.tv', 'movieshd.is', 'movieshd.watch', 'flixanity.is', 'flixanity.me','istream.is','flixanity.online','flixanity.cc']
-        self.base_link = 'https://flixanity.cc'
+        self.base_link = 'https://flixanity.mobi/'
         self.ajax_id = 'gonlflhyad'
         
     def movie(self, imdb, title, localtitle, aliases, year):
