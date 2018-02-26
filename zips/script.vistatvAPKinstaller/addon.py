@@ -19,23 +19,9 @@ response = urllib2.urlopen('http://cerebrotv.co.uk/TV-DATA/auth2.php?id='+str(da
 if not response == "OK":
     xbmc.executebuiltin("Notification([COLOR=gold]VistaTV[/COLOR],NO CODE FOUND, ..,4000,)")
     exit()
+    
 
-HOME1     = '/storage/emulated/0/epsxe/bios/'
-HOME11     = '/storage/emulated/0/epsxe/'
-HOME3     = '/sdcard/epsxe/bios/'
-HOME2     = xbmc.translatePath('special://home')
-file = '/storage/emulated/0/Download/downloaded.apk'
-file2 = os.path.join(HOME1, 'SCPH1001.bin')
-file3 = os.path.join(HOME3, 'SCPH1001.bin')
-
-del1     = xbmc.translatePath('/storage/emulated/0/Download/downloaded.apk')
-del2     = xbmc.translatePath('/storage/emulated/0/Download/downloaded.apk')
-try: sfile.rmtree(del1)
-except: pass
-try: sfile.rmtree(del2)
-except: pass
-
-
+    
 def platform():
     if xbmc.getCondVisibility('system.platform.android'):
         return 'android'
@@ -49,6 +35,38 @@ def platform():
         return 'atv2'
     elif xbmc.getCondVisibility('system.platform.ios'):
         return 'ios'
+        
+myplatform = platform()
+
+def OpenAPKInstaller():
+    if myplatform == 'android':
+        xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
+        xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
+        xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")')
+
+if myplatform == 'android':
+    HOME1     = '/storage/emulated/0/epsxe/bios/'
+    HOME11     = '/storage/emulated/0/epsxe/'
+    HOME3     = '/sdcard/epsxe/bios/'
+    file = '/storage/emulated/0/Download/downloaded.apk'
+elif myplatform == 'windows':
+    HOME1     = 'C:\\vistatv\\epsxe\\bios\\'
+    HOME11     = 'C:\\vistatv\\epsxe\\'
+    HOME3     = 'C:\\vistatv\\bios\\'
+    file = 'C:\\vistatv\\downloaded.apk'
+else: exit()
+HOME2     = xbmc.translatePath('special://home')
+
+file2 = os.path.join(HOME1, 'SCPH1001.bin')
+file3 = os.path.join(HOME3, 'SCPH1001.bin')
+
+del1     = xbmc.translatePath('/storage/emulated/0/Download/downloaded.apk')
+del2     = xbmc.translatePath('/storage/emulated/0/Download/downloaded.apk')
+try: sfile.rmtree(del1)
+except: pass
+try: sfile.rmtree(del2)
+except: pass
+
 
 def dlProgress(count, blockSize, totalSize):
       percent = int(count*blockSize*100/totalSize)
@@ -160,57 +178,43 @@ def function1():
     DownloaderClass("http://mtvb.co.uk/apks/new.vpn.apk",file)
     xbmc.executebuiltin("Notification(DOWNLOAD COMPLETE,Opening APK Installer,)")
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")')
+    OpenAPKInstaller()
     xbmc.executebuiltin('quit')
     
 def function2():
     DownloaderClass("http://mtvb.co.uk/apks/kodi.exe",file)
     xbmc.executebuiltin("Notification(DOWNLOAD COMPLETE,Opening APK Installer,)")
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")')
+    OpenAPKInstaller()
     xbmc.executebuiltin('quit')
     
 def function3():
     DownloaderClass("http://mtvb.co.uk/apks/new.vpn.2.exe",file)
     xbmc.executebuiltin("Notification(DOWNLOAD COMPLETE,Opening APK Installer,)")
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")')
+    OpenAPKInstaller()
     xbmc.executebuiltin('quit')
     
 def function4():
     DownloaderClass("http://mtvb.co.uk/apks/VistaTV.exe",file)
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")')
+    OpenAPKInstaller()
     
 def function5():
     DownloaderClass("http://mtvb.co.uk/apks/reboot.exe",file)
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")')
+    OpenAPKInstaller()
 
 def function6():
     DownloaderClass("http://mtvb.co.uk/apks/megadrive.exe",file)
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")')
+    OpenAPKInstaller()
 
     
 def function7():
     DownloaderClass("http://mtvb.co.uk/apks/mame.exe",file)
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")')
+    OpenAPKInstaller()
     
 def function8():
     if not os.path.exists(HOME11):
@@ -225,117 +229,85 @@ def function8():
     xbmc.sleep(1000)
     #DownloaderClass("http://mtvb.co.uk/apks/SCPH1001.exe",file3)
     #xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")')
-    
+    OpenAPKInstaller()
+
 def function9():
     DownloaderClass("http://mtvb.co.uk/apks/mobdro.exe",file)
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")')
+    OpenAPKInstaller()
     
     
 def function10():
     DownloaderClass("http://mtvb.co.uk/apks/wifi.exe",file)
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")')
+    OpenAPKInstaller()
     
 def function11():
     DownloaderClass("http://mtvb.co.uk/apks/root.exe",file)
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")')
+    OpenAPKInstaller()
 
 def function12():
     DownloaderClass("http://mtvb.co.uk/apks/showbox.exe",file)
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")')  
+    OpenAPKInstaller()  
     
 def function13():
     DownloaderClass("http://mtvb.co.uk/apks/SwiftStream.exe",file)
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")') 
+    OpenAPKInstaller()
     
 def function14():
     DownloaderClass("http://mtvb.co.uk/apks/esfile.exe",file)
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")') 
+    OpenAPKInstaller()
     
 def function15():
     DownloaderClass("http://mtvb.co.uk/apks/tv.exe",file)
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")') 
+    OpenAPKInstaller()
     
 def function16():
     DownloaderClass("http://mtvb.co.uk/apks/cc.exe",file)
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")') 
+    OpenAPKInstaller()
     
 def function17():
     DownloaderClass("http://mtvb.co.uk/apks/vpn.exe",file)
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")') 
+    OpenAPKInstaller()
     
 def function18():
     DownloaderClass("http://mtvb.co.uk/apks/sens.exe",file)
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")') 
+    OpenAPKInstaller()
     
 def function19():
     DownloaderClass("http://mtvb.co.uk/apks/youtube.exe",file)
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")') 
+    OpenAPKInstaller()
     
 def function20():
     DownloaderClass("http://mtvb.co.uk/apks/googleplay.exe",file)
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")') 
+    OpenAPKInstaller()
     
 def function21():
     DownloaderClass("http://mtvb.co.uk/apks/speedtest.exe",file)
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")') 
+    OpenAPKInstaller()
     
 def function22():
     DownloaderClass("http://mtvb.co.uk/apks/MAME2.exe",file)
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")') 
+    OpenAPKInstaller()
     
 def function23():
     DownloaderClass("http://mtvb.co.uk/apks/googlechrome.exe",file)
     xbmc.sleep(1000)
-    xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
-    xbmc.executebuiltin('StartAndroidActivity("com.estrongs.android.pop")') 
+    OpenAPKInstaller()
 
-myplatform = platform()
+
 if myplatform == 'android':    
     #dialog = xbmcgui.Dialog()
     #dialog.ok("[COLOR=red][B]INFOMATION[/COLOR][/B]", "Firestick & nVida Shield devices", "Install App Manually after download","(needs es file explorer) Internal Storage / Download")
