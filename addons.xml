@@ -1192,7 +1192,7 @@ provider-name="VistaTV">
 
 <addon id="plugin.video.VistaTVsIPTV"
        name="Vitsa TV EPG Links"
-       version="2.1"
+       version="2.2"
        provider-name="VistaTV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
