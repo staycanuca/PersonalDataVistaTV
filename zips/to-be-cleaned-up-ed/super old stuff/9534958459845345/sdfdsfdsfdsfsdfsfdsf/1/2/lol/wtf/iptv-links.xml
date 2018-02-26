@@ -110,7 +110,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=557&amp;mode=200&amp;name
 <title>Channel 4</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.ZemTV-shani/?url=ZGlyZWN0MjpodHRwOi8vOTUuMTU0LjIzNy44ODo4MDgwL01hdEgzM1JhYWFrY2hlbmwtNC9TdHJtL2luZGV4Lm0zdTh8VXNlci1BZ2VudD1BcHBsZUNvcmVNZWRpYS8xLjAuMC4xM0E0NTIgKGlQaG9uZTsgVTsgQ1BVIE9TIDlfMF8yIGxpa2UgTWFjIE9TIFg7IGVuX2diKQ%3D%3D&amp;mode=11&amp;name=Channel+4+uk::LISTNAME:Channel 4::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dChannel%204%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fe77d2afa4363dad35c713745802d7bee.m3u8::LISTNAME:Channel 4 (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dChannel%204%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fe77d2afa4363dad35c713745802d7bee.m3u8::LISTNAME:Channel 4 ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33Raaakchenl-4%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=Channel+4+UK&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cscript.module.vistatvlive%5Cicon.png&amp;description=::LISTNAME:Channel 4::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33Raaakchenl-4%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=Channel+4+UK&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cscript.module.vistatvlive%5Cicon.png&amp;description=::LISTNAME:Channel 4::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTQ0w::LISTNAME:Channel 4::#
@@ -124,7 +124,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTQ0w::LISTNAME:Channel 
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.ZemTV-shani/?url=ZGlyZWN0MjpodHRwOi8vOTUuMTU0LjIzNy44ODo4MDgwL01hdEgzM1JhYWFrY2hlbmwtNS9TdHJtL2luZGV4Lm0zdTh8VXNlci1BZ2VudD1BcHBsZUNvcmVNZWRpYS8xLjAuMC4xM0E0NTIgKGlQaG9uZTsgVTsgQ1BVIE9TIDlfMF8yIGxpa2UgTWFjIE9TIFg7IGVuX2diKQ%3D%3D&amp;mode=11&amp;name=Channel+5+uk::LISTNAME:Channel 5::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33Raaakchenl-5%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=Channel+5+UK&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cscript.module.vistatvlive%5Cicon.png&amp;description=::LISTNAME:Channel 5::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dChannel%205%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f5c2e49e212275e83ce788e1a6da3c438.m3u8::LISTNAME:Channel 5 (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dChannel%205%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f5c2e49e212275e83ce788e1a6da3c438.m3u8::LISTNAME:Channel 5 ([I]UK Users May need to use VPN[/I])::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/39004_ch51.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -133,7 +133,7 @@ sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage
 <item>
 <title>Sky One</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20One%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2febcd8ef93fa99c4834d0cc3275f3dcd7.m3u8::LISTNAME:Sky One (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20One%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2febcd8ef93fa99c4834d0cc3275f3dcd7.m3u8::LISTNAME:Sky One ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/189::LISTNAME:Sky One (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/79832_sky11.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -143,7 +143,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/189::LISTNAME:Sky One (Takes
 <item>
 <title>Sky Two</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Two%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f838d5a3429b075f8b9ab00c083d93989.m3u8::LISTNAME:Sky Two (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Two%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f838d5a3429b075f8b9ab00c083d93989.m3u8::LISTNAME:Sky Two ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY5w::LISTNAME:Sky Two::#
 </link>
 <thumbnail>http://212.129.54.17:4040/data/img/files/sky_2.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -153,7 +153,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY5w::LISTNAME:Sky Two:
 <item>
 <title>Sky Atlantic</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Atlantic%20Ireland%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2feabd32acc39d4bd72a4ad687090aef8f.m3u8::LISTNAME:Sky Atlantic (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Atlantic%20Ireland%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2feabd32acc39d4bd72a4ad687090aef8f.m3u8::LISTNAME:Sky Atlantic ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjc5w::LISTNAME:Sky Atlantic::#
 </link>
 <thumbnail>http://212.129.54.17:4040/data/img/files/sky_atlantic.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -163,7 +163,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjc5w::LISTNAME:Sky Atla
 <item>
 <title>Sky Living</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Living%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f26cb04f6748172109489d18b64feca2e.m3u8::LISTNAME:Sky Living (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Living%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f26cb04f6748172109489d18b64feca2e.m3u8::LISTNAME:Sky Living ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY2w::LISTNAME:Sky Living::#
 </link>
 <thumbnail>http://212.129.54.17:4040/data/img/files/sky_living.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -173,7 +173,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY2w::LISTNAME:Sky Livi
 <item>
 <title>Sky Arts</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Arts%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f19720b905499b5bc8ff1c34eeb6c6e91.m3u8::LISTNAME:Sky Arts (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Arts%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f19720b905499b5bc8ff1c34eeb6c6e91.m3u8::LISTNAME:Sky Arts ([I]UK Users May need to use VPN[/I])::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040113sky%20arts1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -182,7 +182,7 @@ sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage
 <item>
 <title>Gold</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dGOLD%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2c0898822ab3baf7f93bea86648adb26.m3u8::LISTNAME:Gold (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dGOLD%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2c0898822ab3baf7f93bea86648adb26.m3u8::LISTNAME:Gold ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDMww::LISTNAME:Gold::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/28932_gold.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -251,7 +251,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDMxw::LISTNAME:Alibi::#
 <title>CBS ACTION</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/af742351710d35069d31eb91f646cf56::LISTNAME:CBS ACTION::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dCBS%20Action%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2faf742351710d35069d31eb91f646cf56.m3u8::LISTNAME:CBS ACTION (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dCBS%20Action%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2faf742351710d35069d31eb91f646cf56.m3u8::LISTNAME:CBS ACTION ([I]UK Users May need to use VPN[/I])::#
 </link>
 <thumbnail>https://k61.kn3.net/60A76DEB7.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -261,7 +261,7 @@ sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage
 <title>CBS DRAMA</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/b0f8f6e8535e082a1d0e8b9c7366e95f::LISTNAME:CBS DRAMA::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dCBS%20Drama%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fb0f8f6e8535e082a1d0e8b9c7366e95f.m3u8::LISTNAME:CBS DRAMA (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dCBS%20Drama%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fb0f8f6e8535e082a1d0e8b9c7366e95f.m3u8::LISTNAME:CBS DRAMA ([I]UK Users May need to use VPN[/I])::#
 </link>
 <thumbnail>https://k60.kn3.net/269FB86C2.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -458,7 +458,7 @@ sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=http%3A%2F%2Fvs-hls-uk-li
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/203::LISTNAME:Sky News (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.youtube/play/?video_id=XOacA3RYrXk::LISTNAME:Sky News::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20News%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3b7dd11b6654dd5f35745285ededdbd9.m3u8::LISTNAME:Sky News (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20News%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3b7dd11b6654dd5f35745285ededdbd9.m3u8::LISTNAME:Sky News ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/news/3b7dd11b6654dd5f35745285ededdbd9::LISTNAME:Sky News::#
 </link>
 <thumbnail>https://i.imgur.com/N6ueP8l.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
@@ -540,7 +540,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/152::LISTNAME:MTV Hits (Take
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/295::LISTNAME:MTV Dance (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/2672617afdf44cdfe0bef6f41856c920::LISTNAME:MTV Dance::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dMTV%20Dance%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2672617afdf44cdfe0bef6f41856c920.m3u8::LISTNAME:MTV Dance (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dMTV%20Dance%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2672617afdf44cdfe0bef6f41856c920.m3u8::LISTNAME:MTV Dance ([I]UK Users May need to use VPN[/I])::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/64286_mtvdance1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -568,7 +568,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/239::LISTNAME:VH1 (Takes A F
 <item>
 <title>Sky Cinema Disney</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Disney%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2ffb2cde6e0410cf537a19800bd19261f0.m3u8::LISTNAME:Sky Cinema Disney (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Disney%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2ffb2cde6e0410cf537a19800bd19261f0.m3u8::LISTNAME:Sky Cinema Disney ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/194::LISTNAME:Sky Cinema Disney (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040235disn.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -578,7 +578,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/194::LISTNAME:Sky Cinema Dis
 <item>
 <title>Sky Cinema Showcase</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Premiere%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3265682a41f442e5a4164e9b26393634.m3u8::LISTNAME:Sky Cinema Showcase (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Premiere%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3265682a41f442e5a4164e9b26393634.m3u8::LISTNAME:Sky Cinema Showcase ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Showcase (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040916premi.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -588,7 +588,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Sho
 <item>
 <title>Sky Cinema Premiere</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Premiere%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3265682a41f442e5a4164e9b26393634.m3u8::LISTNAME:Sky Cinema Premiere (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Premiere%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3265682a41f442e5a4164e9b26393634.m3u8::LISTNAME:Sky Cinema Premiere ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Premiere (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040916premi.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -598,7 +598,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Pre
 <item>
 <title>Sky Cinema Showcase</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Showcase%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fb6f08ad1b0976d993e116cbb72aef8bd.m3u8::LISTNAME:Sky Cinema Showcase (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Showcase%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fb6f08ad1b0976d993e116cbb72aef8bd.m3u8::LISTNAME:Sky Cinema Showcase ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/255::LISTNAME:Sky Cinema Showcase (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/070216063533show.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -608,7 +608,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/255::LISTNAME:Sky Cinema Sho
 <item>
 <title>Sky Cinema Family</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Family%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3caed59e3b7e405b3a802cc480a14e32.m3u8::LISTNAME:Sky Cinema Family (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Family%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3caed59e3b7e405b3a802cc480a14e32.m3u8::LISTNAME:Sky Cinema Family ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/200::LISTNAME:Sky Cinema Family (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040807famil.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -618,7 +618,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/200::LISTNAME:Sky Cinema Fam
 <item>
 <title>Sky Cinema Drama</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Drama%20%26%20Romance%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f5081d68d4054bc9209ec2bb1c5ff5eef.m3u8::LISTNAME:Sky Cinema Drama (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Drama%20%26%20Romance%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f5081d68d4054bc9209ec2bb1c5ff5eef.m3u8::LISTNAME:Sky Cinema Drama ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/199::LISTNAME:Sky Cinema Drama (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040745drama.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -628,7 +628,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/199::LISTNAME:Sky Cinema Dra
 <item>
 <title>Sky Cinema Action</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Action%20%26%20Adventure%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3c909c9218961b2ecfdd5f44a89a90b8.m3u8::LISTNAME:Sky Cinema Action (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Action%20%26%20Adventure%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3c909c9218961b2ecfdd5f44a89a90b8.m3u8::LISTNAME:Sky Cinema Action ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/196::LISTNAME:Sky Cinema Action (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040508action.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -638,7 +638,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/196::LISTNAME:Sky Cinema Act
 <item>
 <title>Sky Cinema Comedy</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Comedy%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fc168262cf8b9775300da0b79b2199ee6.m3u8::LISTNAME:Sky Cinema Comedy (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Comedy%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fc168262cf8b9775300da0b79b2199ee6.m3u8::LISTNAME:Sky Cinema Comedy ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/197::LISTNAME:Sky Cinema Comedy (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/26959_skycomdey1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -648,7 +648,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/197::LISTNAME:Sky Cinema Com
 <item>
 <title>Sky Cinema Crime</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Crime%20%26%20Thriller%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa84271250d9dc93c1edc84874552d6c7.m3u8::LISTNAME:Sky Cinema Crime (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Crime%20%26%20Thriller%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa84271250d9dc93c1edc84874552d6c7.m3u8::LISTNAME:Sky Cinema Crime ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/198::LISTNAME:Sky Cinema Crime (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040646crime.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -658,7 +658,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/198::LISTNAME:Sky Cinema Cri
 <item>
 <title>Sky Cinema Sci-Fi</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Sci-fi%20Horror%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f20abccafd4a26b6fce57df892e5040be.m3u8::LISTNAME:Sky Cinema Sci-Fi (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Sci-fi%20Horror%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f20abccafd4a26b6fce57df892e5040be.m3u8::LISTNAME:Sky Cinema Sci-Fi ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/202::LISTNAME:Sky Cinema Sci-Fi (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040946horror.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -668,7 +668,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/202::LISTNAME:Sky Cinema Sci
 <item>
 <title>Sky Cinema Select</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Select%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f760670eeaaa3e62adc1989fee2e8b259.m3u8::LISTNAME:Sky Cinema Select (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Select%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f760670eeaaa3e62adc1989fee2e8b259.m3u8::LISTNAME:Sky Cinema Select ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/254::LISTNAME:Sky Cinema Select (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/070216062955select_1426076182.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -678,7 +678,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/254::LISTNAME:Sky Cinema Sel
 <item>
 <title>Sky Cinema Modern Greats</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20(Modern%20Greats)%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa2d025900c268045e4e2da567a8c3f9b.m3u8::LISTNAME:Sky Cinema Modern Greats (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20(Modern%20Greats)%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa2d025900c268045e4e2da567a8c3f9b.m3u8::LISTNAME:Sky Cinema Modern Greats ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/253::LISTNAME:Sky Cinema Modern Greats (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/070216062713greats.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -689,7 +689,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/253::LISTNAME:Sky Cinema Mod
 <title>TCM</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/292::LISTNAME:TCM (Takes A Few Seconds to Exit)::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dTCM%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f1debc5c648b7d2fa58d76d8e90f314a9.m3u8::LISTNAME:TCM (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dTCM%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f1debc5c648b7d2fa58d76d8e90f314a9.m3u8::LISTNAME:TCM ([I]UK Users May need to use VPN[/I])::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/290616022825tcm.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -698,7 +698,7 @@ sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage
 <item>
 <title>Film 4</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dFilm%204%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f0f2c179db3d0e356f8615dde513bc4aa.m3u8::LISTNAME:Film 4 (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dFilm%204%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f0f2c179db3d0e356f8615dde513bc4aa.m3u8::LISTNAME:Film 4 ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/112::LISTNAME:Film 4 (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=film4&amp;mode=13&amp;name=Film4::LISTNAME:Film 4::#
 </link>
@@ -709,7 +709,7 @@ sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=film4&amp;mode=13&amp;nam
 <item>
 <title>True Movies</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dTrue%20Movies%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fd2c73be17b950368083f5c7ca9445cb9.m3u8::LISTNAME:True Movies (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dTrue%20Movies%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fd2c73be17b950368083f5c7ca9445cb9.m3u8::LISTNAME:True Movies ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjU5w::LISTNAME:True Movies::#
 </link>
 <thumbnail>http://cdn.livenettv.co:4040/data/img/files/true_movies_1.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -719,7 +719,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjU5w::LISTNAME:True Mov
 <item>
 <title>CBeebies</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/cbeebies_hd.m3u8&amp;mode=9999&amp;name=CBeebies&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:CBeebies (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/cbeebies_hd.m3u8&amp;mode=9999&amp;name=CBeebies&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:CBeebies ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F4696.ts/BBC%20CBEEBIES%20UK-KDZ/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fbbc_cbeebies.jpg::LISTNAME:CBeebies::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/498::LISTNAME:CBeebies (Takes A Few Seconds to Exit)::#
 </link>
@@ -739,7 +739,7 @@ sublink:LISTSOURCE:plugin://plugin.video.filmon.simple/?url=http%3A%2F%2Fwww.fil
 <item>
 <title>Disney Junior</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dDisney%20Junior%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fe6e17fbb85e77c0eabc0ed20d6b8799e.m3u8::LISTNAME:Disney Junior (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dDisney%20Junior%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fe6e17fbb85e77c0eabc0ed20d6b8799e.m3u8::LISTNAME:Disney Junior ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/96::LISTNAME:Disney Junior (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116014600disj.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -749,7 +749,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/96::LISTNAME:Disney Junior (
 <item>
 <title>Nick Junior</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dNick%20Junior%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f85fa8712793a2a6b1feda57b2395adbf.m3u8::LISTNAME:Nick Junior (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dNick%20Junior%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f85fa8712793a2a6b1feda57b2395adbf.m3u8::LISTNAME:Nick Junior ([I]UK Users May need to use VPN[/I])::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/11611_NickJr1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -821,7 +821,7 @@ sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.c
 <item>
 <title>Nick Toons</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dNicktoons%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa5c568b3ed1bce30903f6092519ef949.m3u8::LISTNAME:Nick Toons (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dNicktoons%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa5c568b3ed1bce30903f6092519ef949.m3u8::LISTNAME:Nick Toons ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/166::LISTNAME:Nick Toons (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116021120nicktoons.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -831,7 +831,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/166::LISTNAME:Nick Toons (Ta
 <item>
 <title>Disney Channel</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dDisney%20Channel%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f14b7d3edf41bba55aebd39254e3a0100.m3u8::LISTNAME:Disney Channel (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dDisney%20Channel%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f14b7d3edf41bba55aebd39254e3a0100.m3u8::LISTNAME:Disney Channel ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/95::LISTNAME:Disney Channel (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116012005disnep.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -881,7 +881,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.15
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/179::LISTNAME:RTE 1 (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDQ2w::LISTNAME:RTE 1::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dRTE%201%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2c3bc07df7606365a0c449d3193cefe8.m3u8::LISTNAME:RTE 1 (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dRTE%201%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2c3bc07df7606365a0c449d3193cefe8.m3u8::LISTNAME:RTE 1 ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F641.ts/RTE%201-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Frte_one.jpg::LISTNAME:RTE 1::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116035234rteo.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -892,7 +892,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.
 <title>RTE 2</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F642.ts/RTE%202-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Frte_2_ie.jpg::LISTNAME:RTE 2::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dRTE%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f36fc922224816d18332eb55b897746ba.m3u8::LISTNAME:RTE 2 (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dRTE%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f36fc922224816d18332eb55b897746ba.m3u8::LISTNAME:RTE 2 ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjcyw::LISTNAME:RTE 2::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/180::LISTNAME:RTE 2 (Takes A Few Seconds to Exit)::#
 </link>
@@ -903,7 +903,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/180::LISTNAME:RTE 2 (Takes A
 <item>
 <title>TG4</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dTG4%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fcd7247622a163a95d54994da83ee69fd.m3u8::LISTNAME:TG4 (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dTG4%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fcd7247622a163a95d54994da83ee69fd.m3u8::LISTNAME:TG4 ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/226::LISTNAME:TG4 (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116042814tg4.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -913,7 +913,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/226::LISTNAME:TG4 (Takes A F
 <item>
 <title>TV3</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dTG4%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fcd7247622a163a95d54994da83ee69fd.m3u8::LISTNAME:TV3 (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dTG4%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fcd7247622a163a95d54994da83ee69fd.m3u8::LISTNAME:TV3 ([I]UK Users May need to use VPN[/I])::#
 </link>
 <thumbnail>http://</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -958,7 +958,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/379::LISTNAME:3e (Takes A Fe
 <title>TBS</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/222::LISTNAME:TBS (Takes A Few Seconds to Exit)::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dTBS%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fc370dca571a8e9eeb48104236808fe8d.m3u8::LISTNAME:TBS (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dTBS%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fc370dca571a8e9eeb48104236808fe8d.m3u8::LISTNAME:TBS ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDY3w::LISTNAME:TBS::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/52625_tbs.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -977,7 +977,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTM3NA==w::LISTNAME:BBC 
 <item>
 <title>ABC</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dabc%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fba354149f3c117ceb69529a1542b6281.m3u8::LISTNAME:ABC (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dabc%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fba354149f3c117ceb69529a1542b6281.m3u8::LISTNAME:ABC ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mzg2w::LISTNAME:ABC::#
 </link>
 <thumbnail>http://cdn.livenettv.co:4040/data/img/files/abc.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -987,7 +987,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mzg2w::LISTNAME:ABC::#
 <item>
 <title>CBS</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dCBS%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f4d0fadca2686a2cdd4a4a6623212449c.m3u8::LISTNAME:CBS (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dCBS%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f4d0fadca2686a2cdd4a4a6623212449c.m3u8::LISTNAME:CBS ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDY0w::LISTNAME:CBS::#
 </link>
 <thumbnail>http://cdn.livenettv.co:4040/data/img/files/cbs.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -997,7 +997,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDY0w::LISTNAME:CBS::#
 <item>
 <title>The CW</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dThe%20CW%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f296e56c668bc8bd6b0044d3e4f034153.m3u8::LISTNAME:The CW (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dThe%20CW%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f296e56c668bc8bd6b0044d3e4f034153.m3u8::LISTNAME:The CW ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDY4w::LISTNAME:The CW::#
 </link>
 <thumbnail>http://cdn.livenettv.co:4040/data/img/files/the_cw.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -1007,7 +1007,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDY4w::LISTNAME:The CW::
 <item>
 <title>Fox 43</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dFox%2043%20WMPT%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fc2f52b70c2324ba134b2cba2962bedae.m3u8::LISTNAME:Fox 43 (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dFox%2043%20WMPT%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fc2f52b70c2324ba134b2cba2962bedae.m3u8::LISTNAME:Fox 43 ([I]UK Users May need to use VPN[/I])::#
 </link>
 <thumbnail>http://</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1016,7 +1016,7 @@ sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage
 <item>
 <title>NBC</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dNBC%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3baf7db0d8f1d400816fb6166b297f46.m3u8::LISTNAME:NBC (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dNBC%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3baf7db0d8f1d400816fb6166b297f46.m3u8::LISTNAME:NBC ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTU4w::LISTNAME:NBC::#
 </link>
 <thumbnail>http://cdn.livenettv.co:4040/data/img/files/nbc.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -1026,7 +1026,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTU4w::LISTNAME:NBC::#
 <item>
 <title>PBS</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dPBS%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2ffe22365235b496368609515523bfb971.m3u8::LISTNAME:PBS (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dPBS%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2ffe22365235b496368609515523bfb971.m3u8::LISTNAME:PBS ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDY2w::LISTNAME:PBS::#
 </link>
 <thumbnail>http://cdn.livenettv.co:4040/data/img/files/pbs.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -1036,7 +1036,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDY2w::LISTNAME:PBS::#
 <item>
 <title>AMC</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dAMC%20USA%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fc0371e35a2b3244f5edda7947172d954.m3u8 (Blocked in UK During EPL Games)::LISTNAME:AMC::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dAMC%20USA%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fc0371e35a2b3244f5edda7947172d954.m3u8 ([I]UK Users May need to use VPN[/I])::LISTNAME:AMC::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDYzw::LISTNAME:AMC::#
 </link>
 <thumbnail>http://cdn.livenettv.co:4040/data/img/files/amc.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -1046,7 +1046,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDYzw::LISTNAME:AMC::#
 <item>
 <title>Animal Planet</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dAnimal%20Planet%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f52d1df7fff7b1ba3ac317b98ef2fdb80.m3u8 (Blocked in UK During EPL Games)::LISTNAME:Animal Planet::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dAnimal%20Planet%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f52d1df7fff7b1ba3ac317b98ef2fdb80.m3u8 ([I]UK Users May need to use VPN[/I])::LISTNAME:Animal Planet::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/49312_animalplanet.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1055,7 +1055,7 @@ sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage
 <item>
 <title>Bravo</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBravo%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f582b19f3ef5459a2f139ec69ee2053d0.m3u8::LISTNAME:Bravo (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBravo%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f582b19f3ef5459a2f139ec69ee2053d0.m3u8::LISTNAME:Bravo ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTU1w::LISTNAME:Bravo::#
 </link>
 <thumbnail>http://cdn.livenettv.co:4040/data/img/files/bravo.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -1065,7 +1065,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTU1w::LISTNAME:Bravo::#
 <item>
 <title>CNBC</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dCNBC%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f0fa1864db527d3de89020cb06a050b35.m3u8::LISTNAME:CNBC (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dCNBC%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f0fa1864db527d3de89020cb06a050b35.m3u8::LISTNAME:CNBC ([I]UK Users May need to use VPN[/I])::#
 </link>
 <thumbnail>http://</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1083,7 +1083,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY3w::LISTNAME:Comedy C
 <item>
 <title>Discovery Channel</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dDiscovery%20Channel%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa490ae75a3ec2acf16c9f592e889eb4c.m3u8::LISTNAME:Discovery Channel (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dDiscovery%20Channel%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa490ae75a3ec2acf16c9f592e889eb4c.m3u8::LISTNAME:Discovery Channel ([I]UK Users May need to use VPN[/I])::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/29937_discoveryusa.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1092,7 +1092,7 @@ sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage
 <item>
 <title>Fox News</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dFox%20News%20Channel%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f877e1fd192b3a58577e4387971c215a7.m3u8::LISTNAME:Fox News (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dFox%20News%20Channel%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f877e1fd192b3a58577e4387971c215a7.m3u8::LISTNAME:Fox News ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTU0w::LISTNAME:Fox News::#
 </link>
 <thumbnail>http://cdn.livenettv.co:4040/data/img/files/fox_news.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -1102,7 +1102,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTU0w::LISTNAME:Fox News
 <item>
 <title>FX</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dFX%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fd4c503dbcdd0aaa79724dd4b79b5c8c6.m3u8::LISTNAME:FX (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dFX%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fd4c503dbcdd0aaa79724dd4b79b5c8c6.m3u8::LISTNAME:FX ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTYww::LISTNAME:FX::#
 </link>
 <thumbnail>http://cdn.livenettv.co:4040/data/img/files/fx.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -1112,7 +1112,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTYww::LISTNAME:FX::#
 <item>
 <title>National Geographic</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dNational%20Geographic%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fe08dd4627a3cf468a30d8a357956d6f8.m3u8::LISTNAME:National Geographic (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dNational%20Geographic%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fe08dd4627a3cf468a30d8a357956d6f8.m3u8::LISTNAME:National Geographic ([I]UK Users May need to use VPN[/I])::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/23125_natgeous.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1121,7 +1121,7 @@ sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage
 <item>
 <title>Nickelodeon</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dNickelodeon%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa55d7c24a00915235cdc6a6ddaaaf67b.m3u8::LISTNAME:Nickelodeon (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dNickelodeon%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa55d7c24a00915235cdc6a6ddaaaf67b.m3u8::LISTNAME:Nickelodeon ([I]UK Users May need to use VPN[/I])::#
 </link>
 <thumbnail>http://</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1130,7 +1130,7 @@ sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage
 <item>
 <title>Spike</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSpike%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f744a2e6d638ef5996394717e9e871717.m3u8::LISTNAME:Spike (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSpike%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f744a2e6d638ef5996394717e9e871717.m3u8::LISTNAME:Spike ([I]UK Users May need to use VPN[/I])::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/12963_spike.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1139,7 +1139,7 @@ sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage
 <item>
 <title>Syfy</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSyFy%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fd8320fedb4a90fb06c9f7bff96a7e619.m3u8::LISTNAME:Syfy (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSyFy%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fd8320fedb4a90fb06c9f7bff96a7e619.m3u8::LISTNAME:Syfy ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjU0w::LISTNAME:Syfy::#
 </link>
 <thumbnail>http://cdn.livenettv.co:4040/data/img/files/syfy.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -1149,7 +1149,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjU0w::LISTNAME:Syfy::#
 <item>
 <title>USA Network</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dUSA%20Network%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f0e367435d4bc1a89ea7506cf0eadb3a7.m3u8::LISTNAME:USA Network (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dUSA%20Network%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f0e367435d4bc1a89ea7506cf0eadb3a7.m3u8::LISTNAME:USA Network ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MzYyw::LISTNAME:USA Network::#
 </link>
 <thumbnail>http://cdn.livenettv.co:4040/data/img/files/usa.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -1168,7 +1168,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTU5w::LISTNAME:A+E::#
 <item>
 <title>Cartoon Network</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dCartoon%20Network%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f8be5e3f6156a6b2108a2d8b9cc5d5d7c.m3u8::LISTNAME:Cartoon Network (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dCartoon%20Network%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f8be5e3f6156a6b2108a2d8b9cc5d5d7c.m3u8::LISTNAME:Cartoon Network ([I]UK Users May need to use VPN[/I])::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/94849_cartoonNetwork1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1186,7 +1186,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/133::LISTNAME:History (Takes
 <item>
 <title>LifeTime</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dLifetime%20USA%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f426080503467f5a54a5f1354fc0d5714.m3u8::LISTNAME:LifeTime (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dLifetime%20USA%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f426080503467f5a54a5f1354fc0d5714.m3u8::LISTNAME:LifeTime ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDY1w::LISTNAME:LifeTime::#
 </link>
 <thumbnail>http://cdn.livenettv.co:4040/data/img/files/life_time.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -1214,7 +1214,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2Fserver4.serve
 <item>
 <title>Hallmark Channel</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dHallmark%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f1854321c4f4aff379019810ada9c6c4a.m3u8::LISTNAME:Hallmark Channel (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dHallmark%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f1854321c4f4aff379019810ada9c6c4a.m3u8::LISTNAME:Hallmark Channel ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTA4Mw==w::LISTNAME:Hallmark Channel::#
 </link>
 <thumbnail>http://cdn.livenettv.co:4040/data/img/files/hallmark_channel.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -1234,7 +1234,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTA4Mw==w::LISTNAME:Hall
 <item>
 <title>NBC Sport Network</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dNBC%20Sport%20Network%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fe4d6b46ca81b601fe8461b43f641488c.m3u8::LISTNAME:NBC Sport Network (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dNBC%20Sport%20Network%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fe4d6b46ca81b601fe8461b43f641488c.m3u8::LISTNAME:NBC Sport Network ([I]UK Users May need to use VPN[/I])::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/45155_nbcsn.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1243,7 +1243,7 @@ sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage
 <item>
 <title>WWE Network</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dWWE%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fcd61f0ea3b560a665ea813dab2505a2f.m3u8::LISTNAME:WWE Network (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dWWE%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fcd61f0ea3b560a665ea813dab2505a2f.m3u8::LISTNAME:WWE Network ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTA4w::LISTNAME:WWE Network::#
 </link>
 <thumbnail>http://cdn.livenettv.co:4040/data/img/files/wwe.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -1253,7 +1253,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTA4w::LISTNAME:WWE Netw
 <item>
 <title>BT Sports 1</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBT%20SPORT%201%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2ffeb9c19124327ffd2bae3c97249ea40e.m3u8::LISTNAME:BT Sports 1 (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBT%20SPORT%201%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2ffeb9c19124327ffd2bae3c97249ea40e.m3u8::LISTNAME:BT Sports 1 ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33RaaabB3eETtiyiy-1%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+1&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cscript.module.vistatvlive%5Cicon.png&amp;description=::LISTNAME:BT Sports 1::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http%3A%2F%2F163.172.220.115%3A8080%2FMatH33RaaabB3eETtiyiy-1%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+1%282%29&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cscript.module.vistatvlive%5Cicon.png&amp;description=::LISTNAME:BT Sports 1::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTExw::LISTNAME:BT Sports 1::#
@@ -1266,7 +1266,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/59::LISTNAME:BT Sports 1 (Ta
 <item>
 <title>BT Sports 2</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBT%20SPORT%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa0baff4a9870ad57efd54f32cf8be880.m3u8::LISTNAME:BT Sports 2 (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBT%20SPORT%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa0baff4a9870ad57efd54f32cf8be880.m3u8::LISTNAME:BT Sports 2 ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33RaaabB3eETtiyiy-2%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+2&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cscript.module.vistatvlive%5Cicon.png&amp;description=::LISTNAME:BT Sports 2::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http%3A%2F%2F163.172.220.115%3A8080%2FMatH33RaaabB3eETtiyiy-2%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+2%282%29&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cscript.module.vistatvlive%5Cicon.png&amp;description=::LISTNAME:BT Sports 2::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTEyw::LISTNAME:BT Sports 2::#
@@ -1279,7 +1279,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/60::LISTNAME:BT Sports 2 (Ta
 <item>
 <title>BT Sports 3</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBT%20SPORT%203%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fba7c7bb9f1f2be48a9041f6a308eaa92.m3u8::LISTNAME:BT Sports 3 (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBT%20SPORT%203%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fba7c7bb9f1f2be48a9041f6a308eaa92.m3u8::LISTNAME:BT Sports 3 ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33RaaaBeeT3yy-U%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+3&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cscript.module.vistatvlive%5Cicon.png&amp;description=::LISTNAME:BT Sports 3::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http%3A%2F%2F163.172.220.115%3A8080%2FMatH33RaaaBeeT3yy-U%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+3%282%29&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cscript.module.vistatvlive%5Cicon.png&amp;description=::LISTNAME:BT Sports 3::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NTI2w::LISTNAME:BT Sports 3::#
@@ -1292,7 +1292,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/298::LISTNAME:BT Sports 3 (T
 <item>
 <title>BT Sports ESPN</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBT%20SPORT%20ESPN%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f8a0b2af9d4b4eb4cf9967448b67714d6.m3u8::LISTNAME:BT Sports ESPN (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBT%20SPORT%20ESPN%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f8a0b2af9d4b4eb4cf9967448b67714d6.m3u8::LISTNAME:BT Sports ESPN ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33RaaaBeetYywEespeen%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+ESPN&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cscript.module.vistatvlive%5Cicon.png&amp;description=::LISTNAME:BT Sports ESPN::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjUzw::LISTNAME:BT Sports ESPN::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/107::LISTNAME:BT Sports ESPN (Takes A Few Seconds to Exit)::#
@@ -1354,7 +1354,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/207::LISTNAME:Sky Sports Gol
 <item>
 <title>Sky Sports F1</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Sports%20F1%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f343b4b2909705b5f5babe196c05c7895.m3u8::LISTNAME:Sky Sports F1 (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Sports%20F1%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f343b4b2909705b5f5babe196c05c7895.m3u8::LISTNAME:Sky Sports F1 ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjUxw::LISTNAME:Sky Sports F1::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/209::LISTNAME:Sky Sports F1 (Takes A Few Seconds to Exit)::#
 </link>
@@ -1405,7 +1405,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/210::LISTNAME:Sky Sports New
 <item>
 <title>Premier Sports</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dPremier%20Sports%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2d18f483dbcf20bf0cc41b916f026d6b.m3u8::LISTNAME:Premier Sports (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dPremier%20Sports%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2d18f483dbcf20bf0cc41b916f026d6b.m3u8::LISTNAME:Premier Sports ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDE0w::LISTNAME:Premier Sports::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/170::LISTNAME:Premier Sports (Takes A Few Seconds to Exit)::#
 </link>
@@ -1416,7 +1416,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/170::LISTNAME:Premier Sports
 <item>
 <title>Box Nation</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBox%20Nation%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f96433d4a4b7fe9fdddcc23da704dce11.m3u8::LISTNAME:Box Nation (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBox%20Nation%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f96433d4a4b7fe9fdddcc23da704dce11.m3u8::LISTNAME:Box Nation ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTE5w::LISTNAME:Box Nation::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/55::LISTNAME:Box Nation (Takes A Few Seconds to Exit)::#
 </link>
@@ -1427,7 +1427,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/55::LISTNAME:Box Nation (Tak
 <item>
 <title>British Eurosport 1</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBritish%20Eurosport%201%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f7adc3be6083aeecdcfd51f2cc92d3713.m3u8::LISTNAME:British Eurosport 1 (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBritish%20Eurosport%201%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f7adc3be6083aeecdcfd51f2cc92d3713.m3u8::LISTNAME:British Eurosport 1 ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTA2w::LISTNAME:British Eurosport 1::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/108::LISTNAME:British Eurosport 1 (Takes A Few Seconds to Exit)::#
 </link>
@@ -1438,7 +1438,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/108::LISTNAME:British Eurosp
 <item>
 <title>British Eurosport 2</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBritish%20Eurosport%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fb17a4be223d6d945f21785dc401a0429.m3u8::LISTNAME:British Eurosport 2 (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBritish%20Eurosport%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fb17a4be223d6d945f21785dc401a0429.m3u8::LISTNAME:British Eurosport 2 ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTA3w::LISTNAME:British Eurosport 2::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/109::LISTNAME:British Eurosport 2 (Takes A Few Seconds to Exit)::#
 </link>
@@ -1449,7 +1449,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/109::LISTNAME:British Eurosp
 <item>
 <title>At The Races</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dAt%20the%20Races%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f770491f6a94a4901fb248d5f6659d88a.m3u8::LISTNAME:At The Races (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dAt%20the%20Races%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f770491f6a94a4901fb248d5f6659d88a.m3u8::LISTNAME:At The Races ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjkxw::LISTNAME:At The Races::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/41::LISTNAME:At The Races (Takes A Few Seconds to Exit)::#
 </link>
@@ -1460,7 +1460,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/41::LISTNAME:At The Races (T
 <item>
 <title>Racing UK</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dRacing%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f7e8c4145e3a4119dbe243813d877aca8.m3u8::LISTNAME:Racing UK (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dRacing%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f7e8c4145e3a4119dbe243813d877aca8.m3u8::LISTNAME:Racing UK ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjkyw::LISTNAME:Racing UK::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/178::LISTNAME:Racing UK (Takes A Few Seconds to Exit)::#
 </link>
@@ -1471,7 +1471,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/178::LISTNAME:Racing UK (Tak
 <item>
 <title>Chelsea TV</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dChelsea%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fdc3b39d192930d7e940b1d58bda64bcf.m3u8::LISTNAME:Chelsea TV (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dChelsea%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fdc3b39d192930d7e940b1d58bda64bcf.m3u8::LISTNAME:Chelsea TV ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDQ1w::LISTNAME:Chelsea TV::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/78::LISTNAME:Chelsea TV (Takes A Few Seconds to Exit)::#
 </link>
@@ -1482,7 +1482,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/78::LISTNAME:Chelsea TV (Tak
 <item>
 <title>MUTV</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dMUTV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f50e67d468d54cd43a2bd100b5ef8a53e.m3u8::LISTNAME:MUTV (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dMUTV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f50e67d468d54cd43a2bd100b5ef8a53e.m3u8::LISTNAME:MUTV ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDExw::LISTNAME:MUTV::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/154::LISTNAME:MUTV (Takes A Few Seconds to Exit)::#
 </link>
@@ -1493,7 +1493,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/154::LISTNAME:MUTV (Takes A 
 <item>
 <title>LFC TV</title>
 <link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dLiverpool%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f71a00014007ea740e245d9a342300cab.m3u8::LISTNAME:LFC TV (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dLiverpool%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f71a00014007ea740e245d9a342300cab.m3u8::LISTNAME:LFC TV ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTIww::LISTNAME:LFC TV::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/145::LISTNAME:LFC TV (Takes A Few Seconds to Exit)::#
 </link>
@@ -1516,7 +1516,7 @@ sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http%3A%2F%2F95.154.2
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.ZemTV-shani/?url=ZGlyZWN0MjpodHRwOi8vOTUuMTU0LjIzNy44ODo4MDgwL01hdEgzM1JhYWEvZjAwY3NzcDIvaW5kZXgubTN1OHxVc2VyLUFnZW50PUFwcGxlQ29yZU1lZGlhLzEuMC4wLjEzQTQ1MiAoaVBob25lOyBVOyBDUFUgT1MgOV8wXzIgbGlrZSBNYWMgT1MgWDsgZW5fZ2Ip&amp;mode=11&amp;name=Fox+sports+2+us::LISTNAME:Fox Sports 2::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33Raaa%2Ff00cssp2%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=Fox+Sports+2+US&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cscript.module.vistatvlive%5Cicon.png&amp;description=::LISTNAME:Fox Sports 2::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dFox%20Sports%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fb543594967ce3122d04138e344cdcff2.m3u8::LISTNAME:Fox Sports 2 (Blocked in UK During EPL Games)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dFox%20Sports%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fb543594967ce3122d04138e344cdcff2.m3u8::LISTNAME:Fox Sports 2 ([I]UK Users May need to use VPN[/I])::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116045256fox2.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
