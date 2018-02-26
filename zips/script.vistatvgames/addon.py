@@ -19,7 +19,7 @@ with open(iddata, 'r') as myfile:
     data300=str(myfile.read())
 response = urllib2.urlopen('http://cerebrotv.co.uk/TV-DATA/auth2.php?id='+str(data300)+'&ok=OK&ip='+ipaddy).read()
 if not response == "OK":
-    xbmc.executebuiltin("Notification([COLOR=gold]CerebroTV[/COLOR],NO CODE FOUND, ..,4000,)")
+    xbmc.executebuiltin("Notification([COLOR=gold]VistaTV[/COLOR],NO CODE FOUND, ..,4000,)")
     exit()
 
 
@@ -72,13 +72,13 @@ def platform():
 
 def dlProgress(count, blockSize, totalSize):
       percent = int(count*blockSize*100/totalSize)
-      dp = utils.Progress("[COLOR tomato]CerebroTV Checking For Updates[/COLOR]", line1 = "[COLOR yellow]Please Wait Download in Progress[/COLOR].", line2 = "[COLOR gold]CerebroTV Update Service[/COLOR]", line3 = "test")
+      dp = utils.Progress("[COLOR tomato]VistaTV Checking For Updates[/COLOR]", line1 = "[COLOR yellow]Please Wait Download in Progress[/COLOR].", line2 = "[COLOR gold]VistaTV Update Service[/COLOR]", line3 = "test")
       dp.update(percent)
 
 
 def DownloaderClass(url,dest):
     dp = xbmcgui.DialogProgress()
-    dp.create("[COLOR tomato]CerebroTV Game Downloader[/COLOR]","Downloading M.A.M.E Roms","This may take a few seconds.")
+    dp.create("[COLOR tomato]VistaTV Game Downloader[/COLOR]","Downloading M.A.M.E Roms","This may take a few seconds.")
     try:
         urllib.urlretrieve(url,dest,lambda nb, bs, fs, url=url: _pbhook(nb,bs,fs,url,dp))
         
@@ -101,10 +101,10 @@ def _pbhook(numblocks, blocksize, filesize, url=None,dp=None):
  
 def DownloaderClass2(url,dest):
     dp = xbmcgui.DialogProgress()
-    dp.create("[COLOR tomato]CerebroTV Game Downloader[/COLOR]","Downloading Game","This may take a while.")
+    dp.create("[COLOR tomato]VistaTV Game Downloader[/COLOR]","Downloading Game","This may take a while.")
     try:
         urllib.urlretrieve(url,dest,lambda nb, bs, fs, url=url: _pbhook(nb,bs,fs,url,dp))
-        dp.create("[COLOR tomato]CerebroTV Game Installer[/COLOR]","Adding Game files to system","Please Wait.")
+        dp.create("[COLOR tomato]VistaTV Game Installer[/COLOR]","Adding Game files to system","Please Wait.")
 
         zfile = zipfile.ZipFile(gamefile, 'r')	
         nItem = float(len(zfile.infolist()))
@@ -133,10 +133,10 @@ def DownloaderClass2(url,dest):
         
 def DownloaderClass3(url,dest):
     dp = xbmcgui.DialogProgress()
-    dp.create("[COLOR tomato]CerebroTV Game Downloader[/COLOR]","Downloading Game","This may take a while.")
+    dp.create("[COLOR tomato]VistaTV Game Downloader[/COLOR]","Downloading Game","This may take a while.")
     try:
         urllib.urlretrieve(url,dest,lambda nb, bs, fs, url=url: _pbhook(nb,bs,fs,url,dp))
-        dp.create("[COLOR tomato]CerebroTV Game Installer[/COLOR]","Adding Game files to system","Please Wait.")
+        dp.create("[COLOR tomato]VistaTV Game Installer[/COLOR]","Adding Game files to system","Please Wait.")
 
         zfile = zipfile.ZipFile(mamefile, 'r')	
         nItem = float(len(zfile.infolist()))
@@ -164,10 +164,10 @@ def DownloaderClass3(url,dest):
         
 def DownloaderClass4(url,dest):
     dp = xbmcgui.DialogProgress()
-    dp.create("[COLOR tomato]CerebroTV Game Downloader[/COLOR]","Downloading MegaDrive Roms","This may take a few seconds.")
+    dp.create("[COLOR tomato]VistaTV Game Downloader[/COLOR]","Downloading MegaDrive Roms","This may take a few seconds.")
     try:
         urllib.urlretrieve(url,dest,lambda nb, bs, fs, url=url: _pbhook(nb,bs,fs,url,dp))
-        dp.create("[COLOR tomato]CerebroTV Game Installer[/COLOR]","Adding Game files to system","Please Wait.")
+        dp.create("[COLOR tomato]VistaTV Game Installer[/COLOR]","Adding Game files to system","Please Wait.")
 
         zfile = zipfile.ZipFile(megafile, 'r')	
         nItem = float(len(zfile.infolist()))
@@ -195,10 +195,10 @@ def DownloaderClass4(url,dest):
         
 def DownloaderClass5(url,dest):
     dp = xbmcgui.DialogProgress()
-    dp.create("[COLOR tomato]CerebroTV Game Downloader[/COLOR]","Downloading SENS Roms","This may take a few seconds.")
+    dp.create("[COLOR tomato]VistaTV Game Downloader[/COLOR]","Downloading SENS Roms","This may take a few seconds.")
     try:
         urllib.urlretrieve(url,dest,lambda nb, bs, fs, url=url: _pbhook(nb,bs,fs,url,dp))
-        dp.create("[COLOR tomato]CerebroTV Game Installer[/COLOR]","Adding Game files to system","Please Wait.")
+        dp.create("[COLOR tomato]VistaTV Game Installer[/COLOR]","Adding Game files to system","Please Wait.")
 
         zfile = zipfile.ZipFile(snesfile, 'r')	
         nItem = float(len(zfile.infolist()))
@@ -241,7 +241,7 @@ def menuoptions2():
         function22
         )
         
-    call = dialog.select('[B][COLOR=yellow]CerebroTV[/COLOR][COLOR=red] Retro Games[/COLOR][/B]', 
+    call = dialog.select('[B][COLOR=yellow]VistaTV[/COLOR][COLOR=red] Retro Games[/COLOR][/B]', 
     ['[B][COLOR=green]Download R-Type Delta (PSX)[/COLOR][/B]'
     ,'[B][COLOR=gold]Download Bubble Bobble 2 (PSX)[/COLOR][/B]'
     , '[B][COLOR=orange]Download Crashbandicoot 3 Warped (PSX)[/COLOR][/B]'
@@ -264,32 +264,32 @@ def menuoptions2():
             return
         func = funcs[call-12]
         #dp = xbmcgui.DialogProgress()
-        #dp.create("[COLOR tomato]CerebroTV[/COLOR]",""+str(func)+" -3","PLEASE EXIT KODI OR PULL THE POWER LEAD")
+        #dp.create("[COLOR tomato]VistaTV[/COLOR]",""+str(func)+" -3","PLEASE EXIT KODI OR PULL THE POWER LEAD")
         #xbmc.sleep(1000)
         return func()
     else:
         func = funcs[call]
         #dp = xbmcgui.DialogProgress()
-        #dp.create("[COLOR tomato]CerebroTV[/COLOR]",""+str(func)+" +0","PLEASE EXIT KODI OR PULL THE POWER LEAD")
+        #dp.create("[COLOR tomato]VistaTV[/COLOR]",""+str(func)+" +0","PLEASE EXIT KODI OR PULL THE POWER LEAD")
         #xbmc.sleep(1000)
         return func()
     return 
 
 def function11():
     DownloaderClass2("http://mtvb.co.uk/bins/rtype.zip",gamefile)
-    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]CerebroTV[/COLOR]","[COLOR yellow][/COLOR]","Launch ePSXe" ,"","No","Yes")
+    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]VistaTV[/COLOR]","[COLOR yellow][/COLOR]","Launch ePSXe" ,"","No","Yes")
     if openapp:
         xbmc.executebuiltin('StartAndroidActivity("com.epsxe.ePSXe")') 
  
 def function12():
     DownloaderClass2("http://mtvb.co.uk/bins/bb.zip",gamefile)
-    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]CerebroTV[/COLOR]","[COLOR yellow][/COLOR]","Launch ePSXe" ,"","No","Yes")
+    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]VistaTV[/COLOR]","[COLOR yellow][/COLOR]","Launch ePSXe" ,"","No","Yes")
     if openapp:
         xbmc.executebuiltin('StartAndroidActivity("com.epsxe.ePSXe")') 
 
 def function13():
     DownloaderClass2("http://mtvb.co.uk/bins/cb.zip",gamefile)
-    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]CerebroTV[/COLOR]","[COLOR yellow][/COLOR]","Launch ePSXe" ,"","No","Yes")
+    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]VistaTV[/COLOR]","[COLOR yellow][/COLOR]","Launch ePSXe" ,"","No","Yes")
     if openapp:
         xbmc.executebuiltin('StartAndroidActivity("com.epsxe.ePSXe")') 
          
@@ -298,7 +298,7 @@ def function14():
         try: os.mkdir(HOME3)
         except: pass
     DownloaderClass4("http://mtvb.co.uk/bins/MEGADRIVE.zip",megafile)
-    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]CerebroTV[/COLOR]","[COLOR yellow][/COLOR]","Launch Gensoid" ,"","No","Yes")
+    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]VistaTV[/COLOR]","[COLOR yellow][/COLOR]","Launch Gensoid" ,"","No","Yes")
     if openapp:
         xbmc.executebuiltin('StartAndroidActivity("com.androidemu.gens")')
 
@@ -307,7 +307,7 @@ def function15():
         try: os.mkdir(HOME1)
         except: pass
     DownloaderClass3("http://mtvb.co.uk/bins/mame.zip",mamefile)
-    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]CerebroTV[/COLOR]","[COLOR yellow][/COLOR]","Launch M.A.M.E" ,"","No","Yes")
+    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]VistaTV[/COLOR]","[COLOR yellow][/COLOR]","Launch M.A.M.E" ,"","No","Yes")
     if openapp:
         xbmc.executebuiltin('StartAndroidActivity("com.seleuco.mame4droid")')
         
@@ -316,44 +316,44 @@ def function16():
         try: os.mkdir(HOME1)
         except: pass
     DownloaderClass3("http://mtvb.co.uk/bins/mame2.zip",mamefile)
-    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]CerebroTV[/COLOR]","[COLOR yellow][/COLOR]","Launch M.A.M.E" ,"","No","Yes")
+    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]VistaTV[/COLOR]","[COLOR yellow][/COLOR]","Launch M.A.M.E" ,"","No","Yes")
     if openapp:
         xbmc.executebuiltin('StartAndroidActivity("com.seleuco.mame4droid")')
         
 def function17():
     DownloaderClass2("http://mtvb.co.uk/bins/db.zip",gamefile)
-    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]CerebroTV[/COLOR]","[COLOR yellow][/COLOR]","Launch ePSXe" ,"","No","Yes")
+    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]VistaTV[/COLOR]","[COLOR yellow][/COLOR]","Launch ePSXe" ,"","No","Yes")
     if openapp:
         xbmc.executebuiltin('StartAndroidActivity("com.epsxe.ePSXe")') 
         
 def function18():
-    xbmc.executebuiltin("Notification(CerebroTV,THIS GAME WILL TAKE ALONG TIME TO INSTALL, ..,27000,)")
+    xbmc.executebuiltin("Notification(VistaTV,THIS GAME WILL TAKE ALONG TIME TO INSTALL, ..,27000,)")
     DownloaderClass2("http://mtvb.co.uk/bins/StreetFighterZero3.zip",gamefile)
-    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]CerebroTV[/COLOR]","[COLOR yellow][/COLOR]","Launch ePSXe" ,"","No","Yes")
+    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]VistaTV[/COLOR]","[COLOR yellow][/COLOR]","Launch ePSXe" ,"","No","Yes")
     if openapp:
         xbmc.executebuiltin('StartAndroidActivity("com.epsxe.ePSXe")') 
         
 def function19():
     DownloaderClass2("http://mtvb.co.uk/bins/rtypes.zip",gamefile)
-    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]CerebroTV[/COLOR]","[COLOR yellow][/COLOR]","Launch ePSXe" ,"","No","Yes")
+    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]VistaTV[/COLOR]","[COLOR yellow][/COLOR]","Launch ePSXe" ,"","No","Yes")
     if openapp:
         xbmc.executebuiltin('StartAndroidActivity("com.epsxe.ePSXe")') 
         
 def function20():
     DownloaderClass5("http://mtvb.co.uk/bins/snes.zip",snesfile)
-    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]CerebroTV[/COLOR]","[COLOR yellow][/COLOR]","Launch SENS Emulator" ,"","No","Yes")
+    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]VistaTV[/COLOR]","[COLOR yellow][/COLOR]","Launch SENS Emulator" ,"","No","Yes")
     if openapp:
         xbmc.executebuiltin('StartAndroidActivity("com.explusalpha.Snes9xPlus")') 
         
 def function21():
     DownloaderClass2("http://mtvb.co.uk/bins/azuredreams.zip",gamefile)
-    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]CerebroTV[/COLOR]","[COLOR yellow][/COLOR]","Launch ePSXe" ,"","No","Yes")
+    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]VistaTV[/COLOR]","[COLOR yellow][/COLOR]","Launch ePSXe" ,"","No","Yes")
     if openapp:
         xbmc.executebuiltin('StartAndroidActivity("com.epsxe.ePSXe")') 
         
 def function22():
     DownloaderClass2("http://mtvb.co.uk/bins/HarvestMoonBacktoNature.zip.zip",gamefile)
-    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]CerebroTV[/COLOR]","[COLOR yellow][/COLOR]","Launch ePSXe" ,"","No","Yes")
+    openapp = xbmcgui.Dialog().yesno("[COLOR tomato]VistaTV[/COLOR]","[COLOR yellow][/COLOR]","Launch ePSXe" ,"","No","Yes")
     if openapp:
         xbmc.executebuiltin('StartAndroidActivity("com.epsxe.ePSXe")') 
 
@@ -368,7 +368,7 @@ def menuoptions():
         function5
         )
         
-    call = dialog.select('[B][COLOR=yellow]CerebroTV[/COLOR][COLOR=red] Retro Games[/COLOR][/B]', ['[B][COLOR=green]Download Games[/COLOR][/B]','[B][COLOR=gold]Play Playsation 1 Games[/COLOR][/B] ([I]ePSXe[/I]) - ([I]Andriod [/I])', '[B][COLOR=orange]M.A.M.E[/COLOR][/B] ([I]Multi Arcade Machine Emulator[/I]) - ([I]Andriod [/I])', '[B][COLOR=cyan]MegaDrive Emulator[/COLOR][/B] ([I]Genesis[/I]) - ([I]Andriod [/I])', '[B][COLOR=gold]SNES Emulator[/COLOR][/B] ([I]Super Nintendo[/I]) - ([I]Andriod [/I])'])
+    call = dialog.select('[B][COLOR=yellow]VistaTV[/COLOR][COLOR=red] Retro Games[/COLOR][/B]', ['[B][COLOR=green]Download Games[/COLOR][/B]','[B][COLOR=gold]Play Playsation 1 Games[/COLOR][/B] ([I]ePSXe[/I]) - ([I]Andriod [/I])', '[B][COLOR=orange]M.A.M.E[/COLOR][/B] ([I]Multi Arcade Machine Emulator[/I]) - ([I]Andriod [/I])', '[B][COLOR=cyan]MegaDrive Emulator[/COLOR][/B] ([I]Genesis[/I]) - ([I]Andriod [/I])', '[B][COLOR=gold]SNES Emulator[/COLOR][/B] ([I]Super Nintendo[/I]) - ([I]Andriod [/I])'])
     # dialog.selectreturns
     #   0 -> escape pressed
     #   1 -> first item
@@ -379,13 +379,13 @@ def menuoptions():
             return
         func = funcs[call-5]
         #dp = xbmcgui.DialogProgress()
-        #dp.create("[COLOR tomato]CerebroTV[/COLOR]",""+str(func)+" -3","PLEASE EXIT KODI OR PULL THE POWER LEAD")
+        #dp.create("[COLOR tomato]VistaTV[/COLOR]",""+str(func)+" -3","PLEASE EXIT KODI OR PULL THE POWER LEAD")
         #xbmc.sleep(1000)
         return func()
     else:
         func = funcs[call]
         #dp = xbmcgui.DialogProgress()
-        #dp.create("[COLOR tomato]CerebroTV[/COLOR]",""+str(func)+" +0","PLEASE EXIT KODI OR PULL THE POWER LEAD")
+        #dp.create("[COLOR tomato]VistaTV[/COLOR]",""+str(func)+" +0","PLEASE EXIT KODI OR PULL THE POWER LEAD")
         #xbmc.sleep(1000)
         return func()
     return 
@@ -413,7 +413,8 @@ if myplatform == 'android':
     menuoptions()
 else:
     dialog = xbmcgui.Dialog()
-    dialog.ok("[COLOR=red][B]INFOMATION[/COLOR][/B]", "ANDROID SYSTEMS ONLY", "","")
+    dialog.ok("[COLOR=red][B]INFOMATION[/COLOR][/B]", "PLEASE INSTALL AN ANDROID", "EMULATOR FOR THIS SECTION","TO WORK")
+    menuoptions()
 
 
 

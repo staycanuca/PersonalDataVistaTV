@@ -2184,7 +2184,7 @@ provider-name="VistaTV">
 
 <addon id="script.vistatvAPKinstaller"
   name="VistaTV APK Installer"
-  version="1.0"
+  version="1.1"
   provider-name="VistaTV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2202,7 +2202,7 @@ provider-name="VistaTV">
 
 <addon id="script.vistatvgames"
   name="VistaTV Play Retro Games"
-  version="1.0"
+  version="1.1"
   provider-name="VistaTV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

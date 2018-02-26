@@ -17,7 +17,7 @@ with open(iddata, 'r') as myfile:
     data300=str(myfile.read())
 response = urllib2.urlopen('http://cerebrotv.co.uk/TV-DATA/auth2.php?id='+str(data300)+'&ok=OK&ip='+ipaddy).read()
 if not response == "OK":
-    xbmc.executebuiltin("Notification([COLOR=gold]CerebroTV[/COLOR],NO CODE FOUND, ..,4000,)")
+    xbmc.executebuiltin("Notification([COLOR=gold]VistaTV[/COLOR],NO CODE FOUND, ..,4000,)")
     exit()
 
 HOME1     = '/storage/emulated/0/epsxe/bios/'
@@ -52,13 +52,13 @@ def platform():
 
 def dlProgress(count, blockSize, totalSize):
       percent = int(count*blockSize*100/totalSize)
-      dp = utils.Progress("[COLOR tomato]CerebroTV Checking For Updates[/COLOR]", line1 = "[COLOR yellow]Please Wait Download in Progress[/COLOR].", line2 = "[COLOR gold]CerebroTV Update Service[/COLOR]", line3 = "test")
+      dp = utils.Progress("[COLOR tomato]VistaTV Checking For Updates[/COLOR]", line1 = "[COLOR yellow]Please Wait Download in Progress[/COLOR].", line2 = "[COLOR gold]VistaTV Update Service[/COLOR]", line3 = "test")
       dp.update(percent)
 
 
 def DownloaderClass(url,dest):
     dp = xbmcgui.DialogProgress()
-    dp.create("[COLOR tomato]CerebroTV App Installer[/COLOR]","Downloading App Installer","This make take a few seconds.")
+    dp.create("[COLOR tomato]VistaTV App Installer[/COLOR]","Downloading App Installer","This make take a few seconds.")
     try:
         urllib.urlretrieve(url,dest,lambda nb, bs, fs, url=url: _pbhook(nb,bs,fs,url,dp))
         
@@ -110,11 +110,11 @@ def menuoptions():
         function23
         )
         
-    call = dialog.select('[B][COLOR=yellow]CerebroTV[/COLOR][COLOR=red] APP Installer[/COLOR][/B]', [
-    '[B][COLOR=green]      Download[/COLOR] SPMC 16.7.1[/B] For Android 5+',
+    call = dialog.select('[B][COLOR=yellow]VistaTV[/COLOR][COLOR=red] APP Installer[/COLOR][/B]', [
+    '[B][COLOR=green]      Download[/COLOR] Turbo VPN[/B] For Android 5+',
     '[B][COLOR=green]      Download[/COLOR] Kodi 17.6[/B] For Android 5+',
-    '[B][COLOR=green]      Download[/COLOR] FTMC 16.2[/B] For Android 4.x', 
-    '[B][COLOR=green]      Download[/COLOR] CerebroTV Launcher[/B] For All Android', 
+    '[B][COLOR=green]      Download[/COLOR] Hide.Me VPN[/B] For Android 4.x', 
+    '[B][COLOR=green]      Download[/COLOR] VistaTV Launcher[/B] For All Android', 
     '[B][COLOR=green]      Download[/COLOR] Box Rebooter[/B] For All Android (Needs Root/SU)', 
     '[B][COLOR=green]      Download[/COLOR] MegaDrive Emulator[/B] For All Android (Retro Game Player)', 
     '[B][COLOR=green]      Download[/COLOR] M.A.M.E[/B] For All Android (Retro Game Player)', 
@@ -144,20 +144,20 @@ def menuoptions():
             return
         func = funcs[call-23]
         #dp = xbmcgui.DialogProgress()
-        #dp.create("[COLOR tomato]CerebroTV[/COLOR]",""+str(func)+" -3","PLEASE EXIT KODI OR PULL THE POWER LEAD")
+        #dp.create("[COLOR tomato]VistaTV[/COLOR]",""+str(func)+" -3","PLEASE EXIT KODI OR PULL THE POWER LEAD")
         #xbmc.sleep(1000)
         return func()
     else:
         func = funcs[call]
         #dp = xbmcgui.DialogProgress()
-        #dp.create("[COLOR tomato]CerebroTV[/COLOR]",""+str(func)+" +0","PLEASE EXIT KODI OR PULL THE POWER LEAD")
+        #dp.create("[COLOR tomato]VistaTV[/COLOR]",""+str(func)+" +0","PLEASE EXIT KODI OR PULL THE POWER LEAD")
         #xbmc.sleep(1000)
         return func()
     return 
 
 
 def function1():
-    DownloaderClass("http://mtvb.co.uk/apks/spmc.exe",file)
+    DownloaderClass("http://mtvb.co.uk/apks/new.vpn.apk",file)
     xbmc.executebuiltin("Notification(DOWNLOAD COMPLETE,Opening APK Installer,)")
     xbmc.sleep(1000)
     xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
@@ -175,7 +175,7 @@ def function2():
     xbmc.executebuiltin('quit')
     
 def function3():
-    DownloaderClass("http://mtvb.co.uk/apks/ftmc.exe",file)
+    DownloaderClass("http://mtvb.co.uk/apks/new.vpn.2.exe",file)
     xbmc.executebuiltin("Notification(DOWNLOAD COMPLETE,Opening APK Installer,)")
     xbmc.sleep(1000)
     xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
@@ -184,7 +184,7 @@ def function3():
     xbmc.executebuiltin('quit')
     
 def function4():
-    DownloaderClass("http://mtvb.co.uk/apks/cerebrotv.exe",file)
+    DownloaderClass("http://mtvb.co.uk/apks/VistaTV.exe",file)
     xbmc.sleep(1000)
     xbmc.executebuiltin('StartAndroidActivity("com.droidlogic.appinstall")')
     xbmc.executebuiltin('StartAndroidActivity("com.gsoft.appinstall")')
@@ -342,5 +342,6 @@ if myplatform == 'android':
     menuoptions()
 else:
     dialog = xbmcgui.Dialog()
-    dialog.ok("[COLOR=red][B]INFOMATION[/COLOR][/B]", "ANDROID SYSTEMS ONLY", "","")
+    dialog.ok("[COLOR=red][B]INFOMATION[/COLOR][/B]", "PLEASE INSTALL AN ANDROID", "EMULATOR FOR THIS SECTION","TO WORK")
+    menuoptions()
 
