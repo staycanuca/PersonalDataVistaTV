@@ -18,24 +18,27 @@
 <item>
 <title>BBC1</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=http%3A%2F%2Fvs-hls-uk-live.akamaized.net%2Fpool_30%2Flive%2Fbbc_one_hd%2Fbbc_one_hd.isml%2Fbbc_one_hd-pa4%253d128000-video%253d5070016.m3u8&amp;mode=1&amp;name=BBC+One+HD::LISTNAME:BBC One HD::#
-sublink:LISTSOURCE:plugin://plugin.video.f4mTester/?proxy_for_chunks=False&amp;maxbitrate=0&amp;name=bbc1+%28uk%29&amp;url=http%3A%2F%2Fvs-hds-uk-live.akamaized.net%2Fpool_30%2Flive%2Fbbc_one_hd%2Fbbc_one_hd.isml%2Fbbc_one_hd-pa3%253d96000-video%253d827008.f4m%7CReferer%3Dhttp%3A%2F%2Fwww.bbc.co.uk%2Fiplayer%2Flive%2Fbbcone%26X-Requested-With%3DShockwaveFlash%2F18.0.0.160&amp;proxy=&amp;mode=play::LISTNAME:BBC One (NO GEO LOCK!)::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_yorks.m3u8&amp;mode=9999&amp;name=BBC+One+Yorkshire&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One Yorkshire::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_east.m3u8&amp;mode=9999&amp;name=BBC+One+East&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One East::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_east_midlands.m3u8&amp;mode=9999&amp;name=BBC+One+East+Midlands&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One East Midlands::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_east_yorkshire.m3u8&amp;mode=9999&amp;name=BBC+One+East+Yorkshire&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One East Yorkshire::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_london.m3u8&amp;mode=9999&amp;name=BBC+One+London&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One London::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_north_east.m3u8&amp;mode=9999&amp;name=BBC+One+North+East&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One North East::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_north_west.m3u8&amp;mode=9999&amp;name=BBC+One+North+West&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One North West::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_one_northern_ireland_hd.m3u8&amp;mode=9999&amp;name=BBC+One+Northen+Ireland&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One Northen Ireland::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_oxford.m3u8&amp;mode=9999&amp;name=BBC+One+Oxford&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One Oxford::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_one_scotland_hd.m3u8&amp;mode=9999&amp;name=BBC+One+Scotland&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One Scotland::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_south.m3u8&amp;mode=9999&amp;name=BBC+One+South&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One South::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_south_east.m3u8&amp;mode=9999&amp;name=BBC+One+South+East&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One South East::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_south_west.m3u8&amp;mode=9999&amp;name=BBC+One+South+West&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One South West::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_one_wales_hd.m3u8&amp;mode=9999&amp;name=BBC+One+Wales&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One Wales::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_west.m3u8&amp;mode=9999&amp;name=BBC+One+West&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One West::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_west_midlands.m3u8&amp;mode=9999&amp;name=BBC+One+West+Midlands&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One West Midlands::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F596.ts/BBC%20ONE-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fbbc_one.jpg::LISTNAME:BBC One::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33Raaabeebyc-1%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BBC+1&amp;iconimage=http%253A%252F%252Fsmarterlogix.com%252FiosSecureApps%252FPakIndiaTVHD%252FV1-2%252FImages%252Fsports.jpg&amp;description=::LISTNAME:BBC One::#
+sublink:LISTSOURCE:plugin://plugin.video.f4mTester/?proxy_for_chunks=False&amp;maxbitrate=0&amp;name=bbc1+%28uk%29&amp;url=http%3A%2F%2Fvs-hds-uk-live.akamaized.net%2Fpool_30%2Flive%2Fbbc_one_hd%2Fbbc_one_hd.isml%2Fbbc_one_hd-pa3%253d96000-video%253d827008.f4m%7CReferer%3Dhttp%3A%2F%2Fwww.bbc.co.uk%2Fiplayer%2Flive%2Fbbcone%26X-Requested-With%3DShockwaveFlash%2F18.0.0.160&amp;proxy=&amp;mode=play::LISTNAME:BBC One::#
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=http%3A%2F%2Fvs-hls-uk-live.akamaized.net%2Fpool_30%2Flive%2Fbbc_one_hd%2Fbbc_one_hd.isml%2Fbbc_one_hd-pa4%253d128000-video%253d5070016.m3u8&amp;mode=1&amp;name=BBC+One+HD::LISTNAME:BBC One HD (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://plugin.video.f4mTester/?proxy_for_chunks=False&amp;maxbitrate=0&amp;name=bbc1+%28uk%29&amp;url=http%3A%2F%2Fvs-hds-uk-live.akamaized.net%2Fpool_30%2Flive%2Fbbc_one_hd%2Fbbc_one_hd.isml%2Fbbc_one_hd-pa3%253d96000-video%253d827008.f4m%7CReferer%3Dhttp%3A%2F%2Fwww.bbc.co.uk%2Fiplayer%2Flive%2Fbbcone%26X-Requested-With%3DShockwaveFlash%2F18.0.0.160&amp;proxy=&amp;mode=play::LISTNAME:BBC One::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_yorks.m3u8&amp;mode=9999&amp;name=BBC+One+Yorkshire&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One Yorkshire (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_east.m3u8&amp;mode=9999&amp;name=BBC+One+East&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One East (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_east_midlands.m3u8&amp;mode=9999&amp;name=BBC+One+East+Midlands&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One East Midlands (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_east_yorkshire.m3u8&amp;mode=9999&amp;name=BBC+One+East+Yorkshire&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One East Yorkshire (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_london.m3u8&amp;mode=9999&amp;name=BBC+One+London&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One London (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_north_east.m3u8&amp;mode=9999&amp;name=BBC+One+North+East&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One North East (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_north_west.m3u8&amp;mode=9999&amp;name=BBC+One+North+West&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One North West (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_one_northern_ireland_hd.m3u8&amp;mode=9999&amp;name=BBC+One+Northen+Ireland&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One Northen Ireland (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_oxford.m3u8&amp;mode=9999&amp;name=BBC+One+Oxford&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One Oxford (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_one_scotland_hd.m3u8&amp;mode=9999&amp;name=BBC+One+Scotland&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One Scotland (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_south.m3u8&amp;mode=9999&amp;name=BBC+One+South&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One South (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_south_east.m3u8&amp;mode=9999&amp;name=BBC+One+South+East&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One South East (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_south_west.m3u8&amp;mode=9999&amp;name=BBC+One+South+West&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One South West (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_one_wales_hd.m3u8&amp;mode=9999&amp;name=BBC+One+Wales&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One Wales: (GEO LOCKED to UK):#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_west.m3u8&amp;mode=9999&amp;name=BBC+One+West&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One West (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_west_midlands.m3u8&amp;mode=9999&amp;name=BBC+One+West+Midlands&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One West Midlands (GEO LOCKED to UK)::#
 </link>
 <thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/89.png</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -44,12 +47,15 @@ sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.c
 <item>
 <title>BBC2</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=http%3A%2F%2Fvs-hls-uk-live.akamaized.net%2Fpool_31%2Flive%2Fbbc_two_hd%2Fbbc_two_hd.isml%2Fbbc_two_hd-pa4%253d128000-video%253d5070016.m3u8&amp;mode=1&amp;name=BBC+Two+HD::LISTNAME:BBC Two HD::#
-sublink:LISTSOURCE:plugin://plugin.video.f4mTester/?proxy_for_chunks=False&amp;maxbitrate=0&amp;name=bbc2+%28uk%29&amp;url=http%3A%2F%2Fvs-hds-uk-live.akamaized.net%2Fpool_31%2Flive%2Fbbc_two_hd%2Fbbc_two_hd.isml%2Fbbc_two_hd-pa3%253d96000-video%253d827008.f4m%7CReferer%3Dhttp%3A%2F%2Fwww.bbc.co.uk%2Fiplayer%2Flive%2Fbbctwo%26X-Requested-With%3DShockwaveFlash%2F18.0.0.160&amp;proxy=&amp;mode=play::LISTNAME:BBC Two (NO GEO LOCK!)::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_two_scotland.m3u8&amp;mode=9999&amp;name=BBC+Two+Scotland&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description::LISTNAME:BBC Two Scotland::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_two_northern_ireland_digital.m3u8&amp;mode=9999&amp;name=BBC+Two+Northen+Ireland&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC Two Northen Ireland::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_two_wales_digital.m3u8&amp;mode=9999&amp;name=BBC+Two+Wales&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC Two Wales::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_two_england.m3u8&amp;mode=9999&amp;name=BBC+Two+England&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC Two England::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F597.ts/BBC%20TWO-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fbbc_two_uk.jpg::LISTNAME:BBC Two::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33Raaabeebyc-2%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BBC+2&amp;iconimage=http%253A%252F%252Fsmarterlogix.com%252FiosSecureApps%252FPakIndiaTVHD%252FV1-2%252FImages%252Fsports.jpg&amp;description=::LISTNAME:BBC Two::#
+sublink:LISTSOURCE:plugin://plugin.video.f4mTester/?proxy_for_chunks=False&amp;maxbitrate=0&amp;name=bbc2+%28uk%29&amp;url=http%3A%2F%2Fvs-hds-uk-live.akamaized.net%2Fpool_31%2Flive%2Fbbc_two_hd%2Fbbc_two_hd.isml%2Fbbc_two_hd-pa3%253d96000-video%253d827008.f4m%7CReferer%3Dhttp%3A%2F%2Fwww.bbc.co.uk%2Fiplayer%2Flive%2Fbbctwo%26X-Requested-With%3DShockwaveFlash%2F18.0.0.160&amp;proxy=&amp;mode=play::LISTNAME:BBC Two::#
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=http%3A%2F%2Fvs-hls-uk-live.akamaized.net%2Fpool_31%2Flive%2Fbbc_two_hd%2Fbbc_two_hd.isml%2Fbbc_two_hd-pa4%253d128000-video%253d5070016.m3u8&amp;mode=1&amp;name=BBC+Two+HD::LISTNAME:BBC Two HD (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://plugin.video.f4mTester/?proxy_for_chunks=False&amp;maxbitrate=0&amp;name=bbc2+%28uk%29&amp;url=http%3A%2F%2Fvs-hds-uk-live.akamaized.net%2Fpool_31%2Flive%2Fbbc_two_hd%2Fbbc_two_hd.isml%2Fbbc_two_hd-pa3%253d96000-video%253d827008.f4m%7CReferer%3Dhttp%3A%2F%2Fwww.bbc.co.uk%2Fiplayer%2Flive%2Fbbctwo%26X-Requested-With%3DShockwaveFlash%2F18.0.0.160&amp;proxy=&amp;mode=play::LISTNAME:BBC Two::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_two_scotland.m3u8&amp;mode=9999&amp;name=BBC+Two+Scotland&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description::LISTNAME:BBC Two Scotland (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_two_northern_ireland_digital.m3u8&amp;mode=9999&amp;name=BBC+Two+Northen+Ireland&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC Two Northen Ireland (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_two_wales_digital.m3u8&amp;mode=9999&amp;name=BBC+Two+Wales&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC Two Wales (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_two_england.m3u8&amp;mode=9999&amp;name=BBC+Two+England&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC Two England (GEO LOCKED to UK)::#
 </link>
 <thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/90.png</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -58,8 +64,8 @@ sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.c
 <item>
 <title>ITV</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=204&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DITV%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DITV+News+London%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F204.png&amp;description=No+information+available.&amp;genre=Entertainment::LISTNAME:ITV 1::#
-sublink:LISTSOURCE:plugin://plugin.video.ZemTV-shani/?url=ZGlyZWN0MjpodHRwOi8vOTUuMTU0LjIzNy44ODo4MDgwL01hdEgzM1JhYWFleWVUZVYtMS9TdHJtL2luZGV4Lm0zdTh8VXNlci1BZ2VudD1BcHBsZUNvcmVNZWRpYS8xLjAuMC4xM0E0NTIgKGlQaG9uZTsgVTsgQ1BVIE9TIDlfMF8yIGxpa2UgTWFjIE9TIFg7IGVuX2diKQ%3D%3D&amp;mode=11&amp;name=Itv+sports+1::LISTNAME:ITV 1 (NO GEO LOCK)::#
+sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=204&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DITV%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DITV+News+London%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F204.png&amp;description=No+information+available.&amp;genre=Entertainment::LISTNAME:ITV 1 (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://plugin.video.ZemTV-shani/?url=ZGlyZWN0MjpodHRwOi8vOTUuMTU0LjIzNy44ODo4MDgwL01hdEgzM1JhYWFleWVUZVYtMS9TdHJtL2luZGV4Lm0zdTh8VXNlci1BZ2VudD1BcHBsZUNvcmVNZWRpYS8xLjAuMC4xM0E0NTIgKGlQaG9uZTsgVTsgQ1BVIE9TIDlfMF8yIGxpa2UgTWFjIE9TIFg7IGVuX2diKQ%3D%3D&amp;mode=11&amp;name=Itv+sports+1::LISTNAME:ITV 1::#
 </link>
 <thumbnail>http://blog.careco.co.uk/wp-content/uploads/2015/08/x__i0KC0.png</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -68,7 +74,7 @@ sublink:LISTSOURCE:plugin://plugin.video.ZemTV-shani/?url=ZGlyZWN0MjpodHRwOi8vOT
 <item>
 <title>ITV 2</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=556&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DITV+2%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DThe+Ellen+DeGeneres+Show%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F556.png&amp;description=The+host+is+joined+by+actress+Natalie+Portman%2C+who+talks+about+her+new+thriller+fantasy+film%2C+Annihilation%2C+and+actor+Dax+Shepard.&amp;genre=Entertainment::LISTNAME:ITV 2::#
+sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=556&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DITV+2%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DThe+Ellen+DeGeneres+Show%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F556.png&amp;description=The+host+is+joined+by+actress+Natalie+Portman%2C+who+talks+about+her+new+thriller+fantasy+film%2C+Annihilation%2C+and+actor+Dax+Shepard.&amp;genre=Entertainment::LISTNAME:ITV 2 (GEO LOCKED to UK)::#
 sublink:LISTSOURCE:plugin://plugin.video.ZemTV-shani/?url=ZGlyZWN0MjpodHRwOi8vOTUuMTU0LjIzNy44ODo4MDgwL01hdEgzM1JhYWFleWVUZVYtMi9TdHJtL2luZGV4Lm0zdTh8VXNlci1BZ2VudD1BcHBsZUNvcmVNZWRpYS8xLjAuMC4xM0E0NTIgKGlQaG9uZTsgVTsgQ1BVIE9TIDlfMF8yIGxpa2UgTWFjIE9TIFg7IGVuX2diKQ%3D%3D&amp;mode=11&amp;name=Itv+sports+2::LISTNAME:ITV 2::#
 </link>
 <thumbnail>http://blog.careco.co.uk/wp-content/uploads/2015/08/x__i0KC0.png</thumbnail>
@@ -78,7 +84,7 @@ sublink:LISTSOURCE:plugin://plugin.video.ZemTV-shani/?url=ZGlyZWN0MjpodHRwOi8vOT
 <item>
 <title>ITV 3</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=558&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DITV+3%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DHeartbeat%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F558.png&amp;description=Paying+guests+the+Langleys+arrive+for+a+shooting+party+at+Ashfordly+Hall%2C+but+their+grandiose+ideas+upset+the+locals+and+it+is+not+long+before+a+sinister+plot+is+revealed.+Vernon%27s+latest+money-making+scheme+seems+destined+to+end+in+disaster+as+David+takes+the+wheel+of+an+old+Army+vehicle%2C+but+his+off-road+tours+are+not+for+the+faint-hearted.+Nostalgic+rural+drama%2C+guest+starring+Robert+Glenister+and+Celia+Imrie.&amp;genre=Entertainment::LISTNAME:ITV 3::#
+sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=558&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DITV+3%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DHeartbeat%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F558.png&amp;description=Paying+guests+the+Langleys+arrive+for+a+shooting+party+at+Ashfordly+Hall%2C+but+their+grandiose+ideas+upset+the+locals+and+it+is+not+long+before+a+sinister+plot+is+revealed.+Vernon%27s+latest+money-making+scheme+seems+destined+to+end+in+disaster+as+David+takes+the+wheel+of+an+old+Army+vehicle%2C+but+his+off-road+tours+are+not+for+the+faint-hearted.+Nostalgic+rural+drama%2C+guest+starring+Robert+Glenister+and+Celia+Imrie.&amp;genre=Entertainment::LISTNAME:ITV 3 (GEO LOCKED to UK)::#
 sublink:LISTSOURCE:plugin://plugin.video.ZemTV-shani/?url=ZGlyZWN0MjpodHRwOi8vOTUuMTU0LjIzNy44ODo4MDgwL01hdEgzM1JhYWFleWVUZVYtMy9TdHJtL2luZGV4Lm0zdTh8VXNlci1BZ2VudD1BcHBsZUNvcmVNZWRpYS8xLjAuMC4xM0E0NTIgKGlQaG9uZTsgVTsgQ1BVIE9TIDlfMF8yIGxpa2UgTWFjIE9TIFg7IGVuX2diKQ%3D%3D&amp;mode=11&amp;name=Itv+sports+3::LISTNAME:ITV 3::#
 </link>
 <thumbnail>http://blog.careco.co.uk/wp-content/uploads/2015/08/x__i0KC0.png</thumbnail>
@@ -90,7 +96,7 @@ sublink:LISTSOURCE:plugin://plugin.video.ZemTV-shani/?url=ZGlyZWN0MjpodHRwOi8vOT
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTM2w::LISTNAME:ITV 4::#
 sublink:LISTSOURCE:plugin://plugin.video.ZemTV-shani/?url=ZGlyZWN0MjpodHRwOi8vOTUuMTU0LjIzNy44ODo4MDgwL01hdEgzM1JhYWFleWVUZVYtNC9TdHJtL2luZGV4Lm0zdTh8VXNlci1BZ2VudD1BcHBsZUNvcmVNZWRpYS8xLjAuMC4xM0E0NTIgKGlQaG9uZTsgVTsgQ1BVIE9TIDlfMF8yIGxpa2UgTWFjIE9TIFg7IGVuX2diKQ%3D%3D&amp;mode=11&amp;name=Itv+sports+4::LISTNAME:ITV 4::#
-sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=559&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DITV+4%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DLive+Snooker%3A+World+Grand+Prix%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F559.png&amp;description=Coverage+of+the+afternoon+session+on+day+two+of+the+tournament+at+the+Guild+Hall+in+Preston%2C+featuring+more+matches+from+the+first+round%2C+involving+Mark+Allen+and+John+Higgins.+At+the+corresponding+stage+of+last+year%27s+tournament%2C+Higgins+was+beaten+4-3+by+Michael+White%2C+while+Allen+progressed+in+style+with+a+4-0+thrashing+of+Anthony+Hamilton.+Presenter+Jill+Douglas+is+joined+by+Stephen+Hendry%2C+Alan+McManus+and+Neal+Foulds+for+analysis%2C+with+commentary+by+Clive+Everton+and+Phil+Yates.&amp;genre=Entertainment::LISTNAME:ITV 4::#
+sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=559&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DITV+4%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DLive+Snooker%3A+World+Grand+Prix%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F559.png&amp;description=Coverage+of+the+afternoon+session+on+day+two+of+the+tournament+at+the+Guild+Hall+in+Preston%2C+featuring+more+matches+from+the+first+round%2C+involving+Mark+Allen+and+John+Higgins.+At+the+corresponding+stage+of+last+year%27s+tournament%2C+Higgins+was+beaten+4-3+by+Michael+White%2C+while+Allen+progressed+in+style+with+a+4-0+thrashing+of+Anthony+Hamilton.+Presenter+Jill+Douglas+is+joined+by+Stephen+Hendry%2C+Alan+McManus+and+Neal+Foulds+for+analysis%2C+with+commentary+by+Clive+Everton+and+Phil+Yates.&amp;genre=Entertainment::LISTNAME:ITV 4 (GEO LOCKED to UK)::#
 </link>
 <thumbnail>http://blog.careco.co.uk/wp-content/uploads/2015/08/x__i0KC0.png</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -99,8 +105,8 @@ sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=559&amp;mode=200&amp;name
 <item>
 <title>ITV BE</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=557&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DITVBe%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DVanderpump+Rules%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F557.png&amp;description=Tom+Schwartz+adopts+a+puppy+to+delay+marriage+talks+with+Kate%2C+but+their+relationship+is+tested+when+Jax+spreads+rumours+that+she+cheated.&amp;genre=Entertainment::LISTNAME:ITV BE::#
-sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=557&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DITVBe%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DDinner+Date%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F557.png&amp;description=A+woman+from+Southampton+examines+the+menus+for+a+three-course+meal+submitted+by+five+potential+suitors%2C+before+whittling+them+down+to+three+candidates.+She+has+dinner+with+each+of+the+men+and+decides+who+she+would+like+to+see+again.+Matchmaking+show%2C+narrated+by+Charlotte+Hudson.&amp;genre=Entertainment::LISTNAME:ITV BE::#
+sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=557&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DITVBe%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DVanderpump+Rules%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F557.png&amp;description=Tom+Schwartz+adopts+a+puppy+to+delay+marriage+talks+with+Kate%2C+but+their+relationship+is+tested+when+Jax+spreads+rumours+that+she+cheated.&amp;genre=Entertainment::LISTNAME:ITV BE (GEO LOCKED to UK)::#
+sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=557&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DITVBe%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DDinner+Date%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F557.png&amp;description=A+woman+from+Southampton+examines+the+menus+for+a+three-course+meal+submitted+by+five+potential+suitors%2C+before+whittling+them+down+to+three+candidates.+She+has+dinner+with+each+of+the+men+and+decides+who+she+would+like+to+see+again.+Matchmaking+show%2C+narrated+by+Charlotte+Hudson.&amp;genre=Entertainment::LISTNAME:ITV BE (GEO LOCKED to UK)::#
 </link>
 <thumbnail>http://blog.careco.co.uk/wp-content/uploads/2015/08/x__i0KC0.png</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -111,7 +117,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=557&amp;mode=200&amp;name
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.ZemTV-shani/?url=ZGlyZWN0MjpodHRwOi8vOTUuMTU0LjIzNy44ODo4MDgwL01hdEgzM1JhYWFrY2hlbmwtNC9TdHJtL2luZGV4Lm0zdTh8VXNlci1BZ2VudD1BcHBsZUNvcmVNZWRpYS8xLjAuMC4xM0E0NTIgKGlQaG9uZTsgVTsgQ1BVIE9TIDlfMF8yIGxpa2UgTWFjIE9TIFg7IGVuX2diKQ%3D%3D&amp;mode=11&amp;name=Channel+4+uk::LISTNAME:Channel 4::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dChannel%204%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fe77d2afa4363dad35c713745802d7bee.m3u8::LISTNAME:Channel 4 ([I]UK Users May need to use VPN[/I])::#
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33Raaakchenl-4%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=Channel+4+UK&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cscript.module.vistatvlive%5Cicon.png&amp;description=::LISTNAME:Channel 4::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33Raaakchenl-4%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=Channel+4+UK&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cscript.module.vistatvlive%5Cicon.png&amp;description=::LISTNAME:Channel 4::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTQ0w::LISTNAME:Channel 4::#
 </link>
@@ -133,6 +138,7 @@ sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage
 <item>
 <title>Sky One</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3885.ts/SKY%20ONE-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fsky-one-uk.jpg::LISTNAME:Sky One::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20One%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2febcd8ef93fa99c4834d0cc3275f3dcd7.m3u8::LISTNAME:Sky One ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/189::LISTNAME:Sky One (Takes A Few Seconds to Exit)::#
 </link>
@@ -143,6 +149,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/189::LISTNAME:Sky One (Takes
 <item>
 <title>Sky Two</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3886.ts/SKY%20TWO-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fsky-two-uk.jpg::LISTNAME:Sky Two::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Two%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f838d5a3429b075f8b9ab00c083d93989.m3u8::LISTNAME:Sky Two ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY5w::LISTNAME:Sky Two::#
 </link>
@@ -153,6 +160,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY5w::LISTNAME:Sky Two:
 <item>
 <title>Sky Atlantic</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3883.ts/SKY%20ATLANTIC-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fsky-atlantic-uk.jpg::LISTNAME:Sky Atlantic::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Atlantic%20Ireland%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2feabd32acc39d4bd72a4ad687090aef8f.m3u8::LISTNAME:Sky Atlantic ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjc5w::LISTNAME:Sky Atlantic::#
 </link>
@@ -163,6 +171,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjc5w::LISTNAME:Sky Atla
 <item>
 <title>Sky Living</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3889.ts/SKY%20LIVING-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fsky_uk_living.jpg::LISTNAME:Sky Living::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Living%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f26cb04f6748172109489d18b64feca2e.m3u8::LISTNAME:Sky Living ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY2w::LISTNAME:Sky Living::#
 </link>
@@ -173,6 +182,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY2w::LISTNAME:Sky Livi
 <item>
 <title>Sky Arts</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3887.ts/SKY%20ARTS%201-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fsky-arts-1.jpg::LISTNAME:Sky Arts::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Arts%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f19720b905499b5bc8ff1c34eeb6c6e91.m3u8::LISTNAME:Sky Arts ([I]UK Users May need to use VPN[/I])::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040113sky%20arts1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -182,6 +192,7 @@ sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage
 <item>
 <title>Gold</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F4186.ts/GOLD%20CHANNEL-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fgold_uk.jpg::LISTNAME:Gold::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dGOLD%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2c0898822ab3baf7f93bea86648adb26.m3u8::LISTNAME:Gold ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDMww::LISTNAME:Gold::#
 </link>
@@ -192,6 +203,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDMww::LISTNAME:Gold::#
 <item>
 <title>PICK</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F638.ts/PICK%20TV-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fpick_tv_uk.jpg::LISTNAME:Pick UK::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDc1w::LISTNAME:Pick UK::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/650::LISTNAME:Pick UK (Takes A Few Seconds to Exit)::#
 </link>
@@ -202,6 +214,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/650::LISTNAME:Pick UK (Takes
 <item>
 <title>4Seven</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F4182.ts/4%20SEVEN-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fchannel_4_seven_uk.jpg::LISTNAME:4 Seven::#
 sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=565&amp;mode=200&amp;name=%5BCOLOR+royalblue%5D4Seven%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DLocation%2C+Location%2C+Location%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F565.png&amp;description=Phil+Spencer+helps+a+couple+who+are+at+loggerheads+over+their+priorities+for+their+next+property%2C+with+Becki+wanting+a+ready-to-move-into+family+home%2C+while+Craig+is+looking+for+a+bargain+project+in+the+popular+suburbs+of+south+Manchester.+Kirstie+Allsopp+meets+newlyweds+Chris+and+Amy+in+Cheshire%2C+who+are+looking+to+buy+their+first+home+together+and+want+something+semi-rural+in+pricey+areas+including+Knutsford%2C+Lymm+and+Frodsham.&amp;genre=Entertainment::LISTNAME:4 Seven::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/501::LISTNAME:4 Seven (Takes A Few Seconds to Exit)::#
 </link>
@@ -230,6 +243,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/b9b55864b6779b7
 <item>
 <title>Dave</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F611.ts/DAVE-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fdave_uktv.jpg::LISTNAME:Dave::#
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=300&amp;mode=2&amp;name=Dave::LISTNAME:Dave::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mzk1w::LISTNAME:Dave::#
 </link>
@@ -240,6 +254,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mzk1w::LISTNAME:Dave::#
 <item>
 <title>Alibi</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F594.ts/ALIBI-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Falibi_uktv_uk.jpg::LISTNAME:Alibi::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/e4281447a8f4f03aabfb0e0dfad9af20::LISTNAME:Alibi::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDMxw::LISTNAME:Alibi::#
 </link>
@@ -289,6 +304,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.
 <item>
 <title>Five USA</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F593.ts/5%20STAR-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fchannel_5_uk_star.jpg::LISTNAME:Five USA::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjgzw::LISTNAME:Five USA::#
 </link>
 <thumbnail>http://212.129.54.17:4040/data/img/files/5USA.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -298,6 +314,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjgzw::LISTNAME:Five USA
 <item>
 <title>Drama</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3894.ts/DRAMA-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fdrama.jpg::LISTNAME:Drama::#
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=346&amp;mode=2&amp;name=Drama::LISTNAME:Drama::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/24bdca7ce85d02fddf5992944b4960d1::LISTNAME:Drama::#
 </link>
@@ -308,6 +325,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/24bdca7ce85d02f
 <item>
 <title>Really</title>
 <link>
+
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=306&amp;mode=2&amp;name=Really::LISTNAME:Really::#
 sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=306&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DReally%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DEscape+to+the+Country%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F306.png&amp;description=Alistair+Appleton+helps+a+pair+of+newlyweds+find+their+first+home+together+in+Gloucestershire+on+a+budget+of+%C2%A3600%2C000.+He+also+takes+to+the+waterways+and+meets+the+volunteers+who+are+restoring+the+county%27s+historic+canals.&amp;genre=Entertainment:LISTNAME:Really::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjUww::LISTNAME:Really::#
@@ -319,6 +337,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjUww::LISTNAME:Really::
 <item>
 <title>TLC</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3899.ts/TLC%20UK-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Ftlc_uk.jpg::LISTNAME:TLC::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/d7aa295db6f5a09cc47f862d7042dd64::LISTNAME:TLC::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/288::LISTNAME:TLC (Takes A Few Seconds to Exit)::#
 </link>
@@ -329,6 +348,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/288::LISTNAME:TLC (Takes A F
 <item>
 <title>DMAX</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3953.ts/DMAX-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fdmax_de.jpg::LISTNAME:DMAX::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/8371f16a5529228ac3dda62ea9ffb0e4::LISTNAME:DMAX::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/97::LISTNAME:DMAX (Takes A Few Seconds to Exit)::#
 </link>
@@ -339,6 +359,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/97::LISTNAME:DMAX (Takes A F
 <item>
 <title>Investigation Discovery (ID)</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F615.ts/DISCOVERY%20ID-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Finvestigation_discovery_us.jpg::LISTNAME:Investigation Discovery::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/249::LISTNAME:Investigation Discovery (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/cf723f822ded11e60e6bb78f16c327c8::LISTNAME:Investigation Discovery::#
 </link>
@@ -349,6 +370,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/cf723f822ded11e
 <item>
 <title>Discovery Channel</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F612.ts/DISCOVERY%2FUK-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fdiscovery_global_us.jpg::LISTNAME:Discovery Channel::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/c283a671e1189d568500d494ff8cd77d::LISTNAME:Discovery Channel::#
 </link>
 <thumbnail>https://k61.kn3.net/7662FB2B2.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
@@ -358,6 +380,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/c283a671e1189d5
 <item>
 <title>Discovery Science</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F614.ts/DISCOVERY%20SCi%2FUK-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fdiscovery_science_global.jpg::LISTNAME:Discovery Science::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/93::LISTNAME:Discovery Science (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/49109_discoveryscience1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -367,6 +390,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/93::LISTNAME:Discovery Scien
 <item>
 <title>Discovery Turbo</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3901.ts/DISCOVERY%20TURBO%2FUK-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fdiscovery_turbo.jpg::LISTNAME:Discovery Turbo::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/0f61fdde073409d41b534b38184fb9c9::LISTNAME:Discovery Turbo::#
 </link>
 <thumbnail>https://k60.kn3.net/A9282DAF5.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
@@ -376,6 +400,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/0f61fdde073409d
 <item>
 <title>History Channel</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3859.ts/HISTORY%20UK-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fhistory_us.jpg::LISTNAME:History Channel::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/ccb7de5c42461be2cac10f5baf7d62cf::LISTNAME:History Channel::#
 </link>
 <thumbnail>https://k60.kn3.net/89CEAFFEF.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
@@ -385,6 +410,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/ccb7de5c42461be
 <item>
 <title>Animal Planet</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3858.ts/ANIMAL%20PLANET%20UK-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fanimal_planet_us.jpg::LISTNAME:Animal Planet::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/30::LISTNAME:Animal Planet (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/b39899a4d7a8537a3fb9a4b36a364642::LISTNAME:Animal Planet::#
 </link>
@@ -425,6 +451,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/ceebc66a0265f56
 <item>
 <title>Quest</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F639.ts/QUEST-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fquest_us_plus1.jpg::LISTNAME:Quest::#
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=327&amp;mode=2&amp;name=QUEST::LISTNAME:Quest::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/177::LISTNAME:Quest (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F639.ts/QUEST-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fquest_us_plus1.jpg::LISTNAME:Quest::#
@@ -578,6 +605,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/194::LISTNAME:Sky Cinema Dis
 <item>
 <title>Sky Cinema Showcase</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3877.ts/SKY%20MOVIES%20SHOWCASE-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2FSky-Movies-Showcase.jpg::LISTNAME:Sky Cinema Showcase::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Premiere%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3265682a41f442e5a4164e9b26393634.m3u8::LISTNAME:Sky Cinema Showcase ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Showcase (Takes A Few Seconds to Exit)::#
 </link>
@@ -588,6 +616,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Sho
 <item>
 <title>Sky Cinema Premiere</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3874.ts/SKY%20MOVIES%20PREMIER-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2FSky-Movies-Premiere.jpg::LISTNAME:Sky Cinema Premiere::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Premiere%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3265682a41f442e5a4164e9b26393634.m3u8::LISTNAME:Sky Cinema Premiere ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Premiere (Takes A Few Seconds to Exit)::#
 </link>
@@ -596,18 +625,9 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Pre
 </item>
 
 <item>
-<title>Sky Cinema Showcase</title>
-<link>
-sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Showcase%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fb6f08ad1b0976d993e116cbb72aef8bd.m3u8::LISTNAME:Sky Cinema Showcase ([I]UK Users May need to use VPN[/I])::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/255::LISTNAME:Sky Cinema Showcase (Takes A Few Seconds to Exit)::#
-</link>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/070216063533show.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
-</item>
-
-<item>
 <title>Sky Cinema Family</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3880.ts/SKY%20MOVIES%20FAMILY-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fsky_uk_cinema_family.jpg::LISTNAME:Sky Cinema Family::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Family%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3caed59e3b7e405b3a802cc480a14e32.m3u8::LISTNAME:Sky Cinema Family ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/200::LISTNAME:Sky Cinema Family (Takes A Few Seconds to Exit)::#
 </link>
@@ -618,6 +638,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/200::LISTNAME:Sky Cinema Fam
 <item>
 <title>Sky Cinema Drama</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3879.ts/SKY%20MOVIES%20DRAMA-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fsky-movies-drame.jpg::LISTNAME:Sky Cinema Drama::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Drama%20%26%20Romance%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f5081d68d4054bc9209ec2bb1c5ff5eef.m3u8::LISTNAME:Sky Cinema Drama ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/199::LISTNAME:Sky Cinema Drama (Takes A Few Seconds to Exit)::#
 </link>
@@ -628,6 +649,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/199::LISTNAME:Sky Cinema Dra
 <item>
 <title>Sky Cinema Action</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3881.ts/SKY%20MOVIES%20ACTION-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fsky_movies_action.jpg::LISTNAME:Sky Cinema Action::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Action%20%26%20Adventure%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3c909c9218961b2ecfdd5f44a89a90b8.m3u8::LISTNAME:Sky Cinema Action ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/196::LISTNAME:Sky Cinema Action (Takes A Few Seconds to Exit)::#
 </link>
@@ -638,6 +660,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/196::LISTNAME:Sky Cinema Act
 <item>
 <title>Sky Cinema Comedy</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3872.ts/SKY%20MOVIES%20COMEDY-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fsky_uk_cinema_comedy.jpg::LISTNAME:Sky Cinema Comedy::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Comedy%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fc168262cf8b9775300da0b79b2199ee6.m3u8::LISTNAME:Sky Cinema Comedy ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/197::LISTNAME:Sky Cinema Comedy (Takes A Few Seconds to Exit)::#
 </link>
@@ -648,6 +671,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/197::LISTNAME:Sky Cinema Com
 <item>
 <title>Sky Cinema Crime</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3876.ts/SKY%20MOVIES%20CRI%2FTHR-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fsky_uk_cinema_crime_thriller.jpg::LISTNAME:Sky Cinema Crime::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Crime%20%26%20Thriller%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa84271250d9dc93c1edc84874552d6c7.m3u8::LISTNAME:Sky Cinema Crime ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/198::LISTNAME:Sky Cinema Crime (Takes A Few Seconds to Exit)::#
 </link>
@@ -658,6 +682,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/198::LISTNAME:Sky Cinema Cri
 <item>
 <title>Sky Cinema Sci-Fi</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3873.ts/SKY%20MOVIES%20SCiFi%2FHORROR-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fsky_uk_cinema_scifi_horror.jpg::LISTNAME:Sky Cinema Sci-Fi::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Sci-fi%20Horror%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f20abccafd4a26b6fce57df892e5040be.m3u8::LISTNAME:Sky Cinema Sci-Fi ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/202::LISTNAME:Sky Cinema Sci-Fi (Takes A Few Seconds to Exit)::#
 </link>
@@ -668,6 +693,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/202::LISTNAME:Sky Cinema Sci
 <item>
 <title>Sky Cinema Select</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3875.ts/SKY%20MOVIES%20SELECT-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fsky-movies-select.jpg::LISTNAME:Sky Cinema Select::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Select%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f760670eeaaa3e62adc1989fee2e8b259.m3u8::LISTNAME:Sky Cinema Select ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/254::LISTNAME:Sky Cinema Select (Takes A Few Seconds to Exit)::#
 </link>
@@ -678,6 +704,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/254::LISTNAME:Sky Cinema Sel
 <item>
 <title>Sky Cinema Modern Greats</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3878.ts/SKY%20MOVIES%20MODERN%20GREAT-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fsky-movies-modern-greate.jpg::LISTNAME:Sky Cinema Modern Greats::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20(Modern%20Greats)%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa2d025900c268045e4e2da567a8c3f9b.m3u8::LISTNAME:Sky Cinema Modern Greats ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/253::LISTNAME:Sky Cinema Modern Greats (Takes A Few Seconds to Exit)::#
 </link>
@@ -688,6 +715,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/253::LISTNAME:Sky Cinema Mod
 <item>
 <title>TCM</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3898.ts/TCM-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Ftcm_uk.jpg::LISTNAME:TCM::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/292::LISTNAME:TCM (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dTCM%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f1debc5c648b7d2fa58d76d8e90f314a9.m3u8::LISTNAME:TCM ([I]UK Users May need to use VPN[/I])::#
 </link>
@@ -709,6 +737,7 @@ sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=film4&amp;mode=13&amp;nam
 <item>
 <title>True Movies</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3890.ts/TRUE%20MOVIES%201-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Ftrue_movies_1.jpg::LISTNAME:True Movies::#
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dTrue%20Movies%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fd2c73be17b950368083f5c7ca9445cb9.m3u8::LISTNAME:True Movies ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjU5w::LISTNAME:True Movies::#
 </link>
