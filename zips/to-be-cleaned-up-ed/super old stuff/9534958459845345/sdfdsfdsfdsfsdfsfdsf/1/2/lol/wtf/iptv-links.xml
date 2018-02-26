@@ -244,7 +244,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/b9b55864b6779b7
 <title>Dave</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F611.ts/DAVE-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fdave_uktv.jpg::LISTNAME:Dave::#
-sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=300&amp;mode=2&amp;name=Dave::LISTNAME:Dave::#
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=300&amp;mode=2&amp;name=Dave::LISTNAME:Dave (GEO LOCKED to UK)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mzk1w::LISTNAME:Dave::#
 </link>
 <thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/300.png</thumbnail>
@@ -315,7 +315,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjgzw::LISTNAME:Five USA
 <title>Drama</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F3894.ts/DRAMA-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fdrama.jpg::LISTNAME:Drama::#
-sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=346&amp;mode=2&amp;name=Drama::LISTNAME:Drama::#
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=346&amp;mode=2&amp;name=Drama::LISTNAME:Drama (GEO LOCKED to UK)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/24bdca7ce85d02fddf5992944b4960d1::LISTNAME:Drama::#
 </link>
 <thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/346.png</thumbnail>
@@ -326,7 +326,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/24bdca7ce85d02f
 <title>Really</title>
 <link>
 
-sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=306&amp;mode=2&amp;name=Really::LISTNAME:Really::#
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=306&amp;mode=2&amp;name=Really::LISTNAME:Really (GEO LOCKED to UK)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=306&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DReally%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DEscape+to+the+Country%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F306.png&amp;description=Alistair+Appleton+helps+a+pair+of+newlyweds+find+their+first+home+together+in+Gloucestershire+on+a+budget+of+%C2%A3600%2C000.+He+also+takes+to+the+waterways+and+meets+the+volunteers+who+are+restoring+the+county%27s+historic+canals.&amp;genre=Entertainment:LISTNAME:Really::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjUww::LISTNAME:Really::#
 </link>
@@ -432,7 +432,7 @@ sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=126&amp;mode=2&amp;name=T
 <item>
 <title>Yesterday</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=308&amp;mode=2&amp;name=Yesterday::LISTNAME:Yesterday::#
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=308&amp;mode=2&amp;name=Yesterday::LISTNAME:Yesterday (GEO LOCKED to UK)::#
 </link>
 <thumbnail>https://static1.squarespace.com/static/570feabe22482e8e386f0385/570ff5182b8ddef633276114/57704a86d2b857e35787a860/1466976918144/travel-channel-logo.jpg?format=750w|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -441,7 +441,7 @@ sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=308&amp;mode=2&amp;name=Y
 <item>
 <title>Food Network</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=125&amp;mode=2&amp;name=Food+Network::LISTNAME:Food Network::#
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=125&amp;mode=2&amp;name=Food+Network::LISTNAME:Food Network (GEO LOCKED to UK)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/ceebc66a0265f56db9fe5b2fd17b6115::LISTNAME:Food Network::#
 </link>
 <thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/125.png</thumbnail>
@@ -452,7 +452,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/ceebc66a0265f56
 <title>Quest</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fpsl%2Fmatch%2F639.ts/QUEST-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fquest_us_plus1.jpg::LISTNAME:Quest::#
-sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=327&amp;mode=2&amp;name=QUEST::LISTNAME:Quest::#
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=327&amp;mode=2&amp;name=QUEST::LISTNAME:Quest (GEO LOCKED to UK)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/177::LISTNAME:Quest (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F639.ts/QUEST-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fquest_us_plus1.jpg::LISTNAME:Quest::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/07bf513a88c3df282a30cb374f8a933d::LISTNAME:Quest::#
@@ -464,7 +464,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/07bf513a88c3df2
 <item>
 <title>Community Channel</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=259&amp;mode=2&amp;name=Community+Channel::LISTNAME:Community Channel::#
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=259&amp;mode=2&amp;name=Community+Channel::LISTNAME:Community Channel (GEO LOCKED to UK)::#
 </link>
 <thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/259.png</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -474,7 +474,7 @@ sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=259&amp;mode=2&amp;name=C
 <title>BBC NEWS</title>
 <link>
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_news24.m3u8&amp;mode=9999&amp;name=BBC+News&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC NEWS::#
-sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=http%3A%2F%2Fvs-hls-uk-live.akamaized.net%2Fpool_34%2Flive%2Fbbc_news_channel_hd%2Fbbc_news_channel_hd.isml%2Fbbc_news_channel_hd-pa4%253d128000-video%253d5070016.m3u8&amp;mode=1&amp;name=BBC+News+HD::LISTNAME:BBC NEWS::#
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=http%3A%2F%2Fvs-hls-uk-live.akamaized.net%2Fpool_34%2Flive%2Fbbc_news_channel_hd%2Fbbc_news_channel_hd.isml%2Fbbc_news_channel_hd-pa4%253d128000-video%253d5070016.m3u8&amp;mode=1&amp;name=BBC+News+HD::LISTNAME:BBC NEWS (GEO LOCKED to UK)::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/79884_bbcnews1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -496,7 +496,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/news/3b7dd11b6654dd5f357
 <title>Capital TV</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=157&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DCapital+TV%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DBig+Top+40%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F157.png&amp;description=&amp;genre=Music::LISTNAME:Capital TV::#
-sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=157&amp;mode=2&amp;name=Capital+TV::LISTNAME:Capital TV::#
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=157&amp;mode=2&amp;name=Capital+TV::LISTNAME:Capital TV (GEO LOCKED to UK)::#
 </link>
 <thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/157.png</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -516,7 +516,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/119439698dc34ddddd
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=228&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DNow+Thats+What+I+Call+Music%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DWe+Are+Family%21+Top+20%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F228.png&amp;description=Brothers%2C+Sisters%2C+Husbands%2C+Wives+-+they+made+it+a+family+business+back+in+the+80s%21+From+The+Bee+Gees+%26+The+Nolans+to+Bros%2C+Sister+Sledge%2C+Spandau+%26+UB40.&amp;genre=Music::LISTNAME:Now That's What I Call Music::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/4f2bbf7cda8028c3cc2c16723defb7d8::LISTNAME:Now That's What I Call Music::#
-sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=228&amp;mode=2&amp;name=NOW+Music::LISTNAME:Now That's What I Call Music::#
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=228&amp;mode=2&amp;name=NOW+Music::LISTNAME:Now That's What I Call Music (GEO LOCKED to UK)::#
 </link>
 <thumbnail>https://k61.kn3.net/6F3F3876B.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -526,7 +526,7 @@ sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=228&amp;mode=2&amp;name=N
 <title>Clubland TV</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=225&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DClubland%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DBig+Phat+Clubland+90s+Countdown%21%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F225.png&amp;description=Robin+Banks+returns+with+a+further+selection+of+classic+Clubland+90s.+Including+25+top+5+hits%2C+and+number+1s.&amp;genre=Music::LISTNAME:Clubland TV::#
-sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=225&amp;mode=2&amp;name=Clubland::LISTNAME:Clubland TV::#
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=225&amp;mode=2&amp;name=Clubland::LISTNAME:Clubland TV (GEO LOCKED to UK)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/fe87875db342914b6983c5b202624537::LISTNAME:Clubland TV::#
 </link>
 <thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/225.png</thumbnail>
@@ -536,7 +536,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/fe87875db342914b69
 <item>
 <title>Channel AKA</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=227&amp;mode=2&amp;name=Channel+AKA::LISTNAME:Channel AKA::#
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=227&amp;mode=2&amp;name=Channel+AKA::LISTNAME:Channel AKA (GEO LOCKED to UK)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/d219be9bfb4b4adab469f2b9760e1f68::LISTNAME:Channel AKA::#
 </link>
 <thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/227.png</thumbnail>
@@ -547,7 +547,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/d219be9bfb4b4adab4
 <title>Heart TV</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=153&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DHeart%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DNoughties+But+Nice%21+Top+40%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F153.png&amp;description=&amp;genre=Music::LISTNAME:Heart TV::#
-sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=153&amp;mode=2&amp;name=Heart+TV::LISTNAME:Heart TV::#
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=153&amp;mode=2&amp;name=Heart+TV::LISTNAME:Heart TV (GEO LOCKED to UK)::#
 </link>
 <thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/153.png</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -728,7 +728,7 @@ sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage
 <link>
 sublink:LISTSOURCE:plugin://script.module.vistatvlive/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.module.vistatvlive%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dFilm%204%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f0f2c179db3d0e356f8615dde513bc4aa.m3u8::LISTNAME:Film 4 ([I]UK Users May need to use VPN[/I])::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/112::LISTNAME:Film 4 (Takes A Few Seconds to Exit)::#
-sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=film4&amp;mode=13&amp;name=Film4::LISTNAME:Film 4::#
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=film4&amp;mode=13&amp;name=Film4::LISTNAME:Film 4 (GEO LOCKED to UK)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116044643film.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
