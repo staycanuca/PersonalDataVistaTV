@@ -36,8 +36,14 @@
 </dir>
 
 <plugin>
-<name>VitsaTV Addon Settings</name>
-<link>plugin://plugin.video.vistatv/?action=openSettings&query=5.0</link>
+<name>VitsaTV APK Installer</name>
+<link>plugin://script.vistatvAPKinstaller</link>
+<thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
+</plugin>
+
+<plugin>
+<name>VitsaTV Play Retro Games</name>
+<link>plugin://script.vistatvgames</link>
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
 </plugin>
  
