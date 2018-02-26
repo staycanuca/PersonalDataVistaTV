@@ -103,7 +103,7 @@ def download(url, dest, dp = None):
                         
         dp.close()
         try:
-            xbmc.executebuiltin("Notification(VistaTV,Some Channels May Take a Few Tries,3000,"+__icon__+")")
+            xbmc.executebuiltin("Notification(VistaTV,VPN May Be Needed For Some Streams,7000,"+__icon__+")")
             w = gui.TVGuide()
             w.doModal()
             del w

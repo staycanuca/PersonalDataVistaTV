@@ -2034,7 +2034,7 @@ provider-name="VistaTV">
   </extension>
 </addon>
 
-<addon id="script.tvguide.vistatv" name="VistaTV's EPG" version="1.0.4" provider-name="VistaTV">
+<addon id="script.tvguide.vistatv" name="VistaTV's EPG" version="1.0.5" provider-name="VistaTV">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
