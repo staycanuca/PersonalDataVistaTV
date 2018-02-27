@@ -1023,7 +1023,7 @@ Initial release.
 </addon>
 
 
-<addon id="plugin.video.ukturk" name="UK Turk Playlists" version="5.0.2" provider-name="UKTurk">
+<addon id="plugin.video.ukturk" name="UK Turk Playlists" version="5.0.3" provider-name="UKTurk">
 
   <requires>
 

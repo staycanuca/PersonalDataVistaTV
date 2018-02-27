@@ -1335,7 +1335,7 @@ def l1l1l11l1UK_Turk_No1(content, l11111l1lUK_Turk_No1,link):
 			xbmc.executebuiltin(l11l1lUK_Turk_No1 (u"ࠧࡄࡱࡱࡸࡦ࡯࡮ࡦࡴ࠱ࡗࡪࡺࡖࡪࡧࡺࡑࡴࡪࡥࠩࠧࡶ࠭ࠬ௥") % l11l1ll1lUK_Turk_No1.getSetting(l11111l1lUK_Turk_No1))
 	except:pass
 if ((mode == None) or (url == None) or len(url) < 1):
-	l111111lUK_Turk_No1(P)
+	#l111111lUK_Turk_No1(P)
 	l11lll11lUK_Turk_No1()
 elif mode==1:l1lll1lUK_Turk_No1(name,url,l1l11l11UK_Turk_No1,fanart)
 elif mode==2:l1ll1l1llUK_Turk_No1(name,url,l1l11l11UK_Turk_No1)
