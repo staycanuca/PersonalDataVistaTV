@@ -21,7 +21,7 @@ sd_path         = xbmc.translatePath(os.path.join('special://home/addons/', 'plu
 dp                  = xbmcgui.DialogProgress()
 REDDIT_FILE         = xbmc.translatePath(os.path.join(DATA_FOLDER, 'reddit.xml'))
 PLEXUS_PATH         = xbmc.translatePath('special://home/addons/program.plexus')
-baseurl         = 'http://lookingglass.rocks/jay77/wod/base.xml'
+baseurl         = 'http://bossbuilds.club/pluto/wod/base.xml'
 ytpl            = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId='
 ytpl2           = '&maxResults=50&key=AIzaSyAd-YEOqZz9nXVzGtn3KWzYLbLaajhqIDA'
 ytplpg1         = 'https://www.googleapis.com/youtube/v3/playlistItems?pageToken='
@@ -29,11 +29,11 @@ ytplpg2         = '&part=snippet&playlistId='
 ytplpg3         = '&maxResults=50&key=AIzaSyAd-YEOqZz9nXVzGtn3KWzYLbLaajhqIDA'
 adultpass       = selfAddon.getSetting('password')
 metaset         = selfAddon.getSetting('enable_meta')
-messagetext     = 'http://lookingglass.rocks/jay77/wod/info.xml'
-startinfo       = 'http://lookingglass.rocks/jay77/wod/startinfo.xml'
-wweschedule      = 'http://lookingglass.rocks/jay77/wod/schedule.xml'
-requests    = 'http://lookingglass.rocks/jay77/wod/requests.xml'
-SEARCH_LIST      = 'http://lookingglass.rocks/jay77/wod/search.xml'
+messagetext     = 'http://bossbuilds.club/pluto/wod/info.xml'
+startinfo       = 'http://bossbuilds.club/pluto/wod/startinfo.xml'
+wweschedule      = 'http://bossbuilds.club/pluto/wod/schedule.xml'
+requests    = 'http://bossbuilds.club/pluto/wod/requests.xml'
+SEARCH_LIST      = 'http://bossbuilds.club/pluto/wod/search.xml'
 dialog          = xbmcgui.Dialog()
                                                                
 def GetMenu():
@@ -451,7 +451,7 @@ def REDDIT_ADD():
 
 def REDDIT_SUGGESTED():
 
-    r = open_url('http://lookingglass.rocks/jay77/wod/suggested.xml')
+    r = open_url('http://bossbuilds.club/pluto/wod/suggested.xml')
     
     r = re.compile('<link>(.+?)</link>').findall(r)
 
@@ -580,7 +580,7 @@ def REDDIT_REMOVE(name,url):
         
 def EVENT_REDDIT():
 
-    r = open_url('http://lookingglass.rocks/jay77/wod/redditevent.xml')
+    r = open_url('http://bossbuilds.club/pluto/wod/redditevent.xml')
     r = re.compile('<link>(.+?)</link>').findall(r)
     
     checks = ['acestream','href']
