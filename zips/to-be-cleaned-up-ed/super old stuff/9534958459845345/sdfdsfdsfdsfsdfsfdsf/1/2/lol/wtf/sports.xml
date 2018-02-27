@@ -47,6 +47,18 @@
 <fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
 </plugin>
 
+<plugin>
+<name>Planet MMA</name>
+<link>plugin://plugin.video.ufc-finest</link>
+<thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
+</plugin>
+
+
+<plugin>
+<name>Wrestling On Demand</name>
+<link>plugin://plugin.video.wwe-on-demand</link>
+<thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
+</plugin>
 
 <plugin>
 <name>VitsaTV Sports</name>
