@@ -1,0 +1,11 @@
+<dir>
+<title>[B][COLOR white]AceStream IPTV[/COLOR][/B]</title>
+<link>plugin://plugin.video.live.streamspro/?mode=1&url=https://pastebin.com/raw/iy64mMSS</link>
+<thumbnail>https://raw.githubusercontent.com/1orgar/kodi/master/ts.png</thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR white]SportsDevil IPTV[/COLOR][/B]</title>
+<link>https://github.com/NetStreams-AIO/V3.1/raw/master/Sports/Sports%20Channels/SportsDevil%20Sports%20IPTV.xml</link>
+<thumbnail>https://ak0.picdn.net/shutterstock/videos/22276030/thumb/12.jpg</thumbnail>
+</dir>

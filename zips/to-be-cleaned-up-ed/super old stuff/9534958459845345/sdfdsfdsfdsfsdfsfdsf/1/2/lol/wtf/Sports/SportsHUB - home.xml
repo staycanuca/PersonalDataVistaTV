@@ -1,0 +1,14 @@
+<plugin>
+<title>[B][COLOR white]AceStream Sports[/COLOR][/B]</title>
+<link>plugin://plugin.video.live.streamspro/?mode=1&url=https://pastebin.com/raw/sib314QE</link>
+</plugin>
+
+<dir>
+<name>[COLOR white][B]Sports IPTV[/B][/COLOR]</name>
+<link>plugin://script.module.netstreams.iptv</link>
+</dir>
+
+<dir>
+<name>[COLOR white][B]Sports Highlights[/B][/COLOR]</name>
+<link>https://github.com/NetStreams-AIO/V3.1/raw/master/Sports/Sports%20Highlights.xml</link>
+</dir>

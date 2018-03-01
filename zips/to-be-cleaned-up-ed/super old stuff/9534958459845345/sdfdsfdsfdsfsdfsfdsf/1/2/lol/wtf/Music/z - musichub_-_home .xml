@@ -1,0 +1,47 @@
+<plugin>
+<title>[B][COLOR white]Top 100[/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/playlist/PLx0sYbCqOb8QTF1DCJVfQrtWknZFzuoAE/</link>
+<thumbnail>https://pbs.twimg.com/profile_images/722106861969936384/-nLxbeWU.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR white]UK Top 40[/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/playlist/PLx0sYbCqOb8Q_CLZC2BdBSKEEB59BOPUM/</link>
+<thumbnail>http://www.mtv.co.uk/sites/default/files/styles/carousel_wide/public/mtv_uk/playlists/2017/03/06/officialtop40_nav.jpeg?itok=Rj9kbcky</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR white]US Top 40[/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/playlist/PLDIoUOhQQPlU2NpvlGKTsQRoCMHTUCLMf/</link>
+<thumbnail>http://lambilly.com/wp-content/uploads/2013/08/USTop40.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR white]Electronic Music[/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/channel/UC5nc_ZtjKW1htCVZVRxlQAQ/</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR white]Electro House[/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/channel/UCDcD9KsdvZIXICUuwAkg7MQ/</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR white]Hip Hop Music[/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/channel/UCztGY3Qsxxk7JDSY3Q_iXsw/</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR white]House Music[/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/channel/UCXvSeBDvzmPO05k-0RyB34w/</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR white]Pop Music[/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/channel/UC34k8ID4P-xh4k7OB1njbwQ/</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR white]Rock Music[/COLOR][/B]</title>
+<link>plugin://plugin.video.youtube/channel/UCaNDOP6JTcgWz59vNW129cA/</link>
+</plugin>

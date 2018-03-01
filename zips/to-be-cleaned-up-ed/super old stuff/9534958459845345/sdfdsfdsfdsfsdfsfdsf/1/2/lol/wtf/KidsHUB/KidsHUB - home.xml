@@ -1,0 +1,14 @@
+<dir>
+<name>[COLOR white][B]Kids Movies[/B][/COLOR]</name>
+<link>https://github.com/NetStreams-AIO/V3.1/raw/master/KidsHUB/KidsHUB%20Movies.xml</link>
+</dir>
+
+<dir>
+<name>[COLOR white][B]Kids TV Channels[/B][/COLOR]</name>
+<link>https://github.com/NetStreams-AIO/V3.1/raw/master/KidsHUB/KidsHUB%20Channels.xml</link>
+</dir>
+
+<dir>
+<name>[COLOR white][B]Kids YouTubers[/B][/COLOR]</name>
+<link>https://github.com/NetStreams-AIO/V3.1/raw/master/KidsHUB/KidsHUB%20YouTube.xml</link>
+</dir>

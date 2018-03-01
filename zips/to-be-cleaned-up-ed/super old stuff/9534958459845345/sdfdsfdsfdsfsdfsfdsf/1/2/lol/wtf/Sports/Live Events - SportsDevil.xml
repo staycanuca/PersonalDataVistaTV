@@ -1,0 +1,14 @@
+<plugin>
+<title>[B][COLOR white]Server 1[/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&item=title%3d%252AALL%252A%26url%3dhttp%253A%252F%252Fbundesliga-streams.net%26cfg%3dbundesliga-streams.net.cfg%2540ALL%26definedIn%3dlivesports%252Fbundesliga-streams.net.cfg</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR white]Server 2[/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&item=title%3dLiveFootballVideo.com%26url%3dlivesports%252Flivefootballvideo.com.cfg%26definedIn%3dlivesports.cfg%26director%3dlivefootballvideo.com%26genre%3dLive%2bSports%26type%3drss</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR white]Server 3[/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&item=title%3d%252ALive%252A%26url%3dhttp%253A%252F%252Fwww.fromhot.com%26cfg%3dsportlemon.links.cfg%2540Live%26definedIn%3dlivesports%252Fsportlemon.cfg%26director%3dstopstream.com%26genre%3dLive%2bSports%26type%3drss</link>
+</plugin>

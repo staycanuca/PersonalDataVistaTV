@@ -1,0 +1,29 @@
+<plugin>
+<title>[B][COLOR white]Cartoon Network[/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://www.liveonlinetv247.info/cartoonnetwork.php#</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR white]Cartoon Network US[/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://www.time4tv.live/2015/06/cartoon-network.php#</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR white]Disney Channel[/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://liveonlinetv247.info/disneychannel.php#</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR white]Disney Junior[/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://www.liveonlinetv247.info/disneyjunior.php#</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR white]Disney XD[/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://www.liveonlinetv247.info/disneyxd.php#</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR white]Nick[/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://www.liveonlinetv247.info/nick.php#</link>
+</plugin>

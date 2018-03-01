@@ -1,0 +1,181 @@
+<plugin>
+<title>[B][COLOR teal]AceStream Engine & PleXus ADD-ON Required[/COLOR][/B]</title>
+<link>
+<sublink>plugin://plugin.video.f4mTester/?url=http://&amp;streamtype=TSDOWNLOADER&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR limegreen]Last Updated On 20th January 2018[/COLOR][/B]</title>
+<link>
+<sublink>plugin://plugin.video.f4mTester/?url=http://&amp;streamtype=TSDOWNLOADER&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>               </title>
+<link>
+<sublink>plugin://plugin.video.f4mTester/?url=http://&amp;streamtype=TSDOWNLOADER&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]BeIN Sports HD 11[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://18b205010b234a28bfd17516e761200ec3677772&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]BoxNation[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://c78ccb79c9a3a96333581062eaf7cd94d4f8272f&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]BT Sport 1[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://3cf32325ca45e0179e0b1a3e3ad8d2de5296edcd&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]BT Sport 2[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://33b428a9cec1d7d2cd2809d8e49a687e167378a6&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]BT Sport 3[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://66ce42b59cd7028be149ee7e7ca17066910b2db3&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]Chelsea TV[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://2523b77a8d2fc0e55945dfb7d5e92fb9f1f5b1de&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+ 
+<plugin>
+<title>[B][COLOR dodgerblue]eir Sport 1[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://75703cf02401ba8a402c77989bfaaf3895cb12ea&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]eir Sport 2[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://0cec6c0299c99f45c1859398d150c3a48e6d8b2e&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]Fox Sports 1[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://684c5ff6704bec4f60f10646572b18827a1e3c6b&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]Racing UK[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://6326e6d9072a6c89c34635c399c40c847838f912&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]Sky Sports Action[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://88ed3eb027715170bbc30d6e6278401917901c2c&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]Sky Sports Arena[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://1c14883164419285b005a7f96d502489e80b8dc4&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]Sky Sports Cricket[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://bd58392b1180b79c50439bd8beb051ea1d56fa38&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]Sky Sports Golf[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://7f0f325c3eafce8bfedfc43a9ddb13f063bf0879&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]Sky Sports F1[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://38d2c3762a9fbcb18031b18e7dba3a20bdbbaf59&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]Sky Sports Football[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://9eba690be925a98e8aecfc758070b874e19260c6&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]Sky Sports Main Event[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://f01dd99ffaa3b1d271ff1f14cc57ecb38a86dbbb&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]Sky Sports Premier League[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://92376ea16e80c90f2727c49e05fc5e4b75eae3e9&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]TSN 1[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://7f9de594019b35ab84b44d1015f31ca9c8ca7813&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]TSN 2[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://3c5bab6e54a9405b96ae4f38e69791ced681068e&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]TSN 3[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://7751ab0b9fda8b9069039ca4ecf05b19fb32bdbc&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]TSN 4[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://f9b79a854358d98cbb26468f457877afaf06da83&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>
+
+<plugin>
+<title>[B][COLOR dodgerblue]TSN 5[/COLOR][/B]</title>
+<link>
+<sublink>plugin://program.plexus/?url=acestream://9723e5644e704b398c8a3ff2a76e8992b8002b86&amp;mode=1&amp;name=NetStreams#</sublink>
+</link>
+</plugin>

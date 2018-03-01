@@ -1,0 +1,44 @@
+<dir>
+<title>[B][COLOR white]Disney Movies Collection[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/weirskyet/lists/disney-movie-collection/items</trakt>
+</dir>
+
+<dir>
+<title>[B][COLOR white]DreamWorks Animation[/COLOR][/B]</title>
+<tmdb>company/movies/521</tmdb>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Marvel Movies[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/weirskyet/lists/marvel-movies/items</trakt>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Pixar Animation[/COLOR][/B]</title>
+<tmdb>company/movies/3</tmdb>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Universal Cartoon Studios[/COLOR][/B]</title>
+<tmdb>company/movies/4285</tmdb>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Universal Animation Studios[/COLOR][/B]</title>
+<tmdb>company/movies/5556</tmdb>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Walt Disney Animation Studios[/COLOR][/B]</title>
+<tmdb>company/movies/6125</tmdb>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Warner Bros. Animation[/COLOR][/B]</title>
+<tmdb>company/movies/2785</tmdb>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Search[/COLOR][/B]</title>
+<tmdb>search</tmdb>
+</dir>

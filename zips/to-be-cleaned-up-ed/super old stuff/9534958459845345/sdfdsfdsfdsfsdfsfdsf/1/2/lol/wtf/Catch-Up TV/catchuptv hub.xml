@@ -1,0 +1,17 @@
+<plugin>
+<title>[B][COLOR white]BBC iPlayer[/COLOR][/B]</title>
+<link>plugin://plugin.video.bbciplayer</link>
+<thumbnail>https://advanced-television.com/wp-content/uploads/2014/03/iplayer-logo.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR white]ITV Hub[/COLOR][/B]</title>
+<link>plugin://plugin.video.itv</link>
+<thumbnail>http://lh3.googleusercontent.com/Vv8EIe0e5j5pHQ996_dTsooZ4w1akBWiysCe_rvPJ2_1E0WUCeKg7_yiM7fc_DPIcRSA=w300</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR white]UKTV Play[/COLOR][/B]</title>
+<link>plugin://plugin.video.uktvplay</link>
+<thumbnail>https://www.toptutorials.co.uk/wp-content/uploads/2017/10/uktvplayicon.png</thumbnail>
+</plugin>

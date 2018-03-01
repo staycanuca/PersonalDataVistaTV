@@ -1,0 +1,114 @@
+<dir>
+<title>[B][COLOR white]A&E[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/aclo_networks/lists/tv-shows-a-e/items</trakt>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/1200px-A%26E_Network_logo.svg.png</thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR white]ABC Family[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/aclo_networks/lists/tv-shows-abc-family/items</trakt>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/ABC_Family_logo.svg/2000px-ABC_Family_logo.svg.png</thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Amazon[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/aclo_networks/lists/tv-shows-amazon/items</trakt>
+<thumbnail>http://www.netgem.com/wp-content/uploads/2017/09/Amazon-Prime-Video-Logo-transparent.png</thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR white]AMC[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/aclo_networks/lists/tv-shows-amc/items</trakt>
+<thumbnail>https://vignette.wikia.nocookie.net/milgreen/images/d/d1/AMC_Logo.png/revision/latest?cb=20121014021933</thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR white]BBC America[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/aclo_networks/lists/tv-shows-bbc-america/items</trakt>
+<thumbnail>https://vignette.wikia.nocookie.net/tardis/images/d/dc/Bbc-america.png/revision/latest?cb=20110725164855</thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Bravo[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/aclo_networks/lists/tv-shows-bravo/items</trakt>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/f/fc/Bravo_TV_%282017_Logo%29.png</thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Canal+ (France)[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/aclo_networks/lists/tv-shows-canal-france/items</trakt>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Canal%2B_France_2011_logo.svg/2000px-Canal%2B_France_2011_logo.svg.png</thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR white]CineMax[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/aclo_networks/lists/tv-shows-cinemax/items</trakt>
+<thumbnail>https://www.cinemax.com/images/logos/cinemax-logo-black_filled__02-10-17.svg</thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Comedy Central[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/aclo_networks/lists/tv-shows-comedy-central/items</trakt>
+<thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/d/d3/Comedy_Central_Logo.png/revision/latest?cb=20150109120103</thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR white]FX (US)[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/aclo_networks/lists/tv-shows-fx/items</trakt>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/FX_2008_logo.svg/2000px-FX_2008_logo.svg.png</thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Hallmark Channel[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/aclo_networks/lists/tv-shows-hallmark-channel/items</trakt>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Hallmark_Channel.svg/2000px-Hallmark_Channel.svg.png</thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR white]HBO[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/aclo_networks/lists/tv-shows-hbo/items</trakt>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/2000px-HBO_logo.svg.png</thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR white]HBO (Worldwide)[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/aclo_networks/lists/tv-shows-hbo-worldwide/items</trakt>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/1200px-HBO_logo.svg.png</thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Hulu[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/aclo_networks/lists/tv-shows-hulu/items</trakt>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Hulu_logo.svg/1000px-Hulu_logo.svg.png</thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Lifetime[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/aclo_networks/lists/tv-shows-lifetime/items</trakt>
+<thumbnail>https://vignette.wikia.nocookie.net/logopedia/images/1/1e/Lifetime_2013.png/revision/latest?cb=20150531221814</thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR white]MTV[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/aclo_networks/lists/tv-shows-mtv/items</trakt>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/MTV_Logo_2010.svg/2000px-MTV_Logo_2010.svg.png</thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR white]NetFlix[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/aclo_networks/lists/tv-shows-netflix/items</trakt>
+<thumbnail>http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c529.png</thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Showtime[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/aclo_networks/lists/tv-shows-showtime/items</trakt>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Showtime-Logo.svg/2000px-Showtime-Logo.svg.png</thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR white]USA Network[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/aclo_networks/lists/tv-shows-usa-network/items</trakt>
+<thumbnail>http://vignette1.wikia.nocookie.net/prowrestling/images/3/36/USA_Network_logo.png/revision/latest?cb=20160527192616</thumbnail>
+</dir>
+

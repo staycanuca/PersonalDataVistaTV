@@ -1,0 +1,44 @@
+<item>
+<title>[B][COLOR limegreen]All Times Are In UK Time Zone[/COLOR][/B]</title>
+<link>plugin://plugin.video.f4mTester/?url=&amp;streamtype=TSDOWNLOADER&amp;name=NetStreams</link>
+</item>
+
+<item>
+<title>[B][COLOR white]Plexus Add-On & AceStream Engine Required[/COLOR][/B]</title>
+<link>plugin://plugin.video.f4mTester/?url=&amp;streamtype=TSDOWNLOADER&amp;name=NetStreams</link>
+</item>
+
+<item>
+<title>[B][COLOR cyan][COLOR red]RED[/COLOR] = OFFLINE[/COLOR] l [COLOR cyan][COLOR lime]GREEN[/COLOR] = ONLINE[/COLOR][/B]</title>
+<link>plugin://plugin.video.f4mTester/?url=&amp;streamtype=TSDOWNLOADER&amp;name=NetStreams</link>
+</item>
+
+<item>
+<title>         </title>
+<link>plugin://plugin.video.f4mTester/?url=&amp;streamtype=TSDOWNLOADER&amp;name=NetStreams</link>
+</item>
+
+<item>
+<title>[B][COLOR blueviolet]Sunday 28th January 2018[/COLOR][/B]</title>
+<link>plugin://plugin.video.f4mTester/?url=&amp;streamtype=TSDOWNLOADER&amp;name=NetStreams</link>
+</item>
+
+<item>
+<title>[B][COLOR lime]12:00[/COLOR][/B] l [B][COLOR white]Deportivo La Coruna v Levante[/COLOR][/B] [B][COLOR red](Link 1)[/COLOR][/B]</title>
+<link>plugin://program.plexus/?url=acestream://63d893d4db0f0c591436c7a88b6f6fc27e84a5b8&amp;mode=1&amp;name=NetStreams SportsHUB#</link>
+</item>
+
+<item>
+<title>[B][COLOR lime]12:00[/COLOR][/B] l [B][COLOR white]Deportivo La Coruna v Levante[/COLOR][/B] [B][COLOR red](Link 2)[/COLOR][/B]</title>
+<link>plugin://program.plexus/?url=acestream://8a64c93ad38f5027628601e0e32182e0b0cd7570&amp;mode=1&amp;name=NetStreams SportsHUB#</link>
+</item>
+
+<item>
+<title>[B][COLOR lime]12:00[/COLOR][/B] l [B][COLOR white]Deportivo La Coruna v Levante[/COLOR][/B] [B][COLOR red](Link 3)[/COLOR][/B]</title>
+<link>plugin://program.plexus/?url=acestream://878eb1733f53171e3a5f53ba80fc703fc0cc2374&amp;mode=1&amp;name=NetStreams SportsHUB#</link>
+</item>
+
+<item>
+<title>[B][COLOR red]00:00[/COLOR][/B] l [B][COLOR white]----[/COLOR][/B]</title>
+<link>plugin://program.plexus/?url=acestream://&amp;mode=1&amp;name=NetStreams SportsHUB#</link>
+</item>

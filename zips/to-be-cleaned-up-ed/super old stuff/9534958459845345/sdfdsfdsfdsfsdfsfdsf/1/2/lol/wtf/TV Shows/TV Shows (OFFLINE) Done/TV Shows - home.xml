@@ -1,0 +1,57 @@
+<dir>
+<title>[B][COLOR white]Airing Today[/COLOR][/B]</title>
+<tmdb>tv/today</tmdb>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Genres[/COLOR][/B]</title>
+<link>https://github.com/NetStreams-AIO/media/raw/master/TV%20Shows%20(OFFLINE)%20Done/Genres.xml</link>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Most Popular[/COLOR][/B]</title>
+<tmdb>tv/popular</tmdb>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Networks[/COLOR][/B]</title>
+<link>https://github.com/NetStreams-AIO/media/raw/master/TV%20Shows%20(OFFLINE)%20Done/Networks.xml</link>
+</dir>
+
+<dir>
+<title>[B][COLOR white]On The Air[/COLOR][/B]</title>
+<tmdb>tv/on_the_air</tmdb>
+</dir>
+
+<dir>
+<title>[B][COLOR white]People[/COLOR][/B]</title>
+<tmdb>people/popular</tmdb>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Popular[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/shows/popular</trakt>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Top Rated[/COLOR][/B]</title>
+<tmdb>tv/top_rated</tmdb>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Trending[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/shows/trending</trakt>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Years[/COLOR][/B]</title>
+<link>https://github.com/NetStreams-AIO/media/raw/master/TV%20Shows%20(OFFLINE)%20Done/Years.xml</link>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Search[/COLOR][/B]</title>
+<tmdb>search</tmdb>
+</dir>
+
+
+

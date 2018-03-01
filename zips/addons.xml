@@ -746,6 +746,56 @@ Initial release.
   </extension>
 </addon>
 
+<addon id="plugin.video.NetStreams" name="[B][COLOR white]Net[/COLOR][/B][B][COLOR blueviolet]Streams[/COLOR][B] [B][COLOR white]AIO[/COLOR][/B]" version="9.9.3" provider-name="@KodinityTV">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.universalscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+		<import addon="script.module.netstreams.iptv"  />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.resolveurl" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+<platform>all</platform>
+<summary lang="en">
+The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon.
+The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+The search process is the same as a search engine with no data actual hosted by the developer.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
+</summary>
+<description lang="en">
+The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon.
+The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+The Search process is the same as a search engine with no data actual hosted by the developer.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
+</description>
+<disclaimer lang="en">
+The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon.
+The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+The Search process is the same as a search engine with no data actual hosted by the developer.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
+</disclaimer>
+<news>
+The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon.
+The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+The Search process is the same as a search engine with no data actual hosted by the developer.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
+</news>
+</extension>
+</addon>
+
 <addon
   id="plugin.video.SportsDevil"
   version="2018.01.30b"

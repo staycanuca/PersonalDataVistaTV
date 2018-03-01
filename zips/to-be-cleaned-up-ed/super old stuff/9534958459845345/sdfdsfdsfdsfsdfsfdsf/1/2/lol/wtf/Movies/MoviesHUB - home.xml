@@ -1,0 +1,70 @@
+<dir>
+<title>[B][COLOR white]Genres[/COLOR][/B]</title>
+<link>https://github.com/NetStreams-AIO/V3.1/raw/master/Movies/Genre.xml</link>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Disney Movies Collection[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/weirskyet/lists/disney-movie-collection/items</trakt>
+</dir>
+
+<dir>
+<title>[B][COLOR white]In Theaters[/COLOR][/B]</title>
+<tmdb>movies/now_playing</tmdb>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Marvel Movies[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/weirskyet/lists/marvel-movies/items</trakt>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Most Popular[/COLOR][/B]</title>
+<tmdb>movies/popular</tmdb>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Now Playing[/COLOR][/B]</title>
+<tmdb>movies/now_playing</tmdb>
+</dir>
+
+<dir>
+<title>[B][COLOR white]People[/COLOR][/B]</title>
+<tmdb>people/popular</tmdb>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Trending[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/movies/trending</trakt>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Trailers[/COLOR][/B]</title>
+<tmdb>movie/upcoming</tmdb>
+<summary>Shows Trailers For Upcoming Movies</summary>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Top Rated[/COLOR][/B]</title>
+<tmdb>movies/top_rated</tmdb>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Upcoming[/COLOR][/B]</title>
+<tmdb>movie/upcoming</tmdb>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Weekend Box Office[/COLOR][/B]</title>
+<trakt>https://api.trakt.tv/users/justin/lists/imdb-weekend-box-office/items</trakt>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Years[/COLOR][/B]</title>
+<link>https://github.com/NetStreams-AIO/V3.1/raw/master/Movies/Years.xml</link>
+</dir>
+
+<dir>
+<title>[B][COLOR white]Search[/COLOR][/B]</title>
+<tmdb>search</tmdb>
+</dir>
