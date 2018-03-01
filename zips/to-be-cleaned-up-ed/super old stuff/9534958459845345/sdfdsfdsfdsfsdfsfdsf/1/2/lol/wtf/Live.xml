@@ -71,6 +71,13 @@
 </plugin>
 
 <plugin>
+<title>ProjectCypher</title>
+<link>plugin://plugin.video.ProjectCypher/</link>
+<thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
+<fanart>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
 <title>EPG Links</title>
 <link>plugin://plugin.video.VistaTVsIPTV</link>
 <thumbnail>https://github.com/biglad/PersonalDataVistaTV/raw/master/images/icon.png</thumbnail>
