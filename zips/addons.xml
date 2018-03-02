@@ -2390,7 +2390,7 @@ provider-name="VistaTV">
 
 <addon id="script.vistatvtools"
   name="VistaTV Tools"
-  version="2.8"
+  version="2.9"
   provider-name="VistaTV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

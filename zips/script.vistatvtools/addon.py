@@ -31,7 +31,7 @@ def menuoptions():
     '[B][COLOR=gold]VistaTV Wizard[/COLOR][/B]', 
     '[B][COLOR=gold]Open Main Box Settings[/COLOR][/B]', 
     '[B][COLOR=gold]Update Addons & Repos[/COLOR][/B] (make sure your upto date)',
-	'[B][COLOR=gold]Change GUI Sounds[/COLOR][/B]',
+	'[B][COLOR=gold]Easy Advanced Settings[/COLOR][/B]',
 	'[B][COLOR=gold]Accounts & URL Resolver Settings[/COLOR][/B]'])
     # dialog.selectreturns
     #   0 -> escape pressed
@@ -99,7 +99,7 @@ def function7():
     dp.close()
     
 def function8():
-    xbmc.executebuiltin('ActivateWindow(10040,"addons://user/kodi.resource.uisounds",return)')  
+    xbmc.executebuiltin('RunAddon(plugin.program.advancedsettings)')  
 	
 def function9():
     xbmc.executebuiltin('ActivateWindow(10025,"plugin://plugin.video.vistatv/?action=openSettings&query=5.0",return)')  
