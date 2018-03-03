@@ -12,13 +12,14 @@ iddata   = os.path.join(HOME, 'networksettings.xml')
 file2    = os.path.join(HOME, 'vistatv.xml')
 with open(iddata, 'r') as myfile:
     data300=str(myfile.read())
-	
+    
 with open(file2, 'r') as myfile:
     data=float(myfile.read())
 
 def getPublicIp():
     data = str(urlopen('http://checkip.dyndns.com/').read())
     # data = '<html><head><title>Current IP Check</title></head><body>Current IP Address: 65.96.168.198</body></html>\r\n'
+    return re.compile(r'Address: (\d+\.\d+\.\d+\.\d+)').search(data).group(1)
 
 def menuoptions():
     dialog = xbmcgui.Dialog()
@@ -31,7 +32,7 @@ def menuoptions():
         function6,
         function7,
         function8,
-		function9
+        function9
         )
         
     call = dialog.select('[B][COLOR=yellow]VistaTV[/COLOR][COLOR=yellow] Tools Menu[/COLOR][/B]', [
@@ -42,8 +43,8 @@ def menuoptions():
     '[B][COLOR=gold]VistaTV Wizard[/COLOR][/B]', 
     '[B][COLOR=gold]Open Main Box Settings[/COLOR][/B]', 
     '[B][COLOR=gold]Update Addons & Repos[/COLOR][/B] (make sure your upto date)',
-	'[B][COLOR=gold]Easy Advanced Settings[/COLOR][/B]',
-	'[B][COLOR=gold]Accounts & URL Resolver Settings[/COLOR][/B]'])
+    '[B][COLOR=gold]Easy Advanced Settings[/COLOR][/B]',
+    '[B][COLOR=gold]Accounts & URL Resolver Settings[/COLOR][/B]'])
     # dialog.selectreturns
     #   0 -> escape pressed
     #   1 -> first item
@@ -111,7 +112,7 @@ def function7():
     
 def function8():
     xbmc.executebuiltin('RunAddon(plugin.program.advancedsettings)')  
-	
+    
 def function9():
     xbmc.executebuiltin('ActivateWindow(10025,"plugin://plugin.video.vistatv/?action=openSettings&query=5.0",return)')  
     
