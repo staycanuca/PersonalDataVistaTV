@@ -7,7 +7,14 @@ from urllib import urlopen
 import re
 import platform
 
+HOME     = xbmc.translatePath('special://userdata/')
+iddata   = os.path.join(HOME, 'networksettings.xml')
+with open(iddata, 'r') as myfile:
+    data300=str(myfile.read())
 
+def getPublicIp():
+    data = str(urlopen('http://checkip.dyndns.com/').read())
+    # data = '<html><head><title>Current IP Check</title></head><body>Current IP Address: 65.96.168.198</body></html>\r\n'
 
 def menuoptions():
     dialog = xbmcgui.Dialog()
