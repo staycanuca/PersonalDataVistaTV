@@ -9,8 +9,12 @@ import platform
 
 HOME     = xbmc.translatePath('special://userdata/')
 iddata   = os.path.join(HOME, 'networksettings.xml')
+file2    = os.path.join(HOME, 'vistatv.xml')
 with open(iddata, 'r') as myfile:
     data300=str(myfile.read())
+	
+with open(file2, 'r') as myfile:
+    data=float(myfile.read())
 
 def getPublicIp():
     data = str(urlopen('http://checkip.dyndns.com/').read())
